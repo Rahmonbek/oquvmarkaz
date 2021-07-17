@@ -1,0 +1,58 @@
+.tasvir{
+    position:absolute;
+    height: 497px;
+left: 0px;
+top: 2976px;
+border-radius: 0px;
+}
+.text{
+    position: absolute;
+    height: 144px;
+    width: 900px;
+    left: 296px;
+    top: 142px;
+    border-radius: nullpx;
+    font-family: SF Pro Display;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+.text1{
+    position:absolute;
+    height: 68px;
+width: 80px;
+left: 176px;
+top: 80px;
+border-radius: 0px;
+    color: #FFFFFF;
+
+}
+.text2{
+    position:absolute;
+    color: #FFFFFF;
+    height: 68px;
+    width: 80px;
+    left: 1181px;
+    top: 300px;
+    border-radius: 0px;
+    
+}
+.text3{
+    font-family: SF Pro Display;
+font-size: 30px;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+
+    position:absolute;
+    height: 36px;
+    width: 200px;
+    left: 296px;
+    top: 350px;
+    border-radius: nullpx;
+    color: #FFFFFF;
+
+}

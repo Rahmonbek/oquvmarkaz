@@ -1,0 +1,277 @@
+
+.sarlavha{
+   text-align: center;
+margin:auto;
+align-items: center;
+top: 801px;
+border-radius: nullpx;
+font-family: SF Pro Display;
+font-size: 30px;
+margin-top:100px;
+line-height: 36px;
+letter-spacing: 0em;
+color: #2E2E2E;
+
+}
+
+.card1{
+    height: 415px;
+    border-radius: 4px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 2px 0px #0000001A;    
+}
+.card2{
+    height: 415px;
+    border-radius: 4px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 45px 0px #536DFD40;
+
+}
+.name1{
+    padding-left: 20px;
+    border-radius: nullpx;
+    font-family: SF Pro Display;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2E2E2E;
+
+}
+.name2{
+    padding-left: 20px;
+border-radius: nullpx;
+font-family: SF Pro Display;
+font-size: 22px;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+color: #536DFD;
+
+}
+.star2 i{
+    opacity: 0,5;
+}
+
+
+.star2{
+    padding-left: 20px;
+  
+    border-radius: 0px;
+    
+
+}
+
+
+.star1{
+    padding-left: 20px;
+
+border-radius: 0px;
+
+}
+.star1 span{
+    padding-left: 10px;
+}
+.star2 i{
+    opacity: 0,5;
+}
+.star2{
+  
+    border-radius: 0px;
+    
+    }
+    .star2 span{
+        padding-left: 10px;
+    }
+    .wb{
+    
+        display: flex;
+    }
+    h3{
+       
+        bottom: 24px;
+        border-radius: nullpx;
+        font-family: SF Pro Display;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+color: #2E2E2E;
+
+    }
+    h6{
+     
+ 
+bottom: 24px;
+border-radius: nullpx;
+font-family: SF Pro Display;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+color: #9DA7BB;
+
+    }
+    .wb3{ position: absolute;
+        right: 24px;
+        bottom: 24px;
+        border-radius: 50%;
+        border: 1px solid #9DA7BB;
+    color: #9DA7BB;
+    }
+    
+    .wb1{ position: absolute;
+        bottom: 20px;
+right: 154px;
+    }
+    .wb2{
+        left: 34px;
+        margin-left: 20px;
+        position: absolute;
+        bottom: 20px;
+    }
+    .ycard1{
+
+       
+      
+        border-radius: 4px;
+        
+
+    }
+    .title1{
+        padding-left: 20px;
+    
+        border-radius: nullpx;
+        font-family: SF Pro Display;
+        font-size: 20px;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    }
+    .wby{
+     
+        display: flex;
+    }
+    .wb3y{ 
+        align-items:right;
+        height: 42px;
+        width: 42px;
+        margin: auto;
+        margin-right:24px;
+        border-radius: 50px;
+        border: 1px solid #9DA7BB;
+    color:#9DA7BB;
+    }
+    
+    .wb1y{
+        bottom: 20px;
+        left: 20px;
+    }
+    .wb2y{
+        left: 110px;
+        margin-left: 40px;
+       
+        bottom: 20px;
+    }
+    .ycard2{
+       
+border-radius: 4px;
+background: #FFFFFF;
+box-shadow: 0px 2px 2px 0px #0000001A;
+
+    }
+    .ycard3{
+       
+border-radius: 4px;
+background: #FFFFFF;
+box-shadow: 0px 2px 2px 0px #0000001A;
+
+
+    }
+    .card12{
+        padding-top: 5px;
+        color:white;
+    position:absolute;
+    height: 22px;
+    width: 120px;
+    left: 24px;
+    top: 24px;
+    border-radius: 2px;
+    font-family: SF Pro Display;
+    font-size: 14px;
+    line-height: 17px;
+    justify-content: center;
+    text-align: center;
+    background: #10C8A0;
+    
+    
+    
+    }
+    .card13{
+        padding-top: 5px;
+        color:white;
+        position:absolute;
+    height: 22px;
+    width: 120px;
+    left: 24px;
+    top: 24px;
+    border-radius: 2px;
+    font-family: SF Pro Display;
+    font-size: 14px;
+    line-height: 17px;
+    justify-content: center;
+    text-align: center;
+    background: #11BDF3;
+     
+    
+    }
+
+    .card14{
+        padding-top: 5px;
+        color:white;
+        position:absolute;
+    height: 22px;
+    width: 120px;
+    left: 24px;
+    top: 24px;
+    border-radius: 2px;
+    font-family: SF Pro Display;
+    font-size: 14px;
+    line-height: 17px;
+    justify-content: center;
+    text-align: center;
+    background: #EB3B3B;
+
+     
+    
+    }
+
+
+    .card15{
+        padding-top: 5px;
+        color:white;
+        position:absolute;
+    height: 22px;
+    width: 120px;
+    left: 24px;
+    top: 24px;
+    border-radius: 2px;
+    font-family: SF Pro Display;
+    font-size: 14px;
+    line-height: 17px;
+    justify-content: center;
+    text-align: center;
+    background: #FFE600;
+
+     
+    
+    }
+
+
+
+
+
+
+
+
