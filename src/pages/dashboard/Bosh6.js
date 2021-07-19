@@ -2,10 +2,10 @@ import React, { Component } from 'react'
 import stayle5 from '../css/Navbar5.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Carousel, } from 'react-bootstrap';
-import logo1 from '../img/logo1.png';
-import logo2 from '../img/logo2.png';
-import logo3 from '../img/logo3.png';
-import logo4 from '../img/logo4.png';
+import logo1 from '../../img/logo1.png';
+import logo2 from '../../img/logo2.png';
+import logo3 from '../../img/logo3.png';
+import logo4 from '../../img/logo4.png';
 
 export default class Bosh6 extends Component {
    

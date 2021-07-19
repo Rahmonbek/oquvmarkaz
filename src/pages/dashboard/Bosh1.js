@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Form,FormControl,InputGroup } from 'react-bootstrap'
 import stayle from '../css/Navbar.module.css';
-import img1 from '../img/dastur.png';
+import img1 from '../../img/dastur.png';
 import img2 from '../img/siz.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 

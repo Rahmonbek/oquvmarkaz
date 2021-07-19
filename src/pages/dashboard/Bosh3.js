@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import { Col,Row } from 'react-bootstrap'
 import stayle2 from '../css/Navbar2.module.css'
-import vektor from '../img/Vector.png';
-import vektor1 from '../img/vector1.png';
-import vektor2 from '../img/Vector2.png';
-import vektor3 from '../img/Vector3.png';
-import vektor4 from '../img/Vector4.png';
+import vektor from '../../img/Vector.png';
+import vektor1 from '../../img/vector1.png';
+import vektor2 from '../../img/Vector2.png';
+import vektor3 from '../../img/Vector3.png';
+import vektor4 from '../../img/Vector4.png';
 
 
 

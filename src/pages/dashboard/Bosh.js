@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import stayle from '../css/Navbar.module.css'
 import {Form,Nav,Navbar,Button} from 'react-bootstrap'
-import storm from '../img/storm.jpg'
+import storm from '../../img/storm.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default class Bosh extends Component {

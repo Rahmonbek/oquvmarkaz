@@ -1,13 +1,13 @@
 
 import React, { Component } from 'react'
 import style from '../css/Navbar6.module.css'
-import payme from '../img/payme.png'
-import click from '../img/click.png'
-import upay from '../img/upay.png'
-import telegram from '../img/telegram.png'
-import facebook from '../img/facebook.png'
-import instagram from '../img/instagram.png'
-import youtube from '../img/youtube.png'
+import payme from '../../img/payme.png'
+import click from '../../img/click.png'
+import upay from '../../img/upay.png'
+import telegram from '../../img/telegram.png'
+import facebook from '../../img/facebook.png'
+import instagram from '../../img/instagram.png'
+import youtube from '../../img/youtube.png'
 
 export default class Footer extends Component {
     render() {

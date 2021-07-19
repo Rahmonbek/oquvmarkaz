@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import images1 from '../img/tasvir.png';
-import images2 from '../img/tasvir1.png';
-import images3 from '../img/tasvir2.png';
+import images1 from '../../img/tasvir.png';
+import images2 from '../../img/tasvir1.png';
+import images3 from '../../img/tasvir2.png';
 
 import stayle4 from '../css/Navbar4.module.css'
 
