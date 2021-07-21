@@ -16,19 +16,19 @@ export default class User extends Component {
           <Header />
           <Navbarr />
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/cabinet">
                 <Courses />
             </Route>
-            <Route exact path="/courses">
+            <Route exact path="/cabinet/courses">
                 <Courses />
             </Route>
-            <Route exact path="/knowledge">
+            <Route exact path="/cabinet/knowledge">
                 <Knowledge />
             </Route>
-            <Route exact path="/certificate">
+            <Route exact path="/cabinet/certificate">
                 <Certificate />
             </Route>
-            <Route exact path="/mentors">
+            <Route exact path="/cabinet/mentors">
                 <Mentors />
             </Route>
           </Switch>

@@ -21,6 +21,7 @@ import man1 from '../img/man1.png';
 import man2 from '../img/man2.png';
 import man3 from '../img/man3.png';
 import right1 from '../img/right1.png';
+import { Link } from 'react-router-dom'
 
 function Header() {
         const [show, setShow] = useState(false);
@@ -28,8 +29,21 @@ function Header() {
         const toggler=()=>{
             toggle?setToggle(false):setToggle(true); 
         }
+const chiqish=()=>{
+var a=window.location.href.split('/')
+var str=''
 
+for(let i=0; i<a.length; i++){
+    console.log(a[i])
+    if(a[i]==='cabinet'){
+    window.location.href=str
+}
+else{
+    str+=a[i]+'/'
 
+}
+    }
+}
         return (
             <div>
                 <header>
@@ -163,7 +177,7 @@ function Header() {
                                     <hr/>
                                     <div className={style.card_item}>
                                         <img src={logout} />
-                                        <h6>Chiqish</h6>
+                                        <h6 onClick={chiqish}>Chiqish</h6>
                                     </div>
                                 </div>:null
                                 }

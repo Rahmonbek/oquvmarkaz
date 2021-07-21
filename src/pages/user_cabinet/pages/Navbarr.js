@@ -15,10 +15,10 @@ export default class Navbarr extends Component {
                                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                                 <Navbar.Collapse id="basic-navbar-nav">
                                     <Nav className="me-auto">
-                                        <Nav.Link className={style.ll}><NavLink className={style.linked} activeClassName={style.selected} to="/courses">Mening kurslarim</NavLink></Nav.Link>
-                                        <Nav.Link className={style.ll}><NavLink className={style.linked} activeClassName={cx(style.selected, style.selected2)} to="/knowledge">O’rganilgan bilimlarim</NavLink></Nav.Link>
-                                        <Nav.Link className={style.ll}><NavLink className={style.linked} activeClassName={cx(style.selected, style.selected3)} to="/certificate">Sertifikatlarim</NavLink></Nav.Link>
-                                        <Nav.Link className={style.ll}><NavLink className={style.linked} activeClassName={cx(style.selected, style.selected4)} to="/mentors">A’zo mentorlarim</NavLink></Nav.Link>
+                                        <Nav.Link className={style.ll}><NavLink className={style.linked} activeClassName={style.selected} to="/cabinet/courses">Mening kurslarim</NavLink></Nav.Link>
+                                        <Nav.Link className={style.ll}><NavLink className={style.linked} activeClassName={cx(style.selected, style.selected2)} to="/cabinet/knowledge">O’rganilgan bilimlarim</NavLink></Nav.Link>
+                                        <Nav.Link className={style.ll}><NavLink className={style.linked} activeClassName={cx(style.selected, style.selected3)} to="/cabinet/certificate">Sertifikatlarim</NavLink></Nav.Link>
+                                        <Nav.Link className={style.ll}><NavLink className={style.linked} activeClassName={cx(style.selected, style.selected4)} to="/cabinet/mentors">A’zo mentorlarim</NavLink></Nav.Link>
                                     </Nav>
                                 </Navbar.Collapse>
                             </Container>

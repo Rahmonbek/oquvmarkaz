@@ -3,6 +3,7 @@ import stayle from '../css/Navbar.module.css'
 import {Form,Nav,Navbar,Button} from 'react-bootstrap'
 import storm from '../img/storm.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'react-router-dom';
 
 export default class Bosh extends Component {
 
@@ -60,7 +61,7 @@ color: '#FFFFFF',
 backgroundColor: '#536DFD',
 fontFamily: 'SF Pro Display',
 fontSize: '10px',
-textAlign: 'center'}}>KIRISH</Button >
+textAlign: 'center'}}><Link style={{color:'white'}} to="/login">KIRISH</Link></Button >
     </Form>
   
   </Navbar.Collapse>

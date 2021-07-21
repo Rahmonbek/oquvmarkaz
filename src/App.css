@@ -1,4 +1,4 @@
 .Main{width:100%; height:100vh; display: flex; justify-content: center; align-items: center}
 .fer{width:300px; height:200px; display: flex; align-items:center; justify-content: center;}
 .foot{width:80%; display: flex; justify-content: space-between;}
-body{width:100%; overflow-x: hidden;}
+body{width:100%; overflow-x: hidden; z-index: -2;}
