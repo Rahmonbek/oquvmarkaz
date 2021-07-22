@@ -203,6 +203,45 @@ margin-right: 50px;
     line-height: 17px;
     color: #2E2E2E;
 }
+.card_footer {
+    display: flex;
+  
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+.card_footer span {
+    font-size: 12px;
+line-height: 14px;
+color: #9DA7BB;
+margin-right: 32px;
+}
+.card_footer p {
+    font-size: 18px;
+line-height: 21px;
+color: #2E2E2E;
+font-weight: 700;
+margin-right: 50px;
+}
+.card_footer img {
+    width: 42px;
+}
+.cources_footer {
+    margin-top: 99px;
+    margin-bottom: 59px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.cources_footer i {
+    margin-right: 11px;
+    color: #536DFD;
+}
+.cources_footer span {
+    font-size: 14px;
+    line-height: 17px;
+    color: #2E2E2E;
+}
 .card img {
     cursor: pointer;
 }
