@@ -6,6 +6,7 @@ import list from '../img/list.png'
 import img1 from '../img/img1.png'
 import img2 from '../img/img2.png'
 import button from '../img/button.png'
+import { Link } from 'react-router-dom'
 
 export default class Courses extends Component {
     render() {
@@ -43,7 +44,7 @@ export default class Courses extends Component {
                                         <span>Kurs bo’limlari</span>
                                         <p>5 ta bo’lim</p>
                                     </div>
-                                    <img src={button} />
+                                   <Link to="/cabinet/tutorial"> <img src={button} /></Link>
                                 </div>
                             </div>
                         </div>
@@ -64,7 +65,7 @@ export default class Courses extends Component {
                                         <span>Kurs bo’limlari</span>
                                         <p>3 ta bo’lim</p>
                                     </div>
-                                    <img src={button} />
+                                   <Link to="/cabinet/tutorial"> <img src={button} /></Link>
                                 </div>
                             </div>
                         </div>
