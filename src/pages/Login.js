@@ -42,7 +42,7 @@ export default class Login extends Component {
   <div className='box-form'>
     <div className='box-login-tab'></div>
     <div className='box-login-title'>
-      <div className='i i-login'></div><h2>Kirish</h2>
+      <div className='i i-login'></div><h2 style={{marginTop:'10px'}}>Kirish</h2>
     </div>
     <div className='box-login'>
       <div className='fieldset-body' id='login_form'>
