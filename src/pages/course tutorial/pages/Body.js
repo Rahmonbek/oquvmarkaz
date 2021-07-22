@@ -8,15 +8,17 @@ import facebook from '../images/facebook.png'
 import telegram from '../images/telegram.png'
 import youtube from '../images/youtube.png'
 import upay from '../images/upay.png'
+import Ellipse from '../images/Ellipse.png'
 
-import Body from './Body'
-// import Navbar from './Navbar'
+
+import Navbar from './Navbar'
 
 
 export default class Bod extends Component {
     render() {        
         return (
             <div>
+                <Navbar/>
                <div className={style.play}>
                <div className="playvideo" style={{position: 'absolute',width: '922px',height: '516px',left: '21px',top: '90px',background: '#2E2E2E',opacity: '0.4',borderRadius: '4px'}}>
 
