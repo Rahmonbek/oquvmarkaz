@@ -4,7 +4,7 @@ body{overflow-x: hidden;background-color: #F1F2F6}
     display:flex;
      height:60px;
      position:fixed;
-     top:0px; left:0px; width:100%; z-index:34343;
+     top:-5px; left:0px; width:100%; z-index:34343;
      overflow: hidden;
 }
 

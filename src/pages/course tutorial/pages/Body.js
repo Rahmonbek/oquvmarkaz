@@ -8,7 +8,7 @@ import facebook from '../images/facebook.png'
 import telegram from '../images/telegram.png'
 import youtube from '../images/youtube.png'
 import upay from '../images/upay.png'
-import Ellipse from '../images/Ellipse.png'
+// import Ellipse from '../images/Ellipse.png'
 
 
 import Navbar from './Navbar'
