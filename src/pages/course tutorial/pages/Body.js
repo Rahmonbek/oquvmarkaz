@@ -8,6 +8,17 @@ import facebook from '../images/facebook.png'
 import telegram from '../images/telegram.png'
 import youtube from '../images/youtube.png'
 import upay from '../images/upay.png'
+import Rectangle3 from '../images/Rectangle 14.3.png'
+import Rectangle2 from '../images/Rectangle 14.2.png'
+import Rectangle1 from '../images/Rectangle 14.1.png'
+import Rectangle14 from '../images/Rectangle 14.png'
+import clock from '../images/clock.jpg'
+
+
+
+
+
+
 // import Ellipse from '../images/Ellipse.png'
 
 
@@ -34,6 +45,56 @@ export default class Bod extends Component {
 
                    </div>
                </div>
+
+<div className="style.sostav">
+    <h4 className={style.titleh4} style={{position: 'absolute',width: '344px', height: '24px',left: '999px',top: '202px',fontFamily: 'SF Pro Display',fontSize: '20px',lineHeight: '24px',color: '#2E2E2E',}}>1.Dasturlashga kirish va o’rnatish jarayoni</h4>
+
+<div className="style.sost1">
+<img style={{position: 'absolute',width: '100px',height: '55px',left: '999px',top: '246px',borderRadius: '2px'}} src={Rectangle14} alt=" " />
+<p className={style.sost} style={{position: 'absolute',width: '278px', height: '17px',left: '1107px',top: '243px',fontFamily: 'SF Pro Display',fontSize: '14px',lineHeight: '17px',color: '#2E2E2E',}}>1.1 Boshlang’ich o’zgaruvchilar haqida ma’lumot</p>
+<h6 className={style.titleh6} style={{position: 'absolute',width: '51px', height: '17px',left: '1127px',top: '279px',fontFamily: 'SF Pro Display',fontSize: '14px',lineHeight: '17px',color: '#2E2E2E',}}>01:07:15</h6>
+<img style={{position: 'absolute', width:'25px', height:'18px',marginLeft: '1101px',marginTop: '280px',}} src={clock} alt=" " />
+</div>
+
+<div className="style.sost2">
+<img style={{position: 'absolute',width: '100px',height: '55px',left: '999px',top: '317px',borderRadius: '2px'}} src={Rectangle1} alt=" " />
+<p className={style.sost} style={{position: 'absolute',width: '278px', height: '17px',left: '1107px',top: '315px',fontFamily: 'SF Pro Display',fontSize: '14px',lineHeight: '17px',color: '#2E2E2E',}}>1.2 O’zgaruvchilar orasidagi farqlar. Ular <br/> haqida to’liq ma’lumot</p>
+<h6 className={style.titleh6} style={{position: 'absolute',width: '51px', height: '17px',left: '1127px',top: '355px',fontFamily: 'SF Pro Display',fontSize: '14px',lineHeight: '17px',color: '#2E2E2E',}}>01:07:15</h6>
+<img style={{position: 'absolute', width:'25px', height:'18px',marginLeft: '1101px',marginTop: '356px',}} src={clock} alt=" " />
+</div>
+
+<div className="style.sost3">
+<img style={{position: 'absolute',width: '100px',height: '55px',left: '999px',top: '388px',borderRadius: '2px'}} src={Rectangle2} alt=" " />
+<p className={style.sost} style={{position: 'absolute',width: '278px', height: '17px',left: '1107px',top: '387px',fontFamily: 'SF Pro Display',fontSize: '14px',lineHeight: '17px',color: '#2E2E2E',}}>1.3 Int va Float tiplari farqlari </p>
+<h6 className={style.titleh6} style={{position: 'absolute',width: '51px', height: '17px',left: '1127px',top: '411px',fontFamily: 'SF Pro Display',fontSize: '14px',lineHeight: '17px',color: '#2E2E2E',}}>01:07:15</h6>
+<img style={{position: 'absolute', width:'25px', height:'18px',marginLeft: '1101px',marginTop: '412px',}} src={clock} alt=" " />
+</div>
+
+<div className="style.sost4">
+<img style={{position: 'absolute',width: '100px',height: '55px',left: '999px',top: '459px',borderRadius: '2px'}} src={Rectangle3} alt=" " />
+<p className={style.sost} style={{position: 'absolute',width: '278px', height: '17px',left: '1107px',top: '458px',fontFamily: 'SF Pro Display',fontSize: '14px',lineHeight: '17px',color: '#2E2E2E',}}>1.4 Boolean haqida to’liq ma’lumot</p>
+<h6 className={style.titleh6} style={{position: 'absolute',width: '51px', height: '17px',left: '1127px',top: '480px',fontFamily: 'SF Pro Display',fontSize: '14px',lineHeight: '17px',color: '#2E2E2E',}}>01:07:15</h6>
+<img style={{position: 'absolute', width:'25px', height:'18px',marginLeft: '1101px',marginTop: '481px',}} src={clock} alt=" " />
+</div>
+
+<div className="style.sost5">
+<img style={{position: 'absolute',width: '100px',height: '55px',left: '999px',top: '530px',borderRadius: '2px'}} src={Rectangle14} alt=" " />
+<p className={style.sost} style={{position: 'absolute',width: '278px', height: '17px',left: '1107px',top: '529px',fontFamily: 'SF Pro Display',fontSize: '14px',lineHeight: '17px',color: '#2E2E2E',}}>1.5 Turli mantiqiy amallar (1-qism)</p>
+<h6 className={style.titleh6} style={{position: 'absolute',width: '51px', height: '17px',left: '1127px',top: '551px',fontFamily: 'SF Pro Display',fontSize: '14px',lineHeight: '17px',color: '#2E2E2E',}}>01:07:15</h6>
+<img style={{position: 'absolute', width:'25px', height:'18px',marginLeft: '1101px',marginTop: '552px',}} src={clock} alt=" " />
+</div>
+
+<div className="style.sost6">
+<img style={{position: 'absolute',width: '100px',height: '55px',left: '999px',top: '601px',borderRadius: '2px'}} src={Rectangle14} alt=" " />
+<p className={style.sost} style={{position: 'absolute',width: '278px', height: '17px',left: '1107px',top: '600px',fontFamily: 'SF Pro Display',fontSize: '14px',lineHeight: '17px',color: '#2E2E2E',}}>1.6 Turli mantiqiy amallar (2-qism)</p>
+<h6 className={style.titleh6} style={{position: 'absolute',width: '51px', height: '17px',left: '1127px',top: '624px',fontFamily: 'SF Pro Display',fontSize: '14px',lineHeight: '17px',color: '#2E2E2E',}}>01:07:15</h6>
+<img style={{position: 'absolute', width:'25px', height:'18px',marginLeft: '1101px',marginTop: '625px',}} src={clock} alt=" " />
+</div>
+
+
+</div>
+
+
 
                <div className="zvezda">
                    <h4 className={style.title} style={{position: 'absolute',width: '338px',height: '29px',left: '17px',top: '630px',fontFamily: 'SF Pro Display',fontSize: '24px',lineHeight: '29px',color: '#2E2E2E',fontWeight:'bold',}}>Raspberry Pi dasturlash asoslari</h4>
