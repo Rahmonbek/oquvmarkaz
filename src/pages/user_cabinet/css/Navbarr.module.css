@@ -3,6 +3,7 @@ nav {
     background: #F1F2F6;
     margin-top: 2px;
     text-decoration: none;
+    z-index: 0;
 }
 .ll {
     margin-top: 50px;
@@ -55,7 +56,7 @@ text-align: center;
 color: #536DFD;
 }
 .selected3::before{
-    content: "6 ta";
+    content: "2 ta";
     position: absolute;
     top: -27px;
     right: -47px;

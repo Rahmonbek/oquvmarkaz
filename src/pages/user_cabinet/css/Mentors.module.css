@@ -1,7 +1,7 @@
 .container {
     margin-left: 10%;
     margin-top: 50px;
-    margin-bottom: 290px;
+    padding-bottom: 55px;
 }
 .container img {
     margin-right: 16px;
@@ -56,6 +56,6 @@ padding: 6px 14px;
 }
 @media (max-width:575px){
     .container .men_title {
-        width:330px;
+        width:300px;
     }
 }

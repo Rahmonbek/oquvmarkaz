@@ -2,7 +2,7 @@
     width: 80%;
     margin: auto;
     margin-top: 55px;
-    margin-bottom: 410px;
+    padding-bottom: 55px;
 }
 .row {
     display: flex;

@@ -122,7 +122,7 @@ justify-content: center;
 margin-top: 9px;
 }
 .men_title h6 {
-    font-size: 12px;
+    font-size: 15px;
     line-height: 14px;
     color: #2E2E2E;
     margin-top: 35px;
@@ -357,6 +357,9 @@ top: 270px;
         align-items: center;
         transform: translate(-110px, -40px);
     }
+    .balance_button .ii {
+        z-index: 12;
+    }
     .balance .buttons {
         display: flex;
         align-items: center;
@@ -384,6 +387,9 @@ top: 270px;
   .modal-content {
     width: 100%;
   }
+  .balance_button .ii {
+    z-index: 12;
+}
 }
 
 @media (max-width:767px){
@@ -415,6 +421,9 @@ top: 270px;
         top: -190px;
         left: 190px;
     }
+    .balance_button .ii {
+        z-index: 12;
+    }
     .balance_button .card2 {
         z-index: 5;
     }
@@ -431,6 +440,9 @@ top: 270px;
         display: none;
      
     }
+    .balance_button .ii {
+        z-index: 12;
+    }
     .men_title {
         text-align: center;
         display: flex;
@@ -442,6 +454,7 @@ top: 270px;
     }
     .men_title h6 {
         margin-top: 0px;
+        margin-left: 80px;
     }
     .men_title .icons {
         margin-left: 10px;

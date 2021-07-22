@@ -8,6 +8,9 @@ import img2 from '../img/img2.png'
 import button from '../img/button.png'
 import { Link } from 'react-router-dom'
 import {Row, Col} from 'react-bootstrap'
+import ReactStars from "react-rating-stars-component";
+
+
 export default class Courses extends Component {
 
 state={
@@ -19,7 +22,21 @@ grid=(a)=>{
         grid:a
     })
 }
+
+
+
     render() {
+        const thirdExample = {
+            size: 25,
+            count: 5,
+            isHalf: false,
+            value: 4,
+            color: "gray",
+            activeColor: "yellow",
+            onChange: newValue => {
+              console.log(`Example 3: new value is ${newValue}`);
+            }
+          };
         return (
             <div>
                 <div className={style.container}>
@@ -45,7 +62,9 @@ grid=(a)=>{
                         <div className={style.card_body}>
                             <div  className={style.card_title}>Ishlab chiquvchilar uchun AWS: ECS va ko'p mintaqali yuklarni muvozanatlash</div>
                             <div style={{marginTop:'-20px'}} className={style.card_info}>
-                                <div className={style.card_text}><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><span>4.1  <span className={style.span}>(524)</span></span></div>
+                                <div className={style.card_text}>       <div className="App">
+      <ReactStars style={{fontSize:'10px'}} {...thirdExample} />
+    </div><span>4.1  <span className={style.span}>(524)</span></span></div>
                                 <div className={style.card_footer}>
                                     <div className={style.hajm}>
                                         <span>Kurs hajmi</span>
@@ -66,7 +85,9 @@ grid=(a)=>{
                         <div className={style.card_body}>
                             <div style={{color:'#536DFD'}} className={style.card_title}>Raspberry Pi dasturlash <br/> asoslari</div>
                             <div className={style.card_info}>
-                                <div className={style.card_text} ><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><span>4.1  <span className={style.span}>(524)</span></span></div>
+                                <div className={style.card_text} >       <div className="App">
+      <ReactStars style={{fontSize:'10px'}} {...thirdExample} />
+    </div><span>4.1  <span className={style.span}>(524)</span></span></div>
                                 <div className={style.card_footer}>
                                     <div className={style.hajm}>
                                         <span>Kurs hajmi</span>
@@ -98,7 +119,9 @@ grid=(a)=>{
                         </Col>
                    <Col className={style.card_} lg={5}>
                    <div  className={style.card_title}>Ishlab chiquvchilar uchun AWS: ECS va ko'p mintaqali yuklarni muvozanatlash</div>
-                   <div style={{marginTop:'10px'}} className={style.card_text}><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><span style={{marginLeft:'10px'}}>4.1  <span className={style.span}>(524)</span></span></div>
+                   <div className={style.card_text}>       <div className="App">
+      <ReactStars style={{fontSize:'10px'}} {...thirdExample} />
+    </div><span>4.1  <span className={style.span}>(524)</span></span></div>
                           
                    </Col>
                    <Col className={style.card_} lg={3}>
@@ -111,7 +134,7 @@ grid=(a)=>{
                                     <span>Kurs bo’limlari</span>
                                     <p>5 ta bo’lim</p>
                                 </div>
-                                <img style={{transform:'translateY(14px)'}} src={button} />
+                                <img style={{transform:'translateY(25px)'}} src={button} />
                             </div>
                    </Col>
                     </Row>
@@ -126,7 +149,10 @@ grid=(a)=>{
                         </Col>
                    <Col className={style.card_} lg={5}>
                    <div  className={style.card_title}>Raspberry Pi dasturlash <br/> asoslari</div>
-                   <div style={{marginTop:'10px'}} className={style.card_text}><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><span style={{marginLeft:'10px'}}>4.1  <span  className={style.span}>(524)</span></span></div>
+                   <div className={style.card_text}>       
+                   <div className="App">
+      <ReactStars style={{fontSize:'10px'}} {...thirdExample} />
+    </div><span>4.1  <span  className={style.span}>(524)</span></span></div>
                           
                    </Col>
                    <Col className={style.card_} lg={3}>
@@ -139,7 +165,7 @@ grid=(a)=>{
                                     <span>Kurs bo’limlari</span>
                                     <p>3 ta bo’lim</p>
                                 </div>
-                                <img style={{transform:'translateY(14px)'}} src={button} />
+                                <img style={{transform:'translateY(25px)'}} src={button} />
                             </div>
                    </Col>
                     </Row>
@@ -159,6 +185,9 @@ grid=(a)=>{
                 <i class="fa fa-circle" aria-hidden="true"></i><i class="fa fa-circle" aria-hidden="true"></i><i class="fa fa-circle" aria-hidden="true"></i>
                 <span>Yuklanmoqda</span>
                 </div>
+
+         
+            
             </div>
         )
     }
