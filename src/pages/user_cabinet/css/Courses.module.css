@@ -99,6 +99,11 @@ position: relative;
     width:100%;
 }
 
+.card_ {
+    transform: translateY(30px);
+}
+
+
 .container1 .new {
     position: relative;
     border: 2px dashed #cdd2db;

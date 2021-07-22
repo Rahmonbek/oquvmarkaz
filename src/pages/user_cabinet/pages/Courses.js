@@ -90,19 +90,19 @@ grid=(a)=>{
                 </div>:
                 //fdfdfd
                 <div className={style.container1}>
-                <card className={style.card} style={{flex:'100%'}}>
+                <card className={style.card} style={{flex:'100%',height:'100%'}}>
                     <Row>
                         <Col lg={3}>
-                        <img style={{width:'100%', height:'100px'}} src={img1} />
+                        <img style={{width:'100%'}} src={img1} />
                 
                         </Col>
-                   <Col lg={5}>
+                   <Col className={style.card_} lg={5}>
                    <div  className={style.card_title}>Ishlab chiquvchilar uchun AWS: ECS va ko'p mintaqali yuklarni muvozanatlash</div>
-                   <div className={style.card_text}><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><span>4.1  <span className={style.span}>(524)</span></span></div>
+                   <div style={{marginTop:'10px'}} className={style.card_text}><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><span style={{marginLeft:'10px'}}>4.1  <span className={style.span}>(524)</span></span></div>
                           
                    </Col>
-                   <Col lg={3}>
-                   <div className={style.card_footer}>
+                   <Col className={style.card_} lg={3}>
+                   <div style={{width:'120%'}} className={style.card_footer}>
                                 <div className={style.hajm}>
                                     <span>Kurs hajmi</span>
                                     <p>38 soat</p>
@@ -111,7 +111,35 @@ grid=(a)=>{
                                     <span>Kurs bo’limlari</span>
                                     <p>5 ta bo’lim</p>
                                 </div>
-                                <img src={button} />
+                                <img style={{transform:'translateY(14px)'}} src={button} />
+                            </div>
+                   </Col>
+                    </Row>
+                <button className={style.btn}>Dasturlash</button>
+                 
+                </card>
+                <card className={style.card} style={{flex:'100%',height:'100%'}}>
+                    <Row>
+                        <Col lg={3}>
+                        <img style={{width:'100%',height:'100%'}} src={img2} />
+                
+                        </Col>
+                   <Col className={style.card_} lg={5}>
+                   <div  className={style.card_title}>Raspberry Pi dasturlash <br/> asoslari</div>
+                   <div style={{marginTop:'10px'}} className={style.card_text}><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><span style={{marginLeft:'10px'}}>4.1  <span  className={style.span}>(524)</span></span></div>
+                          
+                   </Col>
+                   <Col className={style.card_} lg={3}>
+                   <div style={{width:'120%'}} className={style.card_footer}>
+                                <div className={style.hajm}>
+                                    <span>Kurs hajmi</span>
+                                    <p>38 soat</p>
+                                </div>
+                                <div className={style.bolim}>
+                                    <span>Kurs bo’limlari</span>
+                                    <p>3 ta bo’lim</p>
+                                </div>
+                                <img style={{transform:'translateY(14px)'}} src={button} />
                             </div>
                    </Col>
                     </Row>
@@ -119,8 +147,8 @@ grid=(a)=>{
                  
                 </card>
                
-                <div className={style.new}>
-                    <div className={style.new_title}>
+                <div style={{width:'100%',height:'150px'}} className={style.new}>
+                    <div style={{position:'relative',top:'50px',left:'0px'}} className={style.new_title}>
                         <i class="fa fa-plus" aria-hidden="true"></i>
                         <h5>Yangi kurs qo’shish</h5>
                     </div>
