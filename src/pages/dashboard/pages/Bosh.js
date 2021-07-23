@@ -2,9 +2,9 @@ import React, { Component } from 'react'
 import style from '../css/Navbar.module.css'
 import {Dropdown ,Button} from 'react-bootstrap'
 
-import logo1 from '../img/logo122.png'
-import logo2 from '../img/logo222.png'
-import vector from '../img/Vector22.png'
+import logo122 from '../img/logo122.png'
+import logo222 from '../img/logo222.png'
+import vector22 from '../img/Vector22.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Link } from 'react-router-dom';
 
@@ -18,8 +18,8 @@ export default class Bosh extends Component {
                         <div className={style.container}>
                             <div className={style.col_6}>
                                 <div className={style.logo}>
-                                    <span>PDP</span><img className={style.logo1} src={logo1} /><img className={style.logo2} src={logo2} />
-                                    <h2>St<img src={vector} />rm</h2>
+                                    <span>PDP</span><img className={style.logo1} src={logo122} /><img className={style.logo2} src={logo222} />
+                                    <h2>St<img src={vector22} />rm</h2>
                                 </div>
                                 <Dropdown>
                                     <Dropdown.Toggle className={style.btn} variant="" id="dropdown-basic">
