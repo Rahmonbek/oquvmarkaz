@@ -34,6 +34,10 @@ cursor: pointer;
     height: 22px;
     margin-left: 30px;
     cursor: pointer;
+    transition: 0.3s;
+}
+.icons .squares:hover {
+    transform: scale(1.1);
 }
 .icons .list {
     width: 28px;
@@ -41,12 +45,20 @@ cursor: pointer;
     margin-top: 5px;
     margin-left: 19px;
     cursor: pointer;
+    transition: 0.3s;
+}
+.icons .list:hover {
+    transform: scale(1.1);
 }
 .search i {
     color:#9DA7BB;
     font-size: 17px;
     transform: translateX(-30px);
     cursor: pointer;
+    transition: 0.3s;
+}
+.search i:hover{
+    font-size: 18px;
 }
 .search input {
     background: #eeecece5;
@@ -56,8 +68,13 @@ cursor: pointer;
     height: 34px;
     padding: 8px 16px;
     outline: none;
+    transition: 0.3s;
+}
+.search input:hover{
+    border: 1px solid #6d6d6d;
 }
 .search input::placeholder{
+    width: auto;
     font-size: 14px;
     line-height: 17px;
     color: #9DA7BB;
@@ -250,8 +267,6 @@ margin-right: 50px;
 .card_body {
     display: block;
 }
-
-
 
 
 
