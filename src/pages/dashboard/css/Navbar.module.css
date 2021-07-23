@@ -1,50 +1,87 @@
 
-
-.kurs{
-  
-    height: 22px;
-    width: 122px;
-    left: 20px;
-    top: 4px;
-    border-radius: nullpx;
-    border: none;
-    font-family: SF Pro Display;
-    font-size: 10px;
-    line-height: 14px;
-    letter-spacing: 0em;
-    color: #536DFD;
- background-color: white;
-
+*{
+    font-family: 'Roboto', sans-serif;
 }
-.barcha{
-    border: 1px solid #9DA7BB;
-   
-    color: #536DFD;
-    height: 30px;
-width: 154px;
-
-border-radius: 4px;
-opacity: 0.7;
+header {
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    padding-bottom: 30px;
 }
-.til1{
-  
-    height: 30px;
-    width: 88px;
+header .header_top {
+    border-bottom: 1px solid #F1F2F6;
+    box-shadow: 0px 2px 5px rgba(209, 209, 212, 0.05);
+    padding: 8px;
+    margin-bottom: 30px;
+}
+header .container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_top  .col_6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header_top span {
+    font-size: 14px;
+    font-weight: 700;
+    color: #536DFD;
+}
+.header_top h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #536DFD;
+    margin-top: -9px;
+}
+.header_top .logo2 {
+    position: relative;
+    top: 13px;
+    left: -5px;
+}
+
+.header_top .btn{
+    text-transform: uppercase;
+    margin-left: 86px;
+    margin-right: 47px;
+    padding: 7px 18px;
+    color: #536DFD;
+    border: 1px solid #98baff59;
+    box-sizing: border-box;
     border-radius: 4px;
-    border: 1px solid #9DA7BB;
-    opacity: 0.7;
+    font-size: 14px;
 }
-.til2{
-    border: none;
-    height: 22px;
-width: 75px;
-left: 8px;
-top: 3px;
-font-family: SF Pro Display;
-font-size: 10px;
-text-align: left;
-background-color:white;
+.header_top .btn:hover {
+    color: #536DFD;
 }
+.header_top .but {
+    background: #536DFD;
+    border-radius: 4px;
+    padding: 7px 30px;
+    font-size: 14px;
+    color: white;
+}
+
+header .men_info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 #all{display:flex;
 
@@ -54,11 +91,11 @@ overflow: hidden;
   height: 700px;
 }
 .elips{
-    position: absolute;
+  margin: auto;
     height: 774px;
 width: 774px;
-left: 50%;
-top: -164px;
+margin-left: 50%;
+margin-top: -164px;
 border-radius: 50%;
 background: #FFD401;
 

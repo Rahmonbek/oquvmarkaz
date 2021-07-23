@@ -1,72 +1,57 @@
 import React, { Component } from 'react'
-import stayle from '../css/Navbar.module.css'
-import {Form,Nav,Navbar,Button} from 'react-bootstrap'
-import storm from '../img/storm.jpg'
+import style from '../css/Navbar.module.css'
+import {Dropdown ,Button} from 'react-bootstrap'
+
+import logo1 from '../img/logo122.png'
+import logo2 from '../img/logo222.png'
+import vector from '../img/Vector22.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Link } from 'react-router-dom';
+import { BrowserRouter, Link } from 'react-router-dom';
 
 export default class Bosh extends Component {
+  render() {
+    return (
+        <div>
 
+<header>
+                    <div className={style.header_top}>
+                        <div className={style.container}>
+                            <div className={style.col_6}>
+                                <div className={style.logo}>
+                                    <span>PDP</span><img className={style.logo1} src={logo1} /><img className={style.logo2} src={logo2} />
+                                    <h2>St<img src={vector} />rm</h2>
+                                </div>
+                                <Dropdown>
+                                    <Dropdown.Toggle className={style.btn} variant="" id="dropdown-basic">
+                                        Barcha kurslar
+                                    </Dropdown.Toggle>
 
+                                    <Dropdown.Menu>
+                                        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                                        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+                                        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                                    </Dropdown.Menu>
+                                </Dropdown>
+                            </div>
+                            <div className={style.col_6}>
+                                <Dropdown>
+                                    <Dropdown.Toggle style={{color: '#9DA7BB'}} className={style.btn} variant="" id="dropdown-basic">
+                                        UZBEK
+                                    </Dropdown.Toggle>
 
+                                    <Dropdown.Menu>
+                                        <Dropdown.Item href="#/action-1">Uzbek</Dropdown.Item>
+                                        <Dropdown.Item href="#/action-2">Russian</Dropdown.Item>
+                                        <Dropdown.Item href="#/action-3">English</Dropdown.Item>
+                                    </Dropdown.Menu>
+                                </Dropdown><BrowserRouter>
+                                <Button className={style.but}><Link style={{color:'white'}} to="/login">KIRISH</Link></Button ></BrowserRouter>
+                            </div>
+                        </div>
+                    </div>
 
-
-    render() {
-        return (
-            <div>
-
-<Navbar style={{position:'fixed',zIndex:'1',width:'100%',marginTop:'-10px'}} bg="white" expand="lg">
-  <Navbar.Brand href="#"><img  alt="BigCo Inc. logo" style={{width:'98px',height:'45.2px'}} src={storm}/></Navbar.Brand>
-  <Navbar.Toggle aria-controls="navbarScroll" />
-  <Navbar.Collapse id="navbarScroll">
-    <Nav
-      className="mr-auto my-2 my-lg-0"
-      style={{ maxHeight: '100px' }}
-      navbarScroll
-    >
-      <Nav.Link href="#action1"><div className={stayle.barcha}>
-<Form.Control
-        as="select"
-        className={stayle.kurs}
-        id="inlineFormCustomSelect"
-        custom
-      >
-        <option value="0" >BARCHA KURSLAR</option>
-        <option value="1">One</option>
-        <option value="2">Two</option>
-        <option value="3">Three</option>
-      </Form.Control>
-</div></Nav.Link>   
-    </Nav>
-    <Form style={{  margin:'auto', marginRight:'10px', textAlign:'right' }} className="d-flex">
-      <div className={stayle.til1}>
-<Form.Control 
-        className="mr-2"
-        placeholder="Search"
-        as="select"
-        className={stayle.til2}
-        id="inlineFormCustomSelect"
-        custom
-        
-      >
-        <option value="0" > UZBEK</option>
-        <option value="1">ENGLISH</option>
-        <option value="2">FREANCH</option>
-        <option value="3">RUS TILI</option>
-       
-      </Form.Control> 
-</div >
-  <Button className={stayle.kirish} style={{ marginLeft:'40px', height: '28px',width: '97px',borderRadius: '4px',top:'10px',
-color: '#FFFFFF',
-backgroundColor: '#536DFD',
-fontFamily: 'SF Pro Display',
-fontSize: '10px',
-textAlign: 'center'}}><Link style={{color:'white'}} to="/login">KIRISH</Link></Button >
-    </Form>
-  
-  </Navbar.Collapse>
-</Navbar>
-
+</header>
+    
              
             </div>
         )
