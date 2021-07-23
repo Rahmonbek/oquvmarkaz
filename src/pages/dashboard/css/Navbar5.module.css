@@ -1,0 +1,67 @@
+.titler{
+text-align: center;
+padding-top:50px;
+width:100%;
+font-family: SF Pro Display;
+font-size: 30px;
+color: #2E2E2E;
+
+}
+.all{
+ align-items: center; 
+    width:100%;
+    height:1040px;
+    background-color: #E5E5E5;
+}
+.cor{
+    display: flex;
+    align-items: center;
+width: 705px;
+height: 270px;
+align-items: center;
+padding-top: 100px;
+}
+
+.title2{
+   padding-top:70px;
+    height: 36px;
+    width: 100%;
+    border-radius: nullpx;
+    font-family: SF Pro Display;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2E2E2E;
+}
+.logo1{
+    height: 49.15101623535156px;
+    left: 165px;
+    top:847px;
+    border-radius: 0px;
+     
+}
+.logo2{
+    
+    height: 74px;
+    left: 493.654296875px;
+    top: 847px;
+    border-radius: 0px;
+      
+}
+.logo3{
+    
+    height: 72.94451904296875px;
+    left:757px;
+    top: 847px;
+    border-radius: 0px;
+      
+}
+.logo4{
+    height: 72.94451904296875px;
+    width: 104.98444366455078px;
+    left:956px;
+    top: 847px;
+    border-radius: 0px;
+      
+}

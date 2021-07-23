@@ -1,0 +1,40 @@
+body{overflow-x: hidden;background-color: #F1F2F6}
+.navbar{
+    background-color:white;
+    display:flex;
+     height:60px;
+     position:fixed;
+     top:-5px; left:0px; width:100%; z-index:34343;
+     overflow: hidden;
+}
+
+/* .navLogo{
+    width:24%;
+    background-color: #edcd1f;
+display: flex;
+align-items: center;
+
+}
+
+.logoImg{margin-left: 50px;}
+.logoImg img{width:47px; height:49px}
+
+.logoText{margin-left:20px; font-size: 23px; height:100px;}
+.logoText b{margin-top: 20px; display:block}
+.logoText p{margin-top:-8px}
+.navUl{position: relative;}
+.navUl ul{ list-style: none ; display:flex;  position: absolute; bottom:10px; left:400px}
+.navUl li{ width:100px}
+.navUl a{color:white; font-size: 14px;}
+
+.navUl a:hover{color:#edcd1f}
+
+ */
+ .navUl{position: relative;list-style-type: none; margin: 0px; padding: 0px;}
+.navUl ul{ list-style: none ; display:flex;  position: absolute; }
+.navUl li{ width:100px}
+.navUl a{color:white; font-size: 14px;}
+
+.navUl a:hover{color:#edcd1f}
+
+
