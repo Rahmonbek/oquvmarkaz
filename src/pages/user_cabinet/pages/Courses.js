@@ -2,7 +2,9 @@ import React, { Component } from 'react'
 import style from '../css/Courses.module.css'
 import filter from '../img/filter.png'
 import squares from '../img/squares.png'
+import squares2 from '../img/squares2.png'
 import list from '../img/list.png'
+import list2 from '../img/list2.png'
 import img1 from '../img/img1.png'
 import img2 from '../img/img2.png'
 import button from '../img/button.png'
@@ -22,7 +24,6 @@ grid=(a)=>{
         grid:a
     })
 }
-
 
 
     render() {
@@ -49,8 +50,8 @@ grid=(a)=>{
                             <div className={style.filter}>
                             <img src={filter} />Filter
                             </div>
-                            <img className={style.squares} onClick={()=>{this.grid(true)}} src={squares} />
-                            <img className={style.list} onClick={()=>{this.grid(false)}} src={list} />
+                            <img id="squares"  onClick={()=>{this.grid(true)}} className={style.squares} src={squares} />
+                            <img id="list"  onClick={()=>{this.grid(false)}} className={style.list}  src={list} />                           
                         </div>
                     </div>
                 </div>
