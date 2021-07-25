@@ -1,0 +1,116 @@
+
+.navbarMenu{
+    height: 60px;
+    background-color: #F1F2F6;
+    width: 100%;
+
+}
+.navbarMenu ul{
+    display: flex;
+    margin: auto;
+    height: 60px;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+@media (max-width: 767px){
+    .navbarToggle{
+        margin-top:0px;
+        border: 1px solid #9DA7BB;
+        margin-left: 20px;
+    }
+    .navbarCollapse li{
+        margin: auto;
+    }
+    .linked{
+     color: white;
+     margin: auto;
+     width: 100px; 
+    }
+    .navbarMenu ul{
+          margin-top: 50px;
+
+    }
+    .navbarCollapse{
+        margin-left: 0px;
+        margin-top: 10px;
+        width: 300px;
+        height: auto;
+        margin: auto;
+        background-color: #1E1E1E;
+        border-radius: 10px;
+        z-index: 1;
+        position: inherit;
+    }
+    .linked{
+        color: white;
+    }
+    
+}
+@media (min-width:768px) and (max-width:1024px){
+    .navbarToggle{
+        margin-top: 0px;
+    }   
+    .navbarCollapse   {
+        margin-left: 0px;
+        margin-top: 10px;
+        width: 300px;
+        height: auto;
+        margin: auto;
+        text-align: center;
+        background-color: #1E1E1E;
+        border-radius: 10px;
+        z-index: 1;
+      
+        align-content: space-around;
+
+    }
+   
+    .linked{
+        color: white;
+        width: 100%;
+        display: inline-block;
+        font-size: 11px;
+    }
+  
+    .navbarMenu ul{
+        margin-top: 30px;
+        margin-left: 30px;
+
+  }
+}
+.navbarMenu ul li{
+    text-decoration: none;
+    list-style-type: none;
+    color: #9DA7BB;
+    font-size: 18px;
+    margin-top: 10px;
+
+}
+
+.navbarCollapse  li {
+    margin-inline: 20px;
+   
+
+}
+.navbarMenu ul li a.active,
+.navbarMenu ul li a:active,
+.navbarMenu ul li a:hover{
+    color: black;
+}
+.studd.active, .studd:active{
+    color: black;
+    border-bottom: 4px solid red;
+    background-color: blue;
+}
+.linked{
+    list-style-type: none;
+    font-size: 20px;
+    border-bottom: none;
+}
+.selected{
+    border-bottom: 3px solid #536DFD;
+    margin-inline: 30px;
+    margin-top: 10px;
+   
+}
