@@ -31,12 +31,8 @@ export default class App extends Component {
               <Route exact path="/allcours">
                 <ExampleApp />
               </Route>
-
-  
-            
          </Switch>
         </BrowserRouter>
-        
       </div>
     );
   }
