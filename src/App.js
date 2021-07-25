@@ -6,7 +6,7 @@ import Body from "./pages/course tutorial/pages/Body";
 import Login from "./pages/Login";
 import Menyu from "./pages/dashboard/Menyu";
 import { BrowserRouter, Route, Router, Link, Switch } from "react-router-dom";
-import Exsemp from "./pages/AllCourse/Component/ExampleApp";
+import ExampleApp from "./pages/AllCourse/Component/ExampleApp";
 
 
 export default class App extends Component {
@@ -27,17 +27,14 @@ export default class App extends Component {
               <Route exact path="/cabinet/tutorial">
                 <Body />
               </Route>
-<<<<<<< HEAD
 
               <Route exact path="/allcours">
-                <Exsemp />
+                <ExampleApp />
               </Route>
 
-            </Switch>
-=======
-            </Switch>
-         
->>>>>>> adc173e21609a8d730241cca2f5e4cc478f539e0
+  
+            
+         </Switch>
         </BrowserRouter>
         
       </div>
