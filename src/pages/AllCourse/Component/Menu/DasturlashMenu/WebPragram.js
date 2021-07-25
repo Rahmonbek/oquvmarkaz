@@ -4,9 +4,7 @@ import styles from "../../../Css/WebPragram.module.css";
 import { Container, Row, Col, Card, NavLink } from "react-bootstrap";
 import Loader from "react-loader-spinner";
 
-import a from "../../../images/a.png";
-import { GrLinkNext } from "react-icons/gr";
-import Sartirovka from "./Sartirovka";
+
 
 const CourseInformation = [
   {
@@ -165,7 +163,7 @@ export default function WebPragram() {
                     </div>
                     <div className={styles.FilterGroupSecond}>
                       <h5>Reyting bo'yicha</h5>
-                      <br />
+                                <br />
                       <div className={styles.FilterSelectSecond}>
                         <input type="checkbox" value="Male" name="gender" />
                         <p className={styles.star}>
@@ -385,7 +383,7 @@ export default function WebPragram() {
         timeout={3000} //3 secs
         
         
-      >salom</Loader>
+      />
       
       </div>
 

@@ -6,15 +6,14 @@ import Body from "./pages/course tutorial/pages/Body";
 import Login from "./pages/Login";
 import Menyu from "./pages/dashboard/Menyu";
 import { BrowserRouter, Route, Router, Link, Switch } from "react-router-dom";
-import ExampleApp from "./pages/AllCourse/Component/ExampleApp";
-import Bosh3 from "./pages/dashboard/pages/Bosh3";
+import Exsemp from "./pages/AllCourse/Component/ExampleApp";
+
 
 export default class App extends Component {
   render() {
     return (
       <div>
         <BrowserRouter>
-          <Router>
             <Switch>
               <Route exact path="/">
                 <Menyu />
@@ -28,11 +27,12 @@ export default class App extends Component {
               <Route exact path="/cabinet/tutorial">
                 <Body />
               </Route>
-              <Route exact path="/allcourse">
-                <ExampleApp />
+
+              <Route exact path="/allcours">
+                <Exsemp />
               </Route>
+
             </Switch>
-          </Router>
         </BrowserRouter>
       </div>
     );

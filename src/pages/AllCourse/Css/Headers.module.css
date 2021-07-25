@@ -1,5 +1,5 @@
 
-*{
+*{ 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,6 +14,30 @@
     color: #536DFD;
     border-radius: 5px;
     user-select: none;
+}
+.language{
+    position: absolute;
+    margin-top: 8px;
+    margin-left: -130px;
+    border: 1px solid black;
+    padding: 5px 15px;
+    color: #9DA7BB;
+    border: 1px solid #E2E5EB;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Regsitration{
+    height: 30px;
+    cursor: pointer;
+    width: 100px;
+ 
+    margin-top: 8px; 
+    border: transparent; 
+    background-color: #536DFD;
+    color: white;
+    border: thin;
+    border-radius: 5px;
 }
 @media (max-width: 767px) {
     body{
@@ -95,29 +119,7 @@
     
 
 }
-.language{
-    position: absolute;
-    margin-top: 8px;
-    margin-left: -130px;
-    border: 1px solid black;
-    padding: 5px 15px;
-    color: #9DA7BB;
-    border: 1px solid #E2E5EB;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.Regsitration{
-    height: 35px;
-    cursor: pointer;
-    width: 100px;
-    padding: 5px 10px;
-    margin-top: 8px; 
-    border: transparent; 
-    background-color: #536DFD;
-    color: white;
-    border: thin;
-    border-radius: 5px;
-}
+
 .Regsitration:hover{
     background-color: #536DFD;
     color: white;

@@ -34,6 +34,9 @@ padding-top: 100px;
     text-align: center;
     color: #2E2E2E;
 }
+.brandLogo{
+    border: 1px solid black;
+}
 .logo1{
     height: 49.15101623535156px;
     left: 165px;

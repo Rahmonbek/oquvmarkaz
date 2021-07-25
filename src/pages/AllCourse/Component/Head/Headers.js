@@ -24,7 +24,7 @@ import Dasturlash from "../Menu/Dasturlash";
 export default function Headers() {
   return (
     <div>
-      <Navbar className={styles.navbar} collapseOnSelect expand="lg">
+      <Navbar className={styles.navbar} style={{backgroundColor:'#FFFFFF'}} collapseOnSelect expand="lg">
         <Container>
           <Navbar.Brand href="#home">
             <img src={Group} />

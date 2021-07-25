@@ -18,11 +18,11 @@ import { Container, Navbar, Nav } from "react-bootstrap";
 
 export default function Dasturlash() {
   return (
-    <div>
+    <div >
       <Router>
         <div>
-          <div className={styles.lllll}>
-            <Navbar className={styles.navbarMenu} collapseOnSelect expand="lg">
+          <div  className={styles.fefrefe}>
+            <Navbar  style={{backgroundColor:'#FFFFFF'}} className={styles.navbarMenu} collapseOnSelect expand="lg">
               <Container>
                 <Navbar.Toggle
                   className={styles.navbarToggle}
@@ -40,7 +40,7 @@ export default function Dasturlash() {
                           style={{ textDecoration: "none", color: "#9DA7BB" }}
                           activeStyle={{
                             color: "#010101",
-                            borderBottom: "solid 3px #536DFD",
+                            borderBottom: "solid 4px #536DFD",
                           }}
                           exact
                           to="/"
@@ -56,7 +56,7 @@ export default function Dasturlash() {
                           style={{ textDecoration: "none", color: "#9DA7BB" }}
                           activeStyle={{
                             color: "#010101",
-                            borderBottom: "solid 3px #536DFD",
+                            borderBottom: "solid 4px #536DFD",
                           }}
                           to="/gameDasturlash"
                         >
@@ -71,7 +71,7 @@ export default function Dasturlash() {
                           style={{ textDecoration: "none", color: "#9DA7BB" }}
                           activeStyle={{
                             color: "#010101",
-                            borderBottom: "solid 3px #536DFD",
+                            borderBottom: "solid 4px #536DFD",
                           }}
                           to="/webDasturlash"
                         >
@@ -91,7 +91,7 @@ export default function Dasturlash() {
                           style={{ textDecoration: "none", color: "#9DA7BB" }}
                           activeStyle={{
                             color: "#010101",
-                            borderBottom: "solid 3px #536DFD",
+                            borderBottom: "solid 4px #536DFD",
                           }}
                           to="/desktopDasturlash"
                         >
@@ -106,7 +106,7 @@ export default function Dasturlash() {
                           style={{ textDecoration: "none", color: "#9DA7BB" }}
                           activeStyle={{
                             color: "#010101",
-                            borderBottom: "solid 3px #536DFD",
+                            borderBottom: "solid 4px #536DFD",
                           }}
                           to="/apparatDasturlash"
                         >
@@ -121,7 +121,7 @@ export default function Dasturlash() {
                           style={{ textDecoration: "none", color: "#9DA7BB" }}
                           activeStyle={{
                             color: "#010101",
-                            borderBottom: "solid 3px #536DFD",
+                            borderBottom: "solid 4px #536DFD",
                           }}
                           to="/mobilDasturlash"
                         >
@@ -133,7 +133,10 @@ export default function Dasturlash() {
                 </ul>
               </Container>
             </Navbar>
-          </div>
+            </div>
+            <div className={styles.lllll}></div>
+
+          
 
           {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}

@@ -24,7 +24,7 @@ export default function Menyu() {
 
   return (
     <div>
-      <Router>
+      <Router> 
         <div>
           <Navbar className={menyu.navbarMenu} collapseOnSelect expand="lg">
             <Container>

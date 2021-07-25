@@ -1,8 +1,10 @@
 
 .navbarMenu{
     height: 60px;
-    background-color: #F1F2F6;
+    background-color: #F1F2F6; 
     width: 100%;
+    margin-top: -3px;
+
 
 }
 .navbarMenu ul{
