@@ -14,7 +14,6 @@ export default class App extends Component {
     return (
       <div>
         <BrowserRouter>
-          <Router>
             <Switch>
               <Route exact path="/">
                 <Menyu />
@@ -28,11 +27,8 @@ export default class App extends Component {
               <Route exact path="/cabinet/tutorial">
                 <Body />
               </Route>
-              <Route exact path="/allcourse">
-                <ExampleApp />
-              </Route>
             </Switch>
-          </Router>
+         
         </BrowserRouter>
         
       </div>
