@@ -27,13 +27,19 @@ export default class App extends Component {
               <Route exact path="/cabinet/tutorial">
                 <Body />
               </Route>
+<<<<<<< HEAD
 
               <Route exact path="/allcours">
                 <Exsemp />
               </Route>
 
             </Switch>
+=======
+            </Switch>
+         
+>>>>>>> adc173e21609a8d730241cca2f5e4cc478f539e0
         </BrowserRouter>
+        
       </div>
     );
   }
