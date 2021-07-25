@@ -12,12 +12,12 @@ export default class Bosh5 extends Component {
         return (
             <div>
              <div className={stayle4.tasvir}>
-  <div className={stayle4.text1}><img src={images2} alt="BigCo Inc. logo" /></div>             
-<div className={stayle4.text}>“O’z qalbing va ichki sezgingga ergashish uchun 
+  <img src={images2} alt="BigCo Inc. logo" className={stayle4.text1} />             
+<div style={{fontSize:'3vw', }} className={stayle4.text}>“O’z qalbing va ichki sezgingga ergashish uchun 
 yetarlicha jur’atli bo’l. Zotan shu ikki tuyg’u 
 sening aslida kim bo’lishni xoxlashingni aniq biladi.”</div>
 
-<div className={stayle4.text2}><img src={images3} alt="BigCo Inc. logo" /></div>
+<img src={images3} className={stayle4.text2} alt="BigCo Inc. logo" />
 <div className={stayle4.text3}>Stiv Jobs</div>
 
                  </div>   

@@ -4,7 +4,6 @@
     background-size: cover;
     padding-top:20px;  
 width: 100%;
-top: 2976px;
 border-radius: 0px;
 }
 .text{
@@ -22,33 +21,37 @@ border-radius: 0px;
 
 }
 .text1{
-  
-    height: 68px;
-width: 80px;
-padding-left: 20px;
-padding-top: 20px;
-border-radius: 0px;
     color: #FFFFFF;
-
+    width: 80px;
+    display:flex;
+    margin:auto;
+    text-align: left;
+    padding-top: 20px;
+    border-radius: 0px;
+    font-size:3vw;
+    width:5%;
+    height: 5%;
 }
 .text2{
    
     color: #FFFFFF;
-    height: 68px;
-    width: 80px;
-    padding-left: 80%;
+   
+
+    display:flex;
+    margin:auto;
+padding-right: 10px;
+    align-items:right;
     padding-top: 20px;
     border-radius: 0px;
-    
+    font-size:3vw;
+    width:5%;
+    height: 5%;
 }
 .text3{
+  
     font-family: SF Pro Display;
-font-size: 30px;
-line-height: 36px;
-letter-spacing: 0em;
+font-size: 3vw;
 text-align: left;
-    height: 36px;
-    width: 200px;
     border-radius: nullpx;
     color: #FFFFFF;
 

@@ -14,13 +14,17 @@ export default class Bosh1 extends Component {
             <div>
                 <div id={stayle.all} expand="lg"  className="mr-auto my-2 my-lg-0">
 <div className={stayle.elips}></div>
-<div className={stayle.dastur}>
-    <img  variant="top" src={img1}  alt="BigCo Inc. logo" />
+<div style={{width:'46%', backgroundColor:'red'}}><div className={stayle.dastur}>
+<p style={{fontWeight:'800',fontSize:'2.6vw'}}>Biz sizga <span style={{color:'#e9e50a',fontWeight:'800',fontSize:'2.6vw'}}>Dasturla</span>|</p>
+<span style={{fontWeight:'800',fontSize:'2.6vw',width:'100%'}}>va boshqa kurslarni taklif 
+qilamiz.</span>
 </div>
-<div className={stayle.tayoq} >|</div>
+
+
 
 <div className={stayle.dastur1}>
-    <img src={img2}  alt="BigCo Inc. logo" />
+Siz istalgan vaqtda har qanday mavzuda kurslarni o’rganishingiz 
+mumkin. Buning uchun qidiruv tizimidan foydalaning
 </div>
 
 <div className={stayle.search}>
@@ -37,6 +41,11 @@ export default class Bosh1 extends Component {
   </InputGroup>
 
 </Form></div>
+</div>
+
+
+
+
 
 <div className={stayle.card1}>
 <div className={stayle.card11}>Marketting</div>

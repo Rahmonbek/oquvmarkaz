@@ -6,16 +6,20 @@ import images2 from '../img/image2.png'
 import images3 from '../img/image3.png'
 import images4 from '../img/image4.png'
 import images5 from '../img/image5.png'
-
+import ReactStars from "react-rating-stars-component";
 
 export default class Bosh2 extends Component {
   
   
+ 
   
   
   
   
     render() {
+          const ratingChanged = (newRating) => {
+        console.log(newRating);
+      };  
         return (
             <div>
                
@@ -29,13 +33,14 @@ export default class Bosh2 extends Component {
 kurs. (amaliy)</Card.Title>
     <Card.Text> 
 
-<div className={stayle1.star1}>
-    <i class="fa fa-star" aria-hidden="true"></i>
-    <i class="fa fa-star" aria-hidden="true"></i>
-    <i class="fa fa-star" aria-hidden="true"></i>
-    <i class="fa fa-star" aria-hidden="true"></i>
-    <i class="fa fa-star" aria-hidden="true"></i>
-    <span>  4.1  (564) </span></div>
+<div className={stayle1.star1} style={{display:'flex'}}>
+<ReactStars
+    count={5}
+    onChange={ratingChanged}
+    size={24}
+    activeColor="#ffd700"
+  />
+    <span style={{paddingTop:'8px'}}>  4.1  (564) </span></div>
     <div className={stayle1.card12}>Dasturlash</div>
   
     <div style={{display:'flex',position:'absolute', bottom:'24px',left:'40px',right:'24px'}}> 
@@ -65,13 +70,14 @@ kurs. (amaliy)</Card.Title>
   <Card.Body>
     <Card.Title className={stayle1.name2}>Illustrator boshlang’ichdan
 proffessionalgacha</Card.Title>
-    <Card.Text><div className={stayle1.star2}>
-    <i class="fa fa-star" aria-hidden="true"></i>
-    <i class="fa fa-star" aria-hidden="true"></i>
-    <i class="fa fa-star" aria-hidden="true"></i>
-    <i class="fa fa-star" aria-hidden="true"></i>
-    <i class="fa fa-star" aria-hidden="true"></i>
-<span>  4.1  (564) </span></div>
+    <Card.Text><div className={stayle1.star2} style={{display:'flex'}}>
+    <ReactStars
+    count={5}
+    onChange={ratingChanged}
+    size={24}
+    activeColor="#ffd700"
+  />
+<span style={{paddingTop:'8px'}}>  4.1  (564) </span></div>
 <div className={stayle1.card13}>Dizayn</div>
 <div style={{display:'flex',position:'absolute', bottom:'24px',left:'40px',right:'24px'}}> 
 <div style={{paddingLeft:'40px'}}>
@@ -100,13 +106,14 @@ proffessionalgacha</Card.Title>
     <Card.Title className={stayle1.title1}>Boshlang’ich Photoshop
 kurslari</Card.Title>
     <Card.Text>
-        <div className={stayle1.star2}>
-    <i class="fa fa-star" aria-hidden="true"></i>
-    <i class="fa fa-star" aria-hidden="true"></i>
-    <i class="fa fa-star" aria-hidden="true"></i>
-    <i class="fa fa-star" aria-hidden="true"></i>
-    <i class="fa fa-star" aria-hidden="true"></i>
-<span>  4.1  (564) </span></div>
+        <div className={stayle1.star2} style={{display:'flex'}}>
+        <ReactStars
+    count={5}
+    onChange={ratingChanged}
+    size={24}
+    activeColor="#ffd700"
+  />
+<span style={{paddingTop:'8px'}}>  4.1  (564) </span></div>
 <div className={stayle1.card13}>Dizayn</div>
 <div style={{display:'flex',position:'absolute', bottom:'24px',left:'40px',right:'24px'}}> 
 <div style={{paddingLeft:'40px'}}>
@@ -137,13 +144,14 @@ kurslari</Card.Title>
     <Card.Title className={stayle1.title1}>Boshlang’ich Photoshop
 kurslari</Card.Title>
     <Card.Text>
-        <div className={stayle1.star2}>
-    <i class="fa fa-star" aria-hidden="true"></i>
-    <i class="fa fa-star" aria-hidden="true"></i>
-    <i class="fa fa-star" aria-hidden="true"></i>
-    <i class="fa fa-star" aria-hidden="true"></i>
-    <i class="fa fa-star" aria-hidden="true"></i>
-<span>  4.1  (564) </span></div>
+        <div className={stayle1.star2} style={{display:'flex'}}>
+        <ReactStars
+    count={5}
+    onChange={ratingChanged}
+    size={24}
+    activeColor="#ffd700"
+  />
+<span style={{paddingTop:'8px'}}>  4.1  (564) </span></div>
 <div className={stayle1.card14}>Biznes</div>
 
 <div style={{display:'flex',position:'absolute', bottom:'24px',left:'40px',right:'24px'}}> 
@@ -172,13 +180,14 @@ kurslari</Card.Title>
     <Card.Title className={stayle1.title1}>Boshlang’ich Photoshop
 kurslari</Card.Title>
     <Card.Text>
-        <div className={stayle1.star2}>
-    <i class="fa fa-star" aria-hidden="true"></i>
-    <i class="fa fa-star" aria-hidden="true"></i>
-    <i class="fa fa-star" aria-hidden="true"></i>
-    <i class="fa fa-star" aria-hidden="true"></i>
-    <i class="fa fa-star" aria-hidden="true"></i>
-<span>  4.1  (564) </span></div>
+        <div className={stayle1.star2} style={{display:'flex'}}>
+        <ReactStars
+    count={5}
+    onChange={ratingChanged}
+    size={24}
+    activeColor="#ffd700"
+  />
+<span style={{paddingTop:'8px'}}>  4.1  (564) </span></div>
 <div className={stayle1.card15}>Bugalteriya</div>
 
 <div style={{display:'flex',position:'absolute', bottom:'24px',left:'40px',right:'24px'}}> 
