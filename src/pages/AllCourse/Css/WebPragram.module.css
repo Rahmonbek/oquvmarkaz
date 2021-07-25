@@ -1,0 +1,338 @@
+ 
+
+.Sartirovka{
+    width: 100%;
+    border: 1px solid black;
+    height: 70px;
+    display: flex;
+}
+.WebTagSplice{
+    margin-bottom: 150px;
+}
+.WebBody{
+    width: 100%;
+    height: auto;
+}
+.ListOne{
+    width: 100%;
+    height: 180px;
+   display: flex; 
+   border-bottom: 2px solid #E2E5EB;
+}
+.ListOneImg{
+    width: 280px;
+    height: 180px;
+    
+}
+#Rasm{
+    width: 280px;
+    height: 160px;
+    margin-top: 10px;
+
+}
+.ListOneText{
+    width: 500px;
+    height: 100%;
+    margin-left: 20px;
+}
+.ListOneTextBold{
+    position: inherit;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 5px;
+    white-space: pre-line;
+}
+.CardBoldtext{
+    white-space: pre-line;
+
+}
+.ListOneTextSmall{
+    color:#606060 ;
+    font-size: 14px;
+    margin-top: -10px;
+}
+.TagSection{
+    display: flex;
+    margin-block-end: auto;
+    margin-bottom: unset;
+    align-content: flex-end;
+    margin-top: -10px;
+
+}
+.CardTagSection{
+    margin-left: -35px;
+}
+.CourseSize{
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: -30px;
+}
+.CourseSize li:first-child{
+    font-size: 12px;
+    color: #9DA7BB;
+}
+.uzs{
+    font-size: 11px;
+    margin-top: 6px;
+}
+.CoursePrice li:first-child{
+    font-size: 12px;
+    color: #9DA7BB;
+}
+.CourseSize li:last-child{
+    font-family: SF Pro Display;
+    font-size: 16px;
+    color: #2E2E2E;
+    font-weight: 600;
+
+}
+#price{
+    display: flex;
+}
+.CoursePriceText{
+    font-size: 16px;
+    color: #2E2E2E;
+    font-weight: 600;}
+.CoursePrice{
+    text-decoration: none;
+    list-style-type: none;
+}
+.IconNext{
+    height: 42px;
+    width: 42px;
+    border: 1px solid #D8DCE4;
+    border-radius: 50%;
+    margin-left: 250px;
+    margin-top: 120px;
+}
+.IconNext i{
+    position: inherit;
+     margin-left: 13px;
+     margin-top: 12px;
+}
+.staring{
+    margin-left: 35px;
+    height: 5px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.staring p:nth-child(2){
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.staring p:nth-child(3){
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #7D7D7D;
+}
+
+
+
+
+.ListOneImg:hover{
+    cursor: pointer;
+}
+.IconNext i:hover{
+    color: white;
+}
+.IconNext:hover{
+    position: inherit;
+    background-color: #536DFD;
+    color: white;
+    cursor: pointer;
+}
+.ListOne:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+   
+}
+.ListOneText:hover{
+    cursor: inherit;
+}
+.filters{
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+
+.FilterGroup{
+    position: absolute;
+    z-index: 1;
+    width: 470px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.listtocard{
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.CardTo{
+    width: 22px;
+    height: 22px;
+   
+}
+
+.ListTo{
+    width: 22px;
+    height: 22px;
+}
+
+.StyleCardActive{
+    color: black;
+
+}
+.FilterButton{
+    width: 92px;
+    height: 40px;
+    border: none;
+    margin-top: 25px;
+    margin-left: 0px;
+    border: 1px solid #D8DCE4;
+    border-radius: 4px;
+}
+.FilterButton i{
+    margin-left: 10px;
+    margin-top: 5px;
+    color: #9DA7BB;
+}
+.FilterGroupFirst{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.FilterGroupSecond{
+    margin-left: 50px;
+    margin-top: 17px;
+}
+.FilterGroupSecond h5 {
+    margin-top: -1px;
+}
+.FilterSelect{
+    display: flex;
+    margin-top: 1px;
+    cursor: pointer;
+}
+.FilterSelectSecond{
+    display: flex;
+    margin-top: -3px;
+    cursor: pointer;
+}
+.FilterSelectSecond p:last-child{
+    margin-top: -6px;
+    margin-left: 8px;
+}
+.FilterSelectSecond input{
+    cursor: pointer;
+}
+.star{
+    margin-left: 20px;
+    margin-top: -15px;
+}
+.FilterSelect input{
+    background-color: hsl(220, 79%, 36%);
+    cursor: pointer;
+}
+.FilterSelect p{
+    cursor: pointer;
+    margin-top: -6px;
+    margin-left: 10px;
+    color: #9DA7BB;
+}
+.CardStyles{
+    flex-wrap: wrap;
+    float: left;
+}
+.CardStyles {
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+.CardPrice {
+    display: flex;
+    margin-top: 50px;
+}
+.Cards{
+    margin-bottom: 25px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     
+}
+.Cards:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+.CardIconNext{
+    width: 42px;
+    height: 42px;
+    background-color: white;
+    border: 1px solid #D6D9E1;
+    border-radius: 50%;
+    color: #536DFD;
+    margin-left: 90px;
+}
+.StarWithPrice{
+    margin-bottom: auto;
+    
+}
+.CardIconNext i{
+    margin-left: 13px;
+    margin-top: 12px;
+}
+.CardIconNext:hover{
+    background-color: #536DFD;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width:767px){ 
+    .List{
+        display: none;
+    }
+    .listtocard{
+        display: none;
+    }
+    .CardStyles{
+        margin: auto;
+        margin-bottom: 100px
+    }
+    .Cards{
+        margin: auto;
+        margin-top: 20px;
+    
+    }
+}
+@media (min-width:768px ) and (max-width:1024px){
+    .List{
+        display: none;
+    }
+    .listtocard{
+        display: none;
+    }
+    .CardStyles{
+        margin: auto;
+        margin-bottom: 100px;
+        width:100%;
+    }
+    .Cards{
+        margin: auto;
+        margin-top: 20px;
+
+    }
+}
+
+.loaderSpinner{
+    height: auto;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}

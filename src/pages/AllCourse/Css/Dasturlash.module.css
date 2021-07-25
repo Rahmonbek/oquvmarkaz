@@ -1,0 +1,148 @@
+
+
+
+.navbarCollapse{
+    display: flex;
+    width: 100%;
+    height: 95px;
+    background-color: white;
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 14px;
+}
+.navbarMenu{
+    height: 100px;
+}
+.lllll{
+    border-bottom: 2px solid #D8DCE4;
+
+}
+.navbarCollapse li{
+    display: flex;
+   
+} 
+.navbarCollapse  li{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 16px;
+    margin-left: 30px;
+    position:inherit;
+    margin-top: 30px;
+    margin-inline: 20px;
+    
+}
+
+.linked{
+    list-style: none;
+    font-weight: 500;
+    margin-top: 15px;
+    line-height: 30px;
+}
+
+.selected {
+    border-bottom: 3px solid #536DFD;
+    margin-inline: 30px;
+    margin-top: 10px;
+    
+
+}
+.badge{
+    height: 22px;
+    width: 44px;
+    border: 1px solid #E2E5EB;
+    position: absolute;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: -10px;
+}
+.BadgeColor{
+    color: #536DFD;
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 5px;
+    height: 10px;
+    width: 100%;
+    font-size: 12px;
+    margin-top: -5px;
+    position: inherit;
+}
+@media (max-width:767px){
+    .navbarToggle{
+        margin-left: 20px;
+        border: 1px solid  #D8DCE4;
+        background-attachment: fixed;
+        
+    }
+    .BadgeColor{
+        color: white;
+    }
+    .navbarCollapse{
+        margin-left: -100px;
+        margin-top: -200px;
+        width: 300px;
+        height: auto;
+        margin: auto;
+        text-align: center;
+        background-color: #1E1E1E;
+        border-radius: 10px;
+        z-index: 1;
+        display: inline-block;
+    }
+    .navbarCollapse li{
+        margin-left: 00px;
+        margin: auto;
+        z-index: 1;
+        
+    }
+    .linked{
+        color: white;
+       
+    }
+    .navbarMenu ul{
+        position: fixed;
+        margin-top: 400px;
+        margin-left: 100px;
+        z-index: 1;
+    }
+    
+}
+@media (min-width:768px) and (max-width:1024px){
+    .navbarToggle{
+        color: green;
+        margin-top: -10px;
+        cursor: pointer;
+        position: absolute;
+        z-index: 1;
+    }    
+    .BadgeColor{
+        color: white;
+    }
+    .navbarCollapse{
+        margin-left: 100px;
+        margin-top: -200px;
+        width: 300px;
+        height: auto;
+        margin: auto;
+        text-align: center;
+        background-color: #1E1E1E;
+        border-radius: 10px;
+        z-index: 1;
+        display: inline-block;
+        position: fixed;
+        position: absolute  ;
+
+    }
+    .navbarMenu ul{
+        margin-left: 100px;
+    }
+    .navbarCollapse li{
+        margin: auto;
+        margin-top:10px;
+        margin-bottom:10px
+    }
+    .linked{
+        color: white;
+        margin: auto;
+    }
+}
