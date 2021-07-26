@@ -13,6 +13,11 @@ import Rectangle2 from '../images/Rectangle 14.2.png'
 import Rectangle1 from '../images/Rectangle 14.1.png'
 import Rectangle14 from '../images/Rectangle 14.png'
 import clock from '../images/clock.jpg'
+import padlock from '../images/padlock.png'
+import Rectangle146 from '../images/Rectangle 14.6.png'
+import Rectangle147 from '../images/Rectangle 14.7.png'
+import Rectangle148 from '../images/Rectangle 14.8.png'
+import Rectangle149 from '../images/Rectangle 14.9.png'
 
 
 
@@ -46,7 +51,7 @@ export default class Bod extends Component {
                    </div>
                </div>
 
-<div className="style.sostav">
+<div className="style.sostav1">
     <h4 className={style.titleh4} style={{position: 'absolute',width: '344px', height: '24px',left: '999px',top: '202px',fontFamily: 'SF Pro Display',fontSize: '20px',lineHeight: '24px',color: '#2E2E2E',}}>1.Dasturlashga kirish va o’rnatish jarayoni</h4>
 
 <div className="style.sost1">
@@ -93,6 +98,49 @@ export default class Bod extends Component {
 
 
 </div>
+<div className="style.sostav2">
+    <h4 className={style.titleh4} style={{position: 'absolute',width: '344px', height: '24px',left: '999px',top: '687px',fontFamily: 'SF Pro Display',fontSize: '20px',lineHeight: '24px',color: '#2E2E2E',}}>2. Dasturda oddiy amallar bilan ishlash</h4> 
+</div>
+
+
+<div className="style.sostav3">
+    <h4 className={style.titleh4} style={{position: 'absolute',width: '344px', height: '24px',left: '999px',top: '734px',fontFamily: 'SF Pro Display',fontSize: '20px',lineHeight: '24px',color: '#2E2E2E',}}>3. OOP dasturlash asoslari</h4> 
+
+    <div className="style.sost31">
+<img style={{position: 'absolute',width: '100px',height: '55px',left: '999px',top: '778px',borderRadius: '2px'}} src={Rectangle146} alt=" " />
+<p className={style.sost} style={{position: 'absolute',width: '278px', height: '17px',left: '1107px',top: '777px',fontFamily: 'SF Pro Display',fontSize: '14px',lineHeight: '17px',color: '#2E2E2E',}}>3.1 OOP dasturlashga kirish </p>
+<h6 className={style.titleh6} style={{position: 'absolute',width: '51px', height: '17px',left: '1127px',top: '800px',fontFamily: 'SF Pro Display',fontSize: '14px',lineHeight: '17px',color: '#2E2E2E',}}>01:07:15</h6>
+<img style={{position: 'absolute', width:'25px', height:'18px',marginLeft: '1101px',marginTop: '801px',}} src={clock} alt=" " />
+<img style={{position: 'absolute', width:'18px', height:'18px',marginLeft: '1321px',marginTop: '798px',}} src={padlock} alt=" " />
+</div>
+
+<div className="style.sost32">
+<img style={{position: 'absolute',width: '100px',height: '55px',left: '999px',top: '849px',borderRadius: '2px'}} src={Rectangle147} alt=" " />
+<p className={style.sost} style={{position: 'absolute',width: '278px', height: '17px',left: '1107px',top: '848px',fontFamily: 'SF Pro Display',fontSize: '14px',lineHeight: '17px',color: '#2E2E2E',}}>3.2 OPP da class lar tushunchasi</p>
+<h6 className={style.titleh6} style={{position: 'absolute',width: '51px', height: '17px',left: '1127px',top: '873px',fontFamily: 'SF Pro Display',fontSize: '14px',lineHeight: '17px',color: '#2E2E2E',}}>01:07:15</h6>
+<img style={{position: 'absolute', width:'25px', height:'18px',marginLeft: '1101px',marginTop: '874px',}} src={clock} alt=" " />
+<img style={{position: 'absolute', width:'18px', height:'18px',marginLeft: '1321px',marginTop: '871px',}} src={padlock} alt=" " />
+</div>
+
+<div className="style.sost33">
+<img style={{position: 'absolute',width: '100px',height: '55px',left: '999px',top: '920px',borderRadius: '2px'}} src={Rectangle148} alt=" " />
+<p className={style.sost} style={{position: 'absolute',width: '278px', height: '17px',left: '1107px',top: '919px',fontFamily: 'SF Pro Display',fontSize: '14px',lineHeight: '17px',color: '#2E2E2E',}}>3.3 Polifarmizim haqida ma’lumot</p>
+<h6 className={style.titleh6} style={{position: 'absolute',width: '51px', height: '17px',left: '1127px',top: '948px',fontFamily: 'SF Pro Display',fontSize: '14px',lineHeight: '17px',color: '#2E2E2E',}}>01:07:15</h6>
+<img style={{position: 'absolute', width:'25px', height:'18px',marginLeft: '1101px',marginTop: '949px',}} src={clock} alt=" " />
+<img style={{position: 'absolute', width:'18px', height:'18px',marginLeft: '1321px',marginTop: '946px',}} src={padlock} alt=" " />
+</div>
+
+<div className="style.sost34">
+<img style={{position: 'absolute',width: '100px',height: '55px',left: '999px',top: '991px',borderRadius: '2px'}} src={Rectangle149} alt=" " />
+<p className={style.sost} style={{position: 'absolute',width: '278px', height: '17px',left: '1107px',top: '990px',fontFamily: 'SF Pro Display',fontSize: '14px',lineHeight: '17px',color: '#2E2E2E',}}>3.4 Inkapsulyatsiya haqida ma’lumot</p>
+<h6 className={style.titleh6} style={{position: 'absolute',width: '51px', height: '17px',left: '1127px',top: '1018px',fontFamily: 'SF Pro Display',fontSize: '14px',lineHeight: '17px',color: '#2E2E2E',}}>01:07:15</h6>
+<img style={{position: 'absolute', width:'25px', height:'18px',marginLeft: '1101px',marginTop: '1019px',}} src={clock} alt=" " />
+<img style={{position: 'absolute', width:'18px', height:'18px',marginLeft: '1321px',marginTop: '1016px',}} src={padlock} alt=" " />
+</div>
+
+</div>
+
+
 
 
 
