@@ -4,9 +4,13 @@ import { Card,Button, Container, Row,Col } from 'react-bootstrap'
 import stayle1 from '../../css/Navbar3.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import images1 from '../../img/image1.png'
+import ReactStars from "react-rating-stars-component";
 
 export default class Dizayn extends Component {
     render() {
+        const ratingChanged = (newRating) => {
+            console.log(newRating);
+          };  
         return (
             <div>      <div style={{width:'100%', left:'0px',height:'auto' }}>            
 
@@ -18,13 +22,14 @@ export default class Dizayn extends Component {
                 <Card.Title className={stayle1.name1}>  Java, Spring bo’yicha to’liq 
             kurs. (amaliy)</Card.Title>
                 <Card.Text>
-            <div className={stayle1.star1}>
-                <i class="fa fa-star" style={{color:'gold',opacity:'0.7'}} aria-hidden="true"></i>
-                <i class="fa fa-star" style={{color:'gold',opacity:'0.7'}}  aria-hidden="true"></i>
-                <i class="fa fa-star" style={{color:'gold',opacity:'0.7'}}  aria-hidden="true"></i>
-                <i class="fa fa-star" style={{color:'gold',opacity:'0.7'}}  aria-hidden="true"></i>
-                <i class="fa fa-star" style={{opacity:'0.7'}} aria-hidden="true"></i>
-                <span>  4.1  (564) </span>
+            <div style={{display:'flex'}} className={stayle1.star1}>
+            <ReactStars
+    count={5}
+    onChange={ratingChanged}
+    size={24}
+    activeColor="#ffd700"
+  />
+    <span style={{paddingTop:'8px'}}>  4.1  (564) </span>
                 <div className={stayle1.card12}  style={{background:' #D11F7F'}} >Marketing</div>
                 
                 <div style={{display:'flex',position:'absolute', bottom:'24px',left:'40px',right:'24px'}}> 
@@ -49,13 +54,14 @@ export default class Dizayn extends Component {
                 <Card.Title className={stayle1.name1}>  Java, Spring bo’yicha to’liq 
             kurs. (amaliy)</Card.Title>
                 <Card.Text>
-            <div className={stayle1.star1}>
-                <i class="fa fa-star" style={{color:'gold',opacity:'0.7'}} aria-hidden="true"></i>
-                <i class="fa fa-star" style={{color:'gold',opacity:'0.7'}}  aria-hidden="true"></i>
-                <i class="fa fa-star" style={{color:'gold',opacity:'0.7'}}  aria-hidden="true"></i>
-                <i class="fa fa-star" style={{color:'gold',opacity:'0.7'}}  aria-hidden="true"></i>
-                <i class="fa fa-star" style={{opacity:'0.7'}} aria-hidden="true"></i>
-                <span>  4.1  (564) </span>
+                <div style={{display:'flex'}} className={stayle1.star1}>
+            <ReactStars
+    count={5}
+    onChange={ratingChanged}
+    size={24}
+    activeColor="#ffd700"
+  />
+    <span style={{paddingTop:'8px'}}>  4.1  (564) </span>
                 <div className={stayle1.card12} style={{background:' #D11F7F'}}> Marketing</div>
                
                 <div style={{display:'flex',position:'absolute', bottom:'24px',left:'40px',right:'24px'}}> 

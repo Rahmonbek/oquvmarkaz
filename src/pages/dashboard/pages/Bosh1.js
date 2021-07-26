@@ -45,7 +45,7 @@ mumkin. Buning uchun qidiruv tizimidan foydalaning
 </div>
 
 
-<Row style={{marginTop:'100px', width:'50%',}}>
+<Row style={{marginTop:'100px', width:'50%',}} xs={1} lg={2} md={1} sm={1}>
 
 <Col>
 <div className={stayle.card1}>

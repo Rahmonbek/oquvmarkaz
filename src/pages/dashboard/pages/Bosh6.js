@@ -20,60 +20,63 @@ export default class Bosh6 extends Component {
             <div className={stayle5.cor} style={{textAlign:'center',margin:'auto'}}>
             
 
-            <Carousel>
+            <Carousel >
 
-                <Carousel.Item>
+            <Carousel.Item>
 
-                <img
- style={{width:'100%'}}
-                    className="d-block w-100"
+<img
 
-                    src={oq}
+    className="d-block w-100"
 
-                    alt="First slide"
+    src={oq}
 
-                />
+    alt="Third slide"
 
-                <Carousel.Caption>
+/>
 
-                <p style={{marginTop:'50px',color:'black',textAlign:'center',fontSize:'18px'}}>Ted Abbas</p>
-                    <p style={{color: '#536DFD',textAlign:'center',fontSize:'18px'}}>Senior Designer</p>
 
-                    <p style={{color:'black',textAlign:'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas cras turpis 
+
+<Carousel.Caption>
+
+    <p style={{color:'black',textAlign:'center',fontSize:'18px'}}>Tahir</p>
+    <p style={{color: '#536DFD',textAlign:'center',fontSize:'18px'}}>Senior Designer</p>
+
+    <p style={{color:'black',textAlign:'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas cras turpis 
 volutpat libero orci placerat varius. Diam egestas morbi suspendisse morbi. 
 Quis et volutpat donec ipsum malesuada ipsum mattis tincidunt mattis. 
 Proin tristique ultrices egestas ut vitae consectetur est.</p>
 
-                </Carousel.Caption>
+</Carousel.Caption>
 
-                </Carousel.Item>
-
+</Carousel.Item>
                 <Carousel.Item>
 
-                <img
+<img
 
-                    className="d-block w-100"
+    className="d-block w-100"
 
-                    src={oq}
+    src={oq}
 
-                    alt="Third slide"
+    alt="Third slide"
 
-                />
+/>
 
-            
 
-                <Carousel.Caption>
-                <p style={{color:'black',textAlign:'center',fontSize:'18px'}}>Tahir</p>
-                    <p style={{color: '#536DFD',textAlign:'center',fontSize:'18px'}}>Senior Designer</p>
 
-                    <p style={{color:'black',textAlign:'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas cras turpis 
+<Carousel.Caption>
+
+    <p style={{color:'black',textAlign:'center',fontSize:'18px'}}>Tahir</p>
+    <p style={{color: '#536DFD',textAlign:'center',fontSize:'18px'}}>Senior Designer</p>
+
+    <p style={{color:'black',textAlign:'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas cras turpis 
 volutpat libero orci placerat varius. Diam egestas morbi suspendisse morbi. 
 Quis et volutpat donec ipsum malesuada ipsum mattis tincidunt mattis. 
 Proin tristique ultrices egestas ut vitae consectetur est.</p>
 
-                </Carousel.Caption>
+</Carousel.Caption>
 
-                </Carousel.Item>
+</Carousel.Item>
+
 
                 <Carousel.Item>
 

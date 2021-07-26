@@ -48,7 +48,7 @@ padding-right: 10px;
     height: 5%;
 }
 .text3{
-  
+position:relative;
     font-family: SF Pro Display;
 font-size: 3vw;
 text-align: left;

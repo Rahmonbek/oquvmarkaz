@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import style from '../css/Navbar.module.css'
-import {Dropdown ,Button} from 'react-bootstrap'
+import {Dropdown ,Button, NavbarBrand,Navbar,NavbarToggle, Nav} from 'react-bootstrap'
 
 import logo122 from '../img/logo122.png'
 import logo222 from '../img/logo222.png'
@@ -14,14 +14,18 @@ export default class Bosh extends Component {
         <div>
 
 <header>
-                    <div className={style.header_top}>
+  
+                    <div  style={{position:'fixed', zIndex:'223', backgroundColor:'white' ,width:'100%'}} className={style.header_top}>
                         <div className={style.container}>
+                       
                             <div className={style.col_6}>
-                                <div className={style.logo}>
+                                <NavbarBrand><div className={style.logo}>
                                     <span>PDP</span><img className={style.logo1} src={logo122} /><img className={style.logo2} src={logo222} />
                                     <h2>St<img src={vector22} />rm</h2>
-                                </div>
-                                <Dropdown>
+                              </div></NavbarBrand></div>
+                              
+                                <div className={style.col_6}>
+                               <Dropdown>
                                     <Dropdown.Toggle className={style.btn} variant="" id="dropdown-basic">
                                         Barcha kurslar
                                     </Dropdown.Toggle>
@@ -32,8 +36,7 @@ export default class Bosh extends Component {
                                         <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
                                     </Dropdown.Menu>
                                 </Dropdown>
-                            </div>
-                            <div className={style.col_6}>
+                            
                                 <Dropdown>
                                     <Dropdown.Toggle style={{color: '#9DA7BB'}} className={style.btn} variant="" id="dropdown-basic">
                                         UZBEK
@@ -47,8 +50,9 @@ export default class Bosh extends Component {
                                 </Dropdown><BrowserRouter>
                                 <Button className={style.but}><Link style={{color:'white'}} to="/login">KIRISH</Link></Button ></BrowserRouter>
                             </div>
-                        </div>
+                         </div>
                     </div>
+               
 
 </header>
     
