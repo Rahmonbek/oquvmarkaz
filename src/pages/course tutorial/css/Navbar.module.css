@@ -3,7 +3,8 @@ body{overflow-x: hidden;background-color: #F1F2F6}
     background-color:white;
     display:flex;
      height:60px;
-     position:fixed;
+     position: absolute;
+     /* position:fixed; */
      top:-5px; left:0px; width:100%; z-index:34343;
      overflow: hidden;
 }

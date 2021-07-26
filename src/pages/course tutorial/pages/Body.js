@@ -18,6 +18,9 @@ import Rectangle146 from '../images/Rectangle 14.6.png'
 import Rectangle147 from '../images/Rectangle 14.7.png'
 import Rectangle148 from '../images/Rectangle 14.8.png'
 import Rectangle149 from '../images/Rectangle 14.9.png'
+import Ellipse2 from '../images/Ellipse (2).png'
+import Ellipse1 from '../images/Ellipse (1).png'
+
 
 
 
@@ -141,9 +144,6 @@ export default class Bod extends Component {
 </div>
 
 
-
-
-
                <div className="zvezda">
                    <h4 className={style.title} style={{position: 'absolute',width: '338px',height: '29px',left: '17px',top: '630px',fontFamily: 'SF Pro Display',fontSize: '24px',lineHeight: '29px',color: '#2E2E2E',fontWeight:'bold',}}>Raspberry Pi dasturlash asoslari</h4>
                    <div className="zv1" style={{width:'200px', height:'50px', color:'yellow',left: '27px',top: '630px'}}><img src={Path}/></div>
@@ -153,13 +153,13 @@ export default class Bod extends Component {
                </div>
 
                <div className="akaunt">
-                   <h3 className={style.title} style={{position: 'absolute',width: '141px',height: '17px',left: '80px',top: '677px',fontFamily: 'SF Pro Display',fontSize: '16px',lineHeight: '17px',color: '#595858'}}>Muhammad Jumayev</h3>
-                   <div className="Obuna"><button style={{position: 'absolute',width: '90px',fontFamily: 'SF Pro Display',fontSize: '12px', height: '20px',left: '235px',top: '677px', border:'none', backgroundColor:'#536DFD',borderRadius: '2px', color:'white'}}>Obuna bo’lish</button></div>
+                   <h3 className={style.title} style={{position: 'absolute',width: '141px',height: '17px',left: '62px',top: '677px',fontFamily: 'SF Pro Display',fontSize: '16px',lineHeight: '17px',color: '#595858'}}>Muhammad Jumayev</h3>
+                   <img style={{position: 'absolute',marginLeft:'18px', top:'669px', width:'32px'}} src={Ellipse2} alt="" />
+                   <div className="Obuna"><button style={{position: 'absolute',width: '90px',fontFamily: 'SF Pro Display',fontSize: '12px', height: '20px',left: '230px',top: '677px', border:'none', backgroundColor:'#536DFD',borderRadius: '2px', color:'white'}}>Obuna bo’lish</button></div>
                    
         
-
-
                </div>
+
                <div className={style.navUl} style={{marginTop:'700px', listStyleType: 'none', display:'flex', textAlighn:'center',fontFamily:'SF Pro Display',fontSize: '18px',lineHeight: '21px', width:'500px', height:'100px'}}>
                         <ul>
                             <li>
@@ -191,6 +191,7 @@ export default class Bod extends Component {
                               
                                <div className={style.savolText} style={{ width:'580px', height:'200px', marginTop:'10px', marginLeft:'0px'}}>
                                    <h2 className={style.titleh2} style={{position: 'absolute',width: '141px',height: '20px',left: '88px',top: '37px',fontFamily: 'SF Pro Display',fontWeight:'bold', fontSize: '16px',lineHeight: '19px',color: '#2E2E2E'}}>To’rayev Jafarbek</h2>
+                                   <img style={{marginLeft:'39px', marginTop:'28px'}} src={Ellipse1} alt="" />
                                    <p className={style.titlep} style={{position: 'absolute',width: '476px',height: '51px',left: '88px',top: '70px',fontFamily: 'SF Pro Display',fontSize: '14px',lineHeight: '17px',color: '#2E2E2E'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i<br/>ncididunt ut labore et dolore magna aliqua. Diam maecenas sed enim ut sem viverra<br/> aliquet eget sit. Nisl nisi scelerisque eu ultrices vitae auctor eu augue ut. </p>
                                    <h3 className={style.titleh3} style={{position: 'absolute',width: '70px',height: '15px',left: '102px',top: '137px',fontFamily: 'SF Pro Display', fontSize: '12px',lineHeight: '14px',color: '#536DFD'}}>Javob berish</h3>
                                    <h4 className={style.titleh4} style={{position: 'absolute',width: '70px',height: '15px',left: '181px',top: '137px',fontFamily: 'SF Pro Display', fontSize: '12px',lineHeight: '14px',color: '#9DA7BB'}}>16-iyul. 2019 </h4>
@@ -198,6 +199,7 @@ export default class Bod extends Component {
 
                                <div className={style.savolText} style={{ width:'580px', height:'200px', marginTop:'-20px', marginLeft:'0px'}}>
                                    <h2 className={style.titleh2} style={{position: 'absolute',width: '161px',height: '20px',left: '88px',top: '187px',fontFamily: 'SF Pro Display',fontWeight:'bold', fontSize: '16px',lineHeight: '19px',color: '#2E2E2E'}}>Muhammad Jumayev</h2>
+                                   <img style={{marginLeft:'39px', marginTop:'-2px', width:'42px'}} src={Ellipse2} alt="" />
                                    <p className={style.titlep} style={{position: 'absolute',width: '476px',height: '51px',left: '88px',top: '220px',fontFamily: 'SF Pro Display',fontSize: '14px',lineHeight: '17px',color: '#2E2E2E'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i<br/>ncididunt ut labore et dolore magna aliqua. Diam maecenas sed enim ut sem viverra<br/> aliquet eget sit. Nisl nisi scelerisque eu ultrices vitae auctor eu augue ut. </p>
                                    <h3 className={style.titleh3} style={{position: 'absolute',width: '70px',height: '15px',left: '102px',top: '287px',fontFamily: 'SF Pro Display', fontSize: '12px',lineHeight: '14px',color: '#536DFD'}}>Javob berish</h3>
                                    <h4 className={style.titleh4} style={{position: 'absolute',width: '70px',height: '15px',left: '181px',top: '287px',fontFamily: 'SF Pro Display', fontSize: '12px',lineHeight: '14px',color: '#9DA7BB'}}>16-iyul. 2019 </h4>
@@ -205,7 +207,11 @@ export default class Bod extends Component {
 
                                <div className={style.titleform}>
                                <form><textarea type="text"style={{width:'503px', height:'73px',border: '1px solid #9DA7BB',boxSizing: 'border-box', borderRadius: '4px', marginLeft:'40px', marginTop:'-36px'}}/></form> 
+                               <div className="Oldingi"><button style={{position: 'absolute',lineHeight: '19px', width: '120px',fontFamily: 'SF Pro Display',fontSize: '13px', height: '34px',left: '285px',top: '459px', border:'none', backgroundColor:'#9DA7BB',borderRadius: '4px', color:' #FFFFFF',boxShadow: '0px 1.5px 2px rgba(0, 0, 0, 0.08)'}}>Bekor qilish</button></div>
+                               <div className="Oldingi"><button style={{position: 'absolute',lineHeight: '19px', width: '120px',fontFamily: 'SF Pro Display',fontSize: '13px', height: '34px',left: '418px',top: '459px', border:'none', backgroundColor:'#536DFD',borderRadius: '4px', color:' #FFFFFF',boxShadow: '0px 1.5px 2px rgba(0, 0, 0, 0.08)'}}>Jo’natish</button></div>
                                </div>
+
+                               
 
 
        
