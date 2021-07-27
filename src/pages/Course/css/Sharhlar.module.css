@@ -1,0 +1,184 @@
+.sharh{
+    width: 600px;
+    margin: auto;
+    transform: translate(0px, -1031px);
+}
+.sharh h1{
+    font-size: 18px;
+}
+.baholash{
+    margin-top: 16px;
+    position: relative;
+    width: 600px;
+    height: 243px;
+    background-color: white;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+.yulduz{
+    position: absolute;
+}
+.yulduz h2{
+    font-size: 72px;
+    margin-top: 44px;
+    margin-left: 53px;
+}
+.yulduz i{
+    font-size: 18px;
+    margin-left: 5px;
+    color: #FFC02E;
+}
+.yulduz p{
+    font-size: 12px;
+    margin-left: 48px;
+}
+.yulduzchalar{
+    width: 450px;
+    height: 243px;
+    margin-left: 150px;
+}
+.yulduzcha{
+    margin-left: 50px;
+    margin-top: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.yulduzcha i{
+    font-size: 12px;
+    color: #9DA7BB;
+}
+.yulduzcha small{
+    font-size: 16px;
+    margin-left: 4px;
+}
+.chiziq5{
+    width: 188px;
+    height: 5px;
+    border-radius: 6px;
+    background-color: #1DD1A1;
+    margin-left: 18px;
+}
+.chiziq6{
+    width: 320px;
+    height: 5px;
+    border-radius: 6px;
+    background-color: #0085FF;
+    margin-left: 18px;
+}
+.chiziq7{
+    width: 123px;
+    height: 5px;
+    border-radius: 6px;
+    background-color: #FFC02E;
+    margin-left: 18px;
+}
+.chiziq8{
+    width: 22px;
+    height: 5px;
+    border-radius: 6px;
+    background-color: #D0021B;
+    margin-left: 18px;
+}
+.chiziq9{
+    width: 5px;
+    height: 5px;
+    border-radius: 6px;
+    background-color: #F4144A;
+    margin-left: 18px;
+}
+.sharh h6{
+    margin-top: 37px;
+    font-size: 18px;
+}
+.karta{
+    margin-top: 36px;
+    width: 600px;
+    height: 110px;
+}
+.karta img{
+    border-radius: 50%;
+}
+.karta h4{
+    font-size: 16px;
+    transform: translate(53px, -43px);
+}
+.karta p{
+    font-size: 14px;
+    color: #9DA7BB;
+    margin-left: 53px;
+    
+}
+.karta p{
+    font-size: 14px;
+}
+.karta i{
+    font-size: 10px;
+    color: #FFC02E;
+    transform: translate(138px, -40px);
+    margin-left: 3px;
+}
+.picture{
+    margin-top: 36px;
+    width: 600px;
+    height: 110px;
+    opacity: 0.2;
+}
+.picture img{
+    border-radius: 50%;
+}
+.picture h4{
+    font-size: 16px;
+    transform: translate(53px, -43px);
+}
+.picture p{
+    font-size: 14px;
+    color: #9DA7BB;
+    margin-left: 53px;
+    
+}
+.picture p{
+    font-size: 14px;
+}
+.picture i{
+    font-size: 10px;
+    color: #FFC02E;
+    transform: translate(138px, -40px);
+    margin-left: 3px;
+}
+.izohingiz{
+    width: 503px;
+    height: 98px;
+    background-color: white;
+    margin-top: 30px;
+    border: 1px solid rgba(157, 167, 187, 0.1);
+border-radius: 4px;
+}
+.izohingiz img{
+    margin-top: 19px;
+    margin-left: 12px;
+}
+.izohingiz p{
+    transform: translate(45px, -20px);
+    color: #9DA7BB;
+    font-size: 16px;
+}
+.izohingiz i{
+    transform: translate(3px, -17px);
+    font-size: 12px;
+    color: #FFC02E;
+    margin-left: 8px;
+}
+.izohingiz h6{
+    transform: translate(120px, -73px);
+    font-size: 14px;
+}
+.chiziq11{
+    background-color: #9DA7BB;
+    width: 503px;
+    height: 0px;
+    transform: translate(0px, -25px);
+}
+.otpravit{
+    transform: translate(380px, 16px);
+}

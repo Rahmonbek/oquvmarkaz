@@ -1,0 +1,8 @@
+.text8{
+    width: 600px;
+    margin: auto;
+    transform: translate(0px, -1031px);
+}
+.text8 p{
+    font-size: 14px;
+}
