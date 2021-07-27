@@ -13,18 +13,28 @@ letter-spacing: 0em;
 color: #2E2E2E;
 
 }
+.activebutton button:active{
+    background-color:#536DFD;
 
+}
+.card2:hover{
+    box-shadow: 0px 12px 45px 0px #536DFD40;  
+    scale: 1.05;
+}
+.card1:hover{   
+ box-shadow: 0px 12px 45px 0px #536DFD40;
+ scale: 1.05;
+} 
 .card1{
     height: 415px;
     border-radius: 4px;
     background: #FFFFFF;
-    box-shadow: 0px 2px 2px 0px #0000001A;    
-}
+  } 
 .card2{
     height: 415px;
     border-radius: 4px;
     background: #FFFFFF;
-    box-shadow: 0px 12px 45px 0px #536DFD40;
+   
 
 }
 .name1{
@@ -38,6 +48,14 @@ color: #2E2E2E;
     color: #2E2E2E;
 
 }
+.name2:hover{
+    color:#536DFD;
+}
+.name1:hover{
+    color:#536DFD;
+}
+
+
 .name2{
     padding-left: 20px;
 border-radius: nullpx;
@@ -46,7 +64,7 @@ font-size: 22px;
 line-height: 29px;
 letter-spacing: 0em;
 text-align: left;
-color: #536DFD;
+color: #2E2E2E;
 
 }
 .star2 i{
@@ -84,7 +102,21 @@ border-radius: 0px;
         padding-left: 10px;
     }
    
-       
+    .ycard2:hover{
+
+        box-shadow: 0px 12px 45px 0px #536DFD40;  
+        scale: 1.05;
+    }    
+    .ycard1:hover{
+
+        box-shadow: 0px 12px 45px 0px #536DFD40;  
+        scale: 1.05;
+    }   
+    .ycard3:hover{
+scale: 1.05;
+        box-shadow: 0px 12px 45px 0px #536DFD40;  
+
+    }   
     
     .ycard1{
 

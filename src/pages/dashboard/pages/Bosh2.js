@@ -26,7 +26,7 @@ export default class Bosh2 extends Component {
                <div className={stayle1.sarlavha} >Bizning eng top kurslarimizni ko'rib chiqing</div>
 <Container fluid="md"><Row lg={2} md={1} xs={1} style={{paddingTop:'60px'}}><Col style={{paddingBottom:'30px'}}>
    
-    <Card className={stayle1.card1} >
+    <Card  className={stayle1.card1} >
   <Card.Img style={{height:'188px'}} variant="top" src={images1} />
   <Card.Body>
     <Card.Title className={stayle1.name1}>  Java, Spring bo’yicha to’liq 
@@ -52,7 +52,7 @@ kurs. (amaliy)</Card.Title>
 <div style={{fontSize:'14px', opacity:'0.7'}}>Kurs narxi</div>
 <div  style={{fontSize:'18px',}}>370.000<span style={{paddingLeft:'5px',fontSize:'18px', opacity:'0.7'}}>uzs</span></div>
 </div>
-<div>
+<div className={stayle1.activebutton}>
 <Button variant="light" style={{position:'absolute',right:'0px',bottom:'0px',borderRadius:'50%',maginRight:'24px',textAlign:'right',  border: '1px solid #9DA7BB',margin:'auto'}}><i class="fa fa-arrow-right" style={{color:'#9DA7BB'}} aria-hidden="true"></i></Button> 
     </div></div>
 
@@ -88,7 +88,7 @@ proffessionalgacha</Card.Title>
 <div style={{fontSize:'14px', opacity:'0.7'}}>Kurs narxi</div>
 <div  style={{fontSize:'18px',}}>370.000<span style={{paddingLeft:'5px',fontSize:'18px', opacity:'0.7'}}>uzs</span></div>
 </div>
-<div>
+<div className={stayle1.activebutton}>
 <Button variant="light" style={{position:'absolute',right:'0px',bottom:'0px',borderRadius:'50%',maginRight:'24px',textAlign:'right',  border: '1px solid #9DA7BB',margin:'auto'}}><i class="fa fa-arrow-right" style={{color:'#9DA7BB'}} aria-hidden="true"></i></Button> 
     </div></div>
 
@@ -124,7 +124,7 @@ kurslari</Card.Title>
 <div style={{fontSize:'14px', opacity:'0.7'}}>Kurs narxi</div>
 <div  style={{fontSize:'18px',}}>370.000<span style={{paddingLeft:'5px',fontSize:'18px', opacity:'0.7'}}>uzs</span></div>
 </div>
-<div>
+<div className={stayle1.activebutton}>
 <Button variant="light" style={{position:'absolute',right:'0px',bottom:'0px',borderRadius:'50%',maginRight:'24px',textAlign:'right',  border: '1px solid #9DA7BB',margin:'auto'}}><i class="fa fa-arrow-right" style={{color:'#9DA7BB'}} aria-hidden="true"></i></Button> 
     </div></div>
 
@@ -163,7 +163,7 @@ kurslari</Card.Title>
 <div style={{fontSize:'14px', opacity:'0.7'}}>Kurs narxi</div>
 <div  style={{fontSize:'18px',}}>370.000<span style={{paddingLeft:'5px',fontSize:'18px', opacity:'0.7'}}>uzs</span></div>
 </div>
-<div>
+<div className={stayle1.activebutton}>
 <Button variant="light" style={{position:'absolute',right:'0px',bottom:'0px',borderRadius:'50%',maginRight:'24px',textAlign:'right',  border: '1px solid #9DA7BB',margin:'auto'}}><i class="fa fa-arrow-right" style={{color:'#9DA7BB'}} aria-hidden="true"></i></Button> 
     </div></div>
 
@@ -199,7 +199,7 @@ kurslari</Card.Title>
 <div style={{fontSize:'14px', opacity:'0.7'}}>Kurs narxi</div>
 <div  style={{fontSize:'18px',}}>370.000<span style={{paddingLeft:'5px',fontSize:'18px', opacity:'0.7'}}>uzs</span></div>
 </div>
-<div>
+<div className={stayle1.activebutton}>
 <Button variant="light" style={{position:'absolute',right:'0px',bottom:'0px',borderRadius:'50%',maginRight:'24px',textAlign:'right',  border: '1px solid #9DA7BB',margin:'auto'}}><i class="fa fa-arrow-right" style={{color:'#9DA7BB'}} aria-hidden="true"></i></Button> 
     </div></div>
 
