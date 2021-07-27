@@ -84,7 +84,7 @@ grid=(a)=>{
                     <img className={style.img} src={img2} />
                     <button className={style.btn}>Dasturlash</button>
                         <div className={style.card_body}>
-                            <div style={{color:'#536DFD'}} className={style.card_title}>Raspberry Pi dasturlash <br/> asoslari</div>
+                            <div className={style.card_title}>Raspberry Pi dasturlash <br/> asoslari</div>
                             <div className={style.card_info}>
                                 <div className={style.card_text} >       <div className="App">
       <ReactStars style={{fontSize:'10px'}} {...thirdExample} />

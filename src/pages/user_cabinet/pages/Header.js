@@ -1,5 +1,5 @@
 import React, { Component, useState } from 'react'
-import {DropdownButton, Dropdown, Button } from 'react-bootstrap'
+import {DropdownButton, Dropdown, Button, NavbarBrand } from 'react-bootstrap'
 import style from '../css/Header.module.css'
 import cx from 'classnames'
 import logo1 from '../img/logo1.png'
@@ -48,9 +48,9 @@ else{
             <div>
                 <header>
                     <div className={style.header_top}>
-                        <div className={style.container}>
+                        <div className={style.container} >
                             <div className={style.col_6}>
-                                <div className={style.logo}>
+                               <div className={style.logo} >
                                     <span>PDP</span><img className={style.logo1} src={logo1} /><img className={style.logo2} src={logo2} />
                                     <h2>St<img src={vector} />rm</h2>
                                 </div>
