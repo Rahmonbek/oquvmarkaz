@@ -8,9 +8,10 @@ export default class FreeApp extends Component {
         return (
             <div>
              <Header />
+               <Main /> 
+              <About />
              <Footer />
-             <About />
-             <Main /> 
+            
             </div>
         )
     }
