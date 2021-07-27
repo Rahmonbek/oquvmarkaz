@@ -1,0 +1,18 @@
+.cardall{
+width:20%;
+display:block;
+
+position:relative;
+}
+.dasturlash{
+    position:absolute;
+display: flex;
+justify-content:center;
+align-items: center;
+height: 22px;
+width: 94px;
+margin-left: 24px;
+top: 10px;
+border-radius: 2px;
+background-color: #10C8A0;
+}
