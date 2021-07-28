@@ -13,6 +13,63 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+}
+
+.navbar .icons .filter_menu {
+    width: 458px;
+height: 230px;
+padding: 17px 24px;
+background-color: #fff;
+border: 1px solid #F1F2F6;
+box-sizing: border-box;
+box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+position: absolute;
+top: 50px;
+left: -370px;
+z-index: 20;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.filter_menu .type_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.filter_menu .type h5, .filter_menu .rate h5 {
+    font-size: 14px;
+line-height: 17px;
+color: #2E2E2E;
+margin-bottom: 17px;
+}
+.filter_menu .rate h5 {
+    margin-bottom: 14px;
+}
+.filter_menu .type h6{
+    margin-left: 10px;
+}
+.filter_menu .type h6, .filter_menu .rate h6 {
+    font-size: 14px;
+line-height: 17px;
+color: #9DA7BB;
+}
+.filter_menu .rate {
+    transform: translate(-50px, -30px);
+}
+.filter_menu .rate .type_box {
+    margin-bottom: -14px;
+}
+.filter_menu .rate h6 {
+    transform: translate(7px, -5px);
+}
+.App {
+    display: flex;
+    align-items: flex-end;
+    width: 310px;
+    transform: translateY(-4px);
+    margin-left: 5px;
 }
 .icons .filter {
     display: flex;
@@ -20,9 +77,13 @@
     justify-content: space-between;
     padding: 5px 11px;
     border: 1px solid #ececec6b;
-box-sizing: border-box;
-border-radius: 4px;
-cursor: pointer;
+    box-sizing: border-box;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+}
+.icons .filter:hover {
+    border: 1px solid #949494;
 }
 .icons .filter img {
     width: 14px;

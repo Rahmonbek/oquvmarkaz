@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {Form, Check} from 'react-bootstrap'
 import style from '../css/Courses.module.css'
 import filter from '../img/filter.png'
 import squares from '../img/squares.png'
@@ -16,7 +17,8 @@ import ReactStars from "react-rating-stars-component";
 export default class Courses extends Component {
 
 state={
-    grid:true
+    grid:true,
+    showFilter:false
 }
 
 grid=(a)=>{
@@ -25,6 +27,11 @@ grid=(a)=>{
     })
 }
 
+openFilter=()=>{
+    this.setState({
+        showFilter:!this.state.showFilter
+    })
+}
 
     render() {
         const thirdExample = {
@@ -47,9 +54,59 @@ grid=(a)=>{
                             <i class="fa fa-search" aria-hidden="true"></i>
                         </div>
                         <div className={style.icons}>
-                            <div className={style.filter}>
-                            <img src={filter} />Filter
-                            </div>
+                            <div onClick={()=>{this.openFilter()}} className={style.filter}><img src={filter} />Filter</div>
+                            {
+                                this.state.showFilter?
+                                    <div className={style.filter_menu}>
+                                        <div className={style.type}>
+                                            <h5>Tartiblash turlari</h5>
+                                            <div className={style.type_box}>
+                                                <Form.Check aria-label="option 1" />
+                                                <h6>Yangi kurslar</h6>
+                                            </div>
+                                            <div className={style.type_box}>
+                                                <Form.Check aria-label="option 1" />
+                                                <h6>Ko’p ko’rilganlar</h6>
+                                            </div>
+                                            <div className={style.type_box}>
+                                                <Form.Check aria-label="option 1" />
+                                                <h6>Eng baland narx</h6>
+                                            </div>
+                                            <div className={style.type_box}>
+                                                <Form.Check aria-label="option 1" />
+                                                <h6>Eng past narx</h6>
+                                            </div>
+                                            <div className={style.type_box}>
+                                                <Form.Check aria-label="option 1" />
+                                                <h6>A-Z bo’yicha</h6>
+                                            </div>
+                                            <div className={style.type_box}>
+                                                <Form.Check aria-label="option 1" />
+                                                <h6>Z-A bo’yicha</h6>
+                                            </div>
+                                        </div>
+                                        <div className={style.rate}>
+                                            <h5>Reyting bo’yicha</h5>
+                                            <div className={style.type_box}>
+                                                <Form.Check aria-label="option 1" />
+                                                <div className={style.App}><ReactStars {...thirdExample} /><h6>5.0</h6></div>
+                                            </div>
+                                            <div className={style.type_box}>
+                                                <Form.Check aria-label="option 1" />
+                                                <div className={style.App}><ReactStars {...thirdExample} /><h6>4.0 dan yuqori</h6></div>
+                                            </div>
+                                            <div className={style.type_box}>
+                                                <Form.Check aria-label="option 1" />
+                                                <div className={style.App}><ReactStars {...thirdExample} /><h6>3.0 dan yuqori</h6></div>
+                                            </div>
+                                            <div className={style.type_box}>
+                                                <Form.Check aria-label="option 1" />
+                                                <div className={style.App}><ReactStars {...thirdExample} /><h6>3.0 dan past</h6></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                :null
+                            }
                             <img id="squares"  onClick={()=>{this.grid(true)}} className={style.squares} src={squares} />
                             <img id="list"  onClick={()=>{this.grid(false)}} className={style.list}  src={list} />                           
                         </div>
