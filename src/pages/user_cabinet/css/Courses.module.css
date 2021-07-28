@@ -76,45 +76,35 @@ color: #9DA7BB;
     align-items: center;
     justify-content: space-between;
     padding: 5px 11px;
-    border: 1px solid #ececec6b;
+    border: 1px solid #c0c0c06b;
     box-sizing: border-box;
     border-radius: 4px;
     cursor: pointer;
     position: relative;
 }
 .icons .filter:hover {
-    border: 1px solid #949494;
+    border: 1px solid #c4c4c4;
 }
 .icons .filter img {
     width: 14px;
     height: 12px;
     margin-right: 10px;
 }
-.icons .squares {
-    width: 24px;
-    height: 22px;
-    margin-left: 30px;
+.icons i {
+    font-size: 25px;
+    margin-left: 12px;
     cursor: pointer;
     transition: 0.3s;
+    color: #b6bbc7;
 }
-.icons .squares:hover {
-    transform: scale(1.1);
+.icons i:hover {
+    transform: scale(1.05);
 }
-.icons .list {
-    width: 28px;
-    height: 28px;
-    margin-top: 5px;
-    margin-left: 19px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-.icons .list:hover {
-    transform: scale(1.1);
-}
+
 .search i {
     color:#9DA7BB;
     font-size: 17px;
-    transform: translateX(-30px);
+    transform: translate(-30px, 2px);
     cursor: pointer;
     transition: 0.3s;
 }
@@ -131,8 +121,9 @@ color: #9DA7BB;
     outline: none;
     transition: 0.3s;
 }
-.search input:hover{
-    border: 1px solid #6d6d6d;
+.search input:focus-visible{
+    background: #dbdbdbc9;
+    color: rgb(66, 66, 66);
 }
 .search input::placeholder{
     width: auto;

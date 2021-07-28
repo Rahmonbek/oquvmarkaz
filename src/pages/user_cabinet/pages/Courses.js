@@ -2,10 +2,6 @@ import React, { Component } from 'react'
 import {Form, Check} from 'react-bootstrap'
 import style from '../css/Courses.module.css'
 import filter from '../img/filter.png'
-import squares from '../img/squares.png'
-import squares2 from '../img/squares2.png'
-import list from '../img/list.png'
-import list2 from '../img/list2.png'
 import img1 from '../img/img1.png'
 import img2 from '../img/img2.png'
 import button from '../img/button.png'
@@ -23,7 +19,7 @@ state={
 
 grid=(a)=>{
     this.setState({
-        grid:a
+        grid:a,
     })
 }
 
@@ -107,8 +103,8 @@ openFilter=()=>{
                                     </div>
                                 :null
                             }
-                            <img id="squares"  onClick={()=>{this.grid(true)}} className={style.squares} src={squares} />
-                            <img id="list"  onClick={()=>{this.grid(false)}} className={style.list}  src={list} />                           
+                            <i class="fas fa-th-large" id="grid"  onClick={()=>{this.grid(true)}}></i>
+                            <i class="fas fa-th-list"  id="list"  onClick={()=>{this.grid(false)}}></i>                            
                         </div>
                     </div>
                 </div>
@@ -120,9 +116,10 @@ openFilter=()=>{
                         <div className={style.card_body}>
                             <div  className={style.card_title}>Ishlab chiquvchilar uchun AWS: ECS va ko'p mintaqali yuklarni muvozanatlash</div>
                             <div style={{marginTop:'-20px'}} className={style.card_info}>
+                            
                                 <div className={style.card_text}>       <div className="App">
-      <ReactStars style={{fontSize:'10px'}} {...thirdExample} />
-    </div><span>4.1  <span className={style.span}>(524)</span></span></div>
+                                    <ReactStars style={{fontSize:'10px'}} {...thirdExample} />
+                                    </div><span>4.1  <span className={style.span}>(524)</span></span></div>
                                 <div className={style.card_footer}>
                                     <div className={style.hajm}>
                                         <span>Kurs hajmi</span>
@@ -144,8 +141,8 @@ openFilter=()=>{
                             <div className={style.card_title}>Raspberry Pi dasturlash <br/> asoslari</div>
                             <div className={style.card_info}>
                                 <div className={style.card_text} >       <div className="App">
-      <ReactStars style={{fontSize:'10px'}} {...thirdExample} />
-    </div><span>4.1  <span className={style.span}>(524)</span></span></div>
+                                    <ReactStars style={{fontSize:'10px'}} {...thirdExample} />
+                                    </div><span>4.1  <span className={style.span}>(524)</span></span></div>
                                 <div className={style.card_footer}>
                                     <div className={style.hajm}>
                                         <span>Kurs hajmi</span>
