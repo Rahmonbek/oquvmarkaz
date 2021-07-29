@@ -31,6 +31,7 @@ import Ellipse1 from '../images/Ellipse (1).png'
 
 
 import Navbar from './Navbar'
+import Footer from '../../user_cabinet/pages/Footer'
 
 
 export default class Bod extends Component {
@@ -222,8 +223,11 @@ export default class Bod extends Component {
 
                     <div className={style.all1} style={{  width:'1380px', height:'378px',position: 'absolute',left: '0px',background: 'white',top:'1344px'}}>
                  
-            <div className={style.footer_top} style={{width: '100%',height: '40px',background: '#F1F2F6',}}></div>
-            <div className={style.container} style={{width: '80%',margin:'auto',}}>
+<Footer />
+
+
+            {/* <div className={style.footer_top} style={{width: '100%',height: '40px',background: '#F1F2F6',}}></div> */}
+            {/* <div className={style.container} style={{width: '80%',margin:'auto',}}>
                 <div className={style.row} style={{display: 'flex',alignItems: 'flex-start',flexDirection: 'row',justifyContent: 'space-between',marginTop: '40px',}}>
                     <div className={style.col-3}>
                         <h4 className={style.konesh4} style={{fontSize: '18px',lineHeight: '21px',color: '#2E2E2E',marginBottom: '29px',}}>Asosiy</h4>
@@ -272,29 +276,14 @@ export default class Bod extends Component {
                 <p className={style.footer} style={{fontSize: '10px',color: '#9DA7BB',marginTop: '39px',display: 'flex', alignItems: 'center',marginBottom: '16px',}}>
                     © 2019 storm.uz<div className={style.line} style={{margin: '0 14px',width: '1px',height: '8px',backgroundColor:'#9DA7BB',}}></div>
                 Personel Development Process LLC<div className={style.line} style={{margin: '0 14px',width: '1px',height: '8px',backgroundColor:'#9DA7BB',}}></div>Foydalanish shartlari</p>
-            </div></div>
+        </div>*/}
+        
+        
+        </div>
                    
             
             {/* width: '30px',height: '30px',borderRadius: '50%'',backgroundColor:'#dbdbdbbd',display: 'flex',alignItems: 'center',justifyContent: 'center',marginRight: '20px', */}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                       </div>
+   </div>
 
 
                    

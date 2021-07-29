@@ -1,5 +1,6 @@
 import React, { Component, useState } from 'react'
-import {DropdownButton, Dropdown, Button, NavbarBrand } from 'react-bootstrap'
+import '../../../App'
+import {Dropdown, Button} from 'react-bootstrap'
 import style from '../css/Header.module.css'
 import cx from 'classnames'
 import logo1 from '../img/logo1.png'
@@ -21,7 +22,7 @@ import man1 from '../img/man1.png';
 import man2 from '../img/man2.png';
 import man3 from '../img/man3.png';
 import right1 from '../img/right1.png';
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 function Header() {
         const [show, setShow] = useState(false);
@@ -60,9 +61,9 @@ else{
                                     </Dropdown.Toggle>
 
                                     <Dropdown.Menu>
-                                        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                                        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                                        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                                        <Dropdown.Item><NavLink to="../../../App/">About</NavLink></Dropdown.Item>
+                                        <Dropdown.Item>Another action</Dropdown.Item>
+                                        <Dropdown.Item>Something else</Dropdown.Item>
                                     </Dropdown.Menu>
                                 </Dropdown>
                             </div>
@@ -73,9 +74,9 @@ else{
                                     </Dropdown.Toggle>
 
                                     <Dropdown.Menu>
-                                        <Dropdown.Item href="#/action-1">Uzbek</Dropdown.Item>
-                                        <Dropdown.Item href="#/action-2">Russian</Dropdown.Item>
-                                        <Dropdown.Item href="#/action-3">English</Dropdown.Item>
+                                        <Dropdown.Item>Uzbek</Dropdown.Item>
+                                        <Dropdown.Item>Russian</Dropdown.Item>
+                                        <Dropdown.Item>English</Dropdown.Item>
                                     </Dropdown.Menu>
                                 </Dropdown>
                                 <Button className={style.but}>KIRISH</Button>

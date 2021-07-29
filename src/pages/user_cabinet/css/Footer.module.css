@@ -28,6 +28,11 @@
     font-size: 14px;
     line-height: 17px;
     color: #9DA7BB;
+    transition: .3s;
+}
+.row p:hover{
+    color: #000000;
+    transform: scale(1.05);
 }
 .row .payments {
     display: flex;
@@ -39,9 +44,16 @@
     height: 41px;
     padding: 0 16px;
 }
+.row .payments:hover {
+    border: 1px solid rgb(214, 214, 214);
+}
 .row .payments img {
     width: 50px;
     cursor: pointer;
+    transition: .3s;
+}
+.row .payments img:hover {
+    transform: scale(1.1);
 }
 .row1 {
     display: flex;
@@ -62,6 +74,11 @@
     align-items: center;
     justify-content: center;
     margin-right: 20px;
+    transition: .3s;
+}
+.row1 .payments a:hover {
+    background: #000000;
+    transform: scale(1.1);
 }
 .row .payments img {
     display: flex;
@@ -82,6 +99,10 @@ color: #FFFFFF;
 border: none;
 background: #9DA7BB;
 border-radius: 4px;
+transition: .3s;
+}
+.row1 .btn:hover {
+    background: #000000;
 }
 .footer {
     font-size: 10px;
