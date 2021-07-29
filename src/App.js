@@ -31,7 +31,7 @@ export default class App extends Component {
                 <Example />
               </Route>
 
-              <Route exact path="/freeapp">
+              <Route exact path="/course">
                 <FreeApp />
               </Route>
          </Switch>

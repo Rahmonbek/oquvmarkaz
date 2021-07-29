@@ -4,7 +4,7 @@ display:block;
 position:relative;
 }
 @media (max-width: 767px){
-    .cardall{
+    .cardall{ 
         width:100%;
         margin: auto;
     }

@@ -56,10 +56,10 @@ export default class Bosh extends Component {
                   </Dropdown.Toggle>
 
                   <Dropdown.Menu>
-                    <Dropdown.Item href="/freeapp">
+                    <Dropdown.Item href="/course">
                       Course List
                       <BrowserRouter>
-                        <Link style={{ color: "white" }} to="/freeapp">
+                        <Link  to="/course">
                           Course List
                         </Link>
                       </BrowserRouter>
