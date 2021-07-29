@@ -1,439 +1,498 @@
-import React, { Component } from "react";
-import pi from "../images/pi.png";
-import ios1 from "../images/ios1.png";
-import ios2 from "../images/ios2.png";
-import ios3 from "../images/ios3.png";
-import ellips1 from "../images/ellips1.png";
-import ellips2 from "../images/ellips2.png";
-import ellips3 from "../images/ellips3.png";
-import ellips4 from "../images/ellips4.png";
-import rasmcha from "../images/rasmcha.png";
-import style from "../css/Main.module.css";
-export default class Main extends Component {
-  render() {
-    const video = "https://youtu.be/9sb_zuHGmY4";
-    return (
-      <div>
-        <div className={style.main}>
-          <div className="container-fluid">
-            <div className="row">
-              <div className="col-lg-3">
-                <form>
-                  <input
-                    style={{
-                      marginTop: "24px",
-                      fontSize: "14px",
-                      width: "330px",
-                      height: "40px",
-                    }}
-                    class="form-control me-2"
-                    type="search"
-                    placeholder="Qanday kurs o'rganmoqchisiz"
-                    aria-label="Search"
-                  />
-                </form>
-                <div className={style.kurslar}>
-                  <div className="container-fluid">
-                    <div className="row">
-                      <button
-                        class="btn"
-                        type="button"
-                        style={{
-                          width: "70px",
-                          height: "25px",
-                          marginTop: "12px",
-                        }}
-                      >
-                        #Dizayn
-                      </button>
-                      <button
-                        class="btn"
-                        type="button"
-                        style={{
-                          width: "87px",
-                          height: "25px",
-                          marginTop: "12px",
-                          marginLeft: "10px",
-                        }}
-                      >
-                        #Marketing
-                      </button>
-                      <button
-                        class="btn"
-                        type="button"
-                        style={{
-                          width: "67px",
-                          height: "25px",
-                          marginTop: "12px",
-                          marginLeft: "10px",
-                        }}
-                      >
-                        #Biznes
-                      </button>
-                      <button
-                        class="btn"
-                        type="button"
-                        style={{
-                          width: "48px",
-                          height: "25px",
-                          marginTop: "12px",
-                          marginLeft: "10px",
-                        }}
-                      >
-                        #Web
-                      </button>
-                      <button
-                        class="btn"
-                        type="button"
-                        style={{
-                          width: "101px",
-                          height: "25px",
-                          marginTop: "10px",
-                        }}
-                      >
-                        #Buxgalteriya
-                      </button>
-                      <button
-                        class="btn"
-                        type="button"
-                        style={{
-                          width: "88px",
-                          height: "25px",
-                          marginTop: "10px",
-                          marginLeft: "10px",
-                        }}
-                      >
-                        #Salomatlik
-                      </button>
-                      <button
-                        class="btn"
-                        type="button"
-                        style={{
-                          width: "93px",
-                          height: "25px",
-                          marginTop: "10px",
-                          marginLeft: "10px",
-                        }}
-                      >
-                        #Dasturlash
-                      </button>
-                    </div>
-                  </div>
-                  <h3
-                    style={{
-                      fontSize: "14px",
-                      marginLeft: "16px",
-                      marginTop: "18px",
-                    }}
-                  >
-                    DASTURLASH{" "}
-                  </h3>
-                  <div className="container-fluid">
-                    <div className="row">
-                      <div className="col-lg-12">
-                        <div className={style.card}>
-                          <div className={style.cardImg}>
-                            <img src={ios1} />
-                          </div>
-                          <div className={style.cardText}>
-                            <h5>
-                              RESTful API-larni yaratish
-                              <br /> bo’yicha amaliy topshiriqlar
-                            </h5>
-                            <p>
-                              Lorem ipsum dolor sit amet, consectetur
-                              <br /> dolor sit amet. . . .
-                            </p>
-                            <div className={style.chiziq}></div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-lg-12">
-                        <div className={style.card}>
-                          <div className={style.cardImg}>
-                            <img src={ios2} />
-                          </div>
-                          <div className={style.cardText}>
-                            <h5>
-                              Ishlab chiquvchilar uchun AWS:
-                              <br /> ECS va ko'p mintaqali yuklarni. .{" "}
-                            </h5>
-                            <p>
-                              Lorem ipsum dolor sit amet, consectetur
-                              <br /> dolor sit amet. . . .
-                            </p>
-                            <div className={style.chiziq}></div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-lg-12">
-                        <div className={style.card}>
-                          <div className={style.cardImg}>
-                            <img src={ios3} />
-                          </div>
-                          <div className={style.cardText}>
-                            <h5>
-                              iOS bo’yicha dastulash
-                              <br /> kurslari
-                            </h5>
-                            <p>
-                              Lorem ipsum dolor sit amet, consectetur
-                              <br /> dolor sit amet. . . .
-                            </p>
-                            <div className={style.chiziq}></div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-lg-12">
-                        <div className={style.card}>
-                          <div className={style.cardImg}>
-                            <img src={ios2} />
-                          </div>
-                          <div className={style.cardText}>
-                            <h5>
-                              RESTful API-larni yaratish
-                              <br /> bo’yicha amaliy topshiriqlar
-                            </h5>
-                            <p>
-                              Lorem ipsum dolor sit amet, consectetur
-                              <br /> dolor sit amet. . . .
-                            </p>
-                            <div className={style.chiziq}></div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-lg-12">
-                        <div className={style.card}>
-                          <div className={style.cardImg}>
-                            <img src={ios3} />
-                          </div>
-                          <div className={style.cardText}>
-                            <h5>
-                              RESTful API-larni yaratish
-                              <br /> bo’yicha amaliy topshiriqlar
-                            </h5>
-                            <p>
-                              Lorem ipsum dolor sit amet, consectetur
-                              <br /> dolor sit amet. . . .
-                            </p>
-                            <div className={style.chiziq}></div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-lg-12">
-                        <div className={style.card}>
-                          <div className={style.cardImg}>
-                            <img src={ios1} />
-                          </div>
-                          <div className={style.cardText}>
-                            <h5>
-                              Ishlab chiquvchilar uchun AWS:
-                              <br /> ECS va ko'p mintaqali yuklarni. .
-                            </h5>
-                            <p>
-                              Lorem ipsum dolor sit amet, consectetur
-                              <br /> dolor sit amet. . . .
-                            </p>
-                            <div className={style.chiziq}></div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-lg-12">
-                        <div className={style.card}>
-                          <div className={style.cardImg}>
-                            <img src={ios3} />
-                          </div>
-                          <div className={style.cardText}>
-                            <h5>
-                              iOS bo’yicha dastulash
-                              <br /> kurslari
-                            </h5>
-                            <p>
-                              Lorem ipsum dolor sit amet, consectetur
-                              <br /> dolor sit amet. . . .
-                            </p>
-                            <div className={style.chiziq}></div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-lg-12">
-                        <div className={style.card}>
-                          <div className={style.cardImg}>
-                            <img src={ios2} />
-                          </div>
-                          <div className={style.cardText}>
-                            <h5>
-                              RESTful API-larni yaratish
-                              <br /> bo’yicha amaliy topshiriqlar
-                            </h5>
-                            <p>
-                              Lorem ipsum dolor sit amet, consectetur
-                              <br /> dolor sit amet. . . .
-                            </p>
-                            <div className={style.chiziq}></div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-lg-12">
-                        <div className={style.card}>
-                          <div className={style.cardImg}>
-                            <img src={ios1} />
-                          </div>
-                          <div className={style.cardText}>
-                            <h5>
-                              Ishlab chiquvchilar uchun AWS:
-                              <br /> ECS va ko'p mintaqali yuklarni. .
-                            </h5>
-                            <p>
-                              Lorem ipsum dolor sit amet, consectetur
-                              <br /> dolor sit amet. . . .
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-6">
-                <div className={style.imgLarge}>
-                  <img src={pi} />
-                </div>
-                <div className={style.rate}>
-                  <h1>Raspberry Pi dasturlash asoslari</h1>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i style={{ color: "#9DA7BB" }} class="fa fa-star"></i>
-                  <h2>4.1</h2>
-                  <p>(524)</p>
-                  <div className={style.share}>
-                    <i class="fa fa-share-alt"></i>
-                    <a>Ulashish</a>
-                  </div>
-                </div>
-                <div className={style.follow}>
-                  <img src={rasmcha} />
-                  <p>Muhammad Jumayev</p>
-                  <div className={style.obuna}>
-                    <a style={{ color: "white" }}>Obuna bo'lish</a>
-                  </div>
-                </div>
-              </div>
+import React from "react";
+import styles from "../css/Main.module.css";
+// import styles from "../css/MainTwo.module.css";
+import { Container, Form } from "react-bootstrap";
+import "video-react/dist/video-react.css"; // import css
+import videos from "../images/videos.png";
+import { Player, BigPlayButton } from "video-react";
+import { withStyles } from "@material-ui/core/styles";
+import ListItemIcon from "@material-ui/core/ListItemIcon";
+import ListItemText from "@material-ui/core/ListItemText";
+import InboxIcon from "@material-ui/icons/MoveToInbox";
+import DraftsIcon from "@material-ui/icons/Drafts";
+import SendIcon from "@material-ui/icons/Send";
+import { FiCopy } from "react-icons/fi";
+import { makeStyles } from "@material-ui/core/styles";
+import Rating from "@material-ui/lab/Rating";
+import Box from "@material-ui/core/Box";
+import Button from "@material-ui/core/Button";
+import Menu from "@material-ui/core/Menu";
+import MenuItem from "@material-ui/core/MenuItem";
+import { IoShareSocialOutline } from "react-icons/io5";
+import { FaTelegramPlane, FaFacebookF } from "react-icons/fa";
+import { GoMail } from "react-icons/go";
+import person from "../images/person.png";
+import Asking from "./about/Asking";
+import Comment from "./about/Comment";
+import CourseAbout from "./about/CourseAbout";
+import WhatLearning from "./about/WhatLearning";
+import Card1 from './Function/Card1'
+import { Navbar, Nav } from "react-bootstrap";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  NavLink,
+  Link,
+} from "react-router-dom";
+const useStyles = makeStyles({
+  root: {
+    width: 200,
+    display: "flex",
+    alignItems: "center",
+  },
+});
 
-              <div className="col-lg-3">
-                <div className={style.info}>
-                  <div className={style.bt}>
-                    <button
-                      class="btn"
-                      type="button"
-                      style={{
-                        width: "94px",
-                        height: "22px",
-                        marginLeft: "24px",
-                        backgroundColor: "#10C8A0",
-                        color: "white",
-                        fontSize: "14px",
-                        borderRadius: "2px",
-                        display: "flex",
-                        justifyContent: "center",
-                        alignItems: "center",
-                      }}
-                    >
-                      Dasturlash
-                    </button>
-                  </div>
-                  <div className="container">
-                    <div className="row">
-                      <div className="col-lg-6">
-                        <div className={style.infoText}>
-                          <p>Kurs narxi</p>
-                          <h2>250.000</h2>
-                          <h4>UZS</h4>
-                        </div>
-                      </div>
-                      <div className="col-lg-6">
-                        <div className={style.infoText}>
-                          <p>Kurs hajmi</p>
-                          <h2>38 soat</h2>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <h1
-                    style={{
-                      fontSize: "16px",
-                      marginLeft: "24px",
-                      marginTop: "51px",
-                    }}
-                  >
-                    Kurs bo’limlari:
-                  </h1>
-                </div>
+const labels = {
+  0.1: "0.1",
+  0.2: "0.2",
+  0.3: "0.3",
+  0.4: "0.4",
+  0.5: " 0.5",
+  0.6: " 0.6",
+  0.7: " 0.7",
+  0.8: " 0.8",
+  0.9: " 0.9",
+  1: "1",
+  1.1: "1.1",
+  1.2: "1.2",
+  1.3: "1.3",
+  1.4: "1.4",
+  1.5: "1.5",
+  1.6: "1.6",
+  1.7: "1.7",
+  1.8: "1.8",
+  1.9: "1.9",
+  2: "2",
+  2.1: "2.1",
+  2.2: "2.2",
+  2.3: "2.3",
+  2.4: "2.4",
+  2.5: "2.5",
+  2.6: "2.6",
+  2.7: "2.7",
+  2.8: "2.8",
+  2.9: "2.9",
+  3: "3",
+  3.1: "3.1",
+  3.2: "3.2",
+  3.3: "3.3",
+  3.4: "3.4",
+  3.5: "3.5",
+  3.6: "3.6",
+  3.7: "3.7",
+  3.8: "3.8",
+  3.9: "3.9",
+  4: "4",
+  4.1: "4.1",
+  4.2: "4.2",
+  4.3: "4.3",
+  4.4: "4.4",
+  4.5: "4.5",
+  4.6: "4.6",
+  4.7: "4.7",
+  4.8: "4.8",
+  4.9: "4.9",
+  5: "5",
+};
+const CourseList = [
+  {
+    id: 1,
+    img: "https://lh3.googleusercontent.com/COZwDu2hn4yHFr04zMfJS2z6_VIkbgzyukJ-lV8f_jHAT00cmiwEt9yl2yuC4E2gcMUl3A=s70",
+    title: "RESTful API-larni yaratish bo’yicha amaliy topshiriqlar      ",
+    smallText: "Lorem ipsum dolor sit amet, consectetur dolor sit amet. . . .",
+  },
+  {
+    id: 2,
+    img: "https://lh3.googleusercontent.com/YSHYJi176-ynoIy3JSQ3f3SnflZycQ0h817zU6ztAQ3jCiNZO4XcsQ9YCUbvFDKLY_t7=s70",
+    title: `Ishlab chiquvchilar uchun AWS: ECS va ko'p mintaqali yuklarni. .
+    `,
+    smallText: "Lorem ipsum dolor sit amet, consectetur dolor sit amet. . . .",
+  },
+  {
+    id: 3,
+    img: "https://lh3.googleusercontent.com/0cJpX793suEWPclb9hC4mlRCzfkfdyVBh_Sv80BEdKl-2TibwiR44t4DYJBrSQ8a-KiNOQ=s70",
+    title: `iOS bo’yicha dastulash kurslari
+    `,
+    smallText: "Lorem ipsum dolor sit amet, consectetur dolor sit amet. . . .",
+  },
+  {
+    id: 4,
+    img: "https://lh3.googleusercontent.com/y2xjXOzUl9BlWRd2ooReOPL0UlLJJD_5VD_DcuWQ1SfhJ_XIglTkB8uz3aLP2O_U5xup6w=s70",
+    title: "RESTful API-larni yaratish bo’yicha amaliy topshiriqlar    ",
+    smallText: "Lorem ipsum dolor sit amet, consectetur dolor sit amet. . . .",
+  },
+  {
+    id: 5,
+    img: "https://lh3.googleusercontent.com/COZwDu2hn4yHFr04zMfJS2z6_VIkbgzyukJ-lV8f_jHAT00cmiwEt9yl2yuC4E2gcMUl3A=s70",
+    title: `RESTful API-larni yaratish bo’yicha amaliy topshiriqlar     `,
+    smallText: "Lorem ipsum dolor sit amet, consectetur dolor sit amet. . . .",
+  },
+  {
+    id: 6,
+    img: "https://lh3.googleusercontent.com/YSHYJi176-ynoIy3JSQ3f3SnflZycQ0h817zU6ztAQ3jCiNZO4XcsQ9YCUbvFDKLY_t7=s70",
+    title: `Ishlab chiquvchilar uchun AWS: ECS va ko'p mintaqali yuklarni. .`,
+    smallText: "Lorem ipsum dolor sit amet, consectetur dolor sit amet. . . .",
+  },
+  {
+    id: 7,
+    img: "https://lh3.googleusercontent.com/0cJpX793suEWPclb9hC4mlRCzfkfdyVBh_Sv80BEdKl-2TibwiR44t4DYJBrSQ8a-KiNOQ=s70",
+    title: "iOS bo’yicha dastulash kurslari ",
+    smallText: "Lorem ipsum dolor sit amet, consectetur dolor sit amet. . . .",
+  },
+  {
+    id: 8,
+    img: "https://lh3.googleusercontent.com/y2xjXOzUl9BlWRd2ooReOPL0UlLJJD_5VD_DcuWQ1SfhJ_XIglTkB8uz3aLP2O_U5xup6w=s70",
+    title: "RESTful API-larni yaratish bo’yicha amaliy topshiriqlar    ",
+    smallText: "Lorem ipsum dolor sit amet, consectetur dolor sit amet. . . .",
+  },
+  {
+    id: 9,
+    img: "https://lh3.googleusercontent.com/YSHYJi176-ynoIy3JSQ3f3SnflZycQ0h817zU6ztAQ3jCiNZO4XcsQ9YCUbvFDKLY_t7=s70",
+    title: `Ishlab chiquvchilar uchun AWS: ECS va ko'p mintaqali yuklarni. .
+    `,
+    smallText: "Lorem ipsum dolor sit amet, consectetur dolor sit amet. . . .",
+  },
+];
 
-                <div className={style.courses}>
-                  <div className={style.courseText}>
-                    <h4>Boshqa Mentorlar</h4>
-                  </div>
-                  <div className={style.strelka1}>
-                    <i class="fa fa-arrow-left"></i>
-                  </div>
-                  <div className={style.strelka2}>
-                    <i class="fa fa-arrow-right"></i>
-                  </div>
-                  <div className={style.chiziq2}></div>
-                  <div className={style.rasmlar}>
-                    <div className="container-fluid">
-                      <div className="row">
-                        <div className="col-lg-6">
-                          <div className={style.rasm1}>
-                            <img src={ellips1} />
-                            <div className={style.text4}>
-                              <b>Bessie Watson</b>
-                              <p>Arxitektor</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-lg-6">
-                          <div className={style.rasm2}>
-                            <img src={ellips2} />
-                            <div className={style.text4}>
-                              <b>Arlene Hawkins</b>
-                              <p>Dasturchi</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-lg-6">
-                          <div className={style.rasm3}>
-                            <img src={ellips3} />
-                            <div className={style.text4}>
-                              <b>Philip Pena</b>
-                              <p>Dizayner</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-lg-6">
-                          <div className={style.rasm4}>
-                            <img src={ellips4} />
-                            <div className={style.text4}>
-                              <b>Soham Alexander</b>
-                              <p>Dizayner</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+export default function FirstBody() {
+  const [join, setJoin] = React.useState(true);
+  const [value, setValue] = React.useState(2);
+  const [hover, setHover] = React.useState(-1);
+  const classes = useStyles();
+  const [anchorEl, setAnchorEl] = React.useState(null);
+
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
+
+  return (
+    <div className={styles.Body}>
+      <Container fluid className={styles.FirsBulim}>
+        <div className={styles.CourseList}>
+          <div className={styles.CourseSearch}>
+            <Form.Group className={styles.CourseSearchIcon}>
+              <Form.Control
+                type="search"
+                placeholder="Qanday kurs o'rganmoqchisiz ?"
+                class="fas fa-search"
+              />
+            </Form.Group>{" "}
+          </div>
+          <div
+            className={styles.BlaBlaBla}
+            style={{ backgroundColor: "#FFFFFF" }}
+          >
+            <div className={styles.SimiliarSearch}>
+              <button className={styles.SimiliarSearchButtons} type="button">
+                #Dizayn
+              </button>
+              <button className={styles.SimiliarSearchButtons} type="button">
+                #Marketing
+              </button>
+              <button className={styles.SimiliarSearchButtons} type="button">
+                #Biznes
+              </button>
+              <button className={styles.SimiliarSearchButtons} type="button">
+                #Web
+              </button>
+              <button className={styles.SimiliarSearchButtons} type="button">
+                #Buxgalteriya
+              </button>
+              <button className={styles.SimiliarSearchButtons} type="button">
+                #Salomatlik
+              </button>
+              <button className={styles.SimiliarSearchButtons} type="button">
+                #Dasturlash
+              </button>
+            </div>
+            <div>
+              <Container fluid>
+                <p className={styles.BigTextPragram}>DASTURLASH</p>
+                {CourseList.map((D) => (
+                  <div className={styles.SmallListGroup}>
+                    <div>
+                      <p className={styles.SmallListImg}>
+                        <img
+                          id={styles.Rasm}
+                          className="img-fluid"
+                          src={D.img}
+                        />
+                      </p>
                     </div>
-                    <div className={style.all}>
-                      <a href="#">Barchasini ko’rish</a>
+                    <div>
+                      <p className={styles.SmallListTextBig}>{D.title}</p>
+                      <p className={styles.SmallListTextSmall}>{D.smallText}</p>
                     </div>
                   </div>
-                </div>
-              </div>
+                ))}
+              </Container>
             </div>
           </div>
         </div>
-      </div>
-    );
-  }
+
+        {/* Bu ikkinchi qism yani Router lar ishlatilgan joy */}
+
+        <div className={styles.SecondBulim}>
+          <div className={styles.HeadBody}>
+            <div>
+              <div className={styles.HeadBodyVideos}>
+                <Player
+                  poster={videos}
+                  className={styles.Videos}
+                  class="fluid"
+                  src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
+                >
+                  <BigPlayButton position="center" />
+                </Player>
+              </div>
+              <div>
+                <div className={styles.ItemsGroup}>
+                  <div className={styles.RootMe}>
+                    <p className={styles.ItemsGroupText}>
+                      Raspberry Pi dasturlash asoslari
+                    </p>
+                    <p>
+                      {" "}
+                      <div className={classes.root}>
+                        <Rating
+                          className={styles.ItemsGroupRate}
+                          name="hover-feedback"
+                          value={value}
+                          precision={0.1}
+                          onChange={(event, newValue) => {
+                            setValue(newValue);
+                          }}
+                          onChangeActive={(event, newHover) => {
+                            setHover(newHover);
+                          }}
+                        />
+                        {value !== null && (
+                          <Box className={styles.ItemsGroupRateResult} ml={2}>
+                            {labels[hover !== -1 ? hover : value]}
+                          </Box>
+                        )}
+                      </div>
+                    </p>
+                    <p className={styles.ItemsGroupShowed}>(534)</p>
+                  </div>
+                  <div className={styles.RootShare}>
+                    <p>
+                      <div className={styles.ShareMe}>
+                        <Button
+                          className={styles.ShareMeButton}
+                          style={{ backgroundColor: "#FFFFFF" }}
+                          aria-controls="customized-menu"
+                          aria-haspopup="true"
+                          variant="contained"
+                          color="primary"
+                          onClick={handleClick}
+                        >
+                          <i className={styles.ShareMeIcon}>
+                            <IoShareSocialOutline />
+                          </i>{" "}
+                          <p className={styles.ShareMeIconText}>Ulashish</p>{" "}
+                        </Button>
+                        <Menu
+                          className={styles.ShareMeMenyu}
+                          id="customized-menu"
+                          anchorEl={anchorEl}
+                          keepMounted
+                          open={Boolean(anchorEl)}
+                          onClose={handleClose}
+                        >
+                          <MenuItem>
+                            <Form.Group
+                              className="mb-3"
+                              controlId="formBasicPassword"
+                            >
+                              <Form.Label className={styles.ShareMeUrl}>
+                                Kurs url manzili:
+                              </Form.Label>
+                              <Form.Control
+                                type="text"
+                                placeholder="https://www.storm.uz/share/e"
+                              />
+                            </Form.Group>
+                          </MenuItem>
+
+                          <div className={styles.IconsGroup}>
+                            <div className={styles.IconsGroupTg}>
+                              {" "}
+                              <i className={styles.IconMe}>
+                                <FaTelegramPlane />
+                              </i>
+                            </div>
+                            <div className={styles.IconsGroupFc}>
+                              {" "}
+                              <i className={styles.IconMe}>
+                                <FaFacebookF />
+                              </i>
+                            </div>
+                            <div className={styles.IconsGroupEm}>
+                              {" "}
+                              <i className={styles.IconMe}>
+                                <GoMail />
+                              </i>
+                            </div>
+                            <div className={styles.IconsGroupCp}>
+                              <i className={styles.IconMe}>
+                                <FiCopy />
+                              </i>
+                            </div>
+                          </div>
+                        </Menu>
+                      </div>
+                    </p>
+                  </div>
+                </div>
+                <div className={styles.PersonalGRoup}>
+                  <p>
+                    {" "}
+                    <img
+                      className={styles.PersonalImg}
+                      class="img-fluid"
+                      src={person}
+                    />{" "}
+                  </p>
+                  <p className={styles.PersonalName}>Muhammad Jumayev</p>
+                  <p className={styles.JoinRegistration}>
+                    {join ? (
+                      <button
+                        className={styles.JoinMe}
+                        onClick={() => setJoin(false)}
+                      >
+                        <p>Obuna bo'lish</p>
+                      </button>
+                    ) : (
+                      <button
+                        className={styles.JoinedMe}
+                        onClick={() => setJoin(true)}
+                      >
+                        <p>A'zolikni bekor qilish</p>
+                      </button>
+                    )}
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <Router>
+                <div>
+                  <Navbar className={styles.RouterMenu}>
+                    <Container fluid>
+                      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                      <Navbar.Collapse id="basic-navbar-nav">
+                        <Nav id={styles.navId} className="me-auto">
+                          <div className={styles.RouterLi}>
+                            <Nav.Link>
+                              <NavLink
+                                className={styles.linked}
+                                style={{
+                                  textDecoration: "none",
+                                  color: "#969696",
+                                }}
+                                activeClassName={{
+                                  color: "#000000",
+                                }}
+                                to="/about"
+                              >
+                                <p className={styles.TextMe}> Kurs haqida</p>
+                              </NavLink>
+                            </Nav.Link>
+                          </div>
+                          <div className={styles.RouterLi}>
+                            <Nav.Link>
+                              <NavLink
+                                className={styles.linked}
+                                style={{
+                                  textDecoration: "none",
+                                  color: "#969696",
+                                }}
+                                activeClassName={{
+                                  color: "#000000",
+                                }}
+                                to="/comment"
+                              >
+                                <p className={styles.TextMe}> Sharhlar</p>
+                              </NavLink>
+                            </Nav.Link>
+                          </div>
+                          <div className={styles.RouterLi}>
+                            <Nav.Link>
+                              <NavLink
+                                className={styles.linked}
+                                style={{
+                                  textDecoration: "none",
+                                  color: "#969696",
+                                }}
+                                activeClassName={{
+                                  color: "#000000",
+                                }}
+                                to="/asking"
+                              >
+                                <p className={styles.TextMe}> Talablar</p>
+                              </NavLink>
+                            </Nav.Link>
+                          </div>
+                          <div className={styles.RouterLi}>
+                            <Nav.Link>
+                              <NavLink
+                                className={styles.linked}
+                                style={{
+                                  textDecoration: "none",
+                                  color: "#969696",
+                                }}
+                                activeClassName={{
+                                  color: "#000000",
+                                }}
+                                to="/whatlearn"
+                              >
+                                <p className={styles.TextMe}>
+                                  {" "}
+                                  Nimalarni bilib olasiz
+                                </p>
+                              </NavLink>
+                            </Nav.Link>
+                          </div>
+                        </Nav>
+                      </Navbar.Collapse>
+                    </Container>
+                  </Navbar>
+                  {/* A <Switch> looks through its children <Route>s and
+            renders the first one that matches the current URL. */}
+                  <Switch>
+                    <Route path="/whatlearn">
+                      <WhatLearning />
+                    </Route>
+                    <Route path="/asking">
+                      <Asking />
+                    </Route>
+                    <Route path="/comment">
+                      <Comment />
+                    </Route>
+                    <Route path="/about">
+                      <CourseAbout />
+                    </Route>
+                  </Switch>
+                </div>
+              </Router>
+            </div>
+          </div>
+        </div>
+
+        {/* Bu uchunchi bulak hisoblanadi Yani kurslarni sotib oladigan qismidir */}
+
+        <div className={styles.ThirdBulim}>
+         
+
+        <Card1/>
+        </div>
+      </Container>
+    </div>
+  );
 }

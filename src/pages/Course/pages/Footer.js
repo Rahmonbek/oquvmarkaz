@@ -1,105 +1,126 @@
-import React, { Component } from "react";
-import style from "../css/Footer.module.css";
-import payme from "../images/payme.png";
+import React from "react";
+import styles from "../css/Footer.module.css";
 import click from "../images/click.png";
+import payme from "../images/payme.png";
 import upay from "../images/upay.png";
-import telegram from "../images/telegram.png";
-import facebook from "../images/facebook.png";
-import instagram from "../images/instagram.png";
-import youtube from "../images/youtube.png";
+import { Container, Row, Col, Button } from "react-bootstrap";
+import { Link, Router } from "react-router-dom";
 
-export default class Footer extends Component {
-  render() {
-    return (
-      <div>
-        <div className={style.footer_top}></div>
-        <div className={style.footer_bottom}>
-          <div className={style.container}>
-            <div className={style.row}>
-              <div className={style.col - 3}>
-                <h4>Asosiy</h4>
-                <a href="#">
-                  <p>Loyiha haqida</p>
-                </a>
-                <a href="#">
-                  <p>Kurslar</p>
-                </a>
-                <a href="#">
-                  <p>Mentorlarga</p>
-                </a>
-                <a href="#">
-                  <p>Ommaviy oferta</p>
-                </a>
-                <a href="#">
-                  <p>Maxfiylik siyosati</p>
-                </a>
-              </div>
-              <div className={style.col - 3}>
-                <h4>Qo’shimcha</h4>
-                <a href="#">
-                  <p>Bizning jamoa</p>
-                </a>
-                <a href="#">
-                  <p>Biz bilan hamkorlik</p>
-                </a>
-                <a href="#">
-                  <p>Bu qanday ishlaydi ?</p>
-                </a>
-              </div>
-              <div className={style.col - 3}>
-                <h4>Qo’llab quvvatlash</h4>
-                <a href="#">
-                  <p>Eng ko’p beriladigan savollar</p>
-                </a>
-                <a href="#">
-                  <p>Kontakt</p>
-                </a>
-              </div>
-              <div className={style.col - 3}>
-                <h4>To’lov turlari</h4>
-                <div className={style.payments}>
-                  <img style={{ backgroundColor: "#F1F2F6" }} src={payme} />
-                  <img style={{ marginLeft: "14px" }} src={click} />
-                  <img
-                    style={{ width: "48px", marginLeft: "14px" }}
-                    src={upay}
-                  />
+export default function Footer() {
+  return (
+    <div>
+      <div className={styles.headers}>
+        <Container>
+          <Row className={styles.navbar}>
+            <Col>
+              <ul className={styles.ulGroup}>
+                <li>
+                  <li>
+                    <br />
+                  </li>
+                  <h4>Asosiy</h4>
+                </li>
+                <li>
+                  <br />
+                </li>
+                <li>Loyiha haqida</li>
+                <li>Kurslar</li>
+                <li>Mentorlarga</li>
+                <li>Ommoviy oferta</li>
+                <li>Maxfiylik siyosati</li>
+
+                <div className={styles.iconSites}>
+                  <p>
+                    <i class="fab fa-telegram-plane"></i>
+                  </p>
+                  <p>
+                    <i id={styles.fSites} class="fab fa-facebook-f"></i>
+                  </p>
+                  <p>
+                    <i id={styles.iSites} class="fab fa-instagram"></i>
+                  </p>
+                  <p>
+                    <i class="fab fa-youtube"></i>
+                  </p>
                 </div>
-              </div>
-            </div>
-            <div className={style.row1}>
-              <div className={style.col - 3}>
-                <div className={style.payments}>
-                  <a href="https://telegram.com" target="_blank">
-                    <img style={{ width: "18px" }} src={telegram} />
-                  </a>
-                  <a href="https://facebook.com" target="_blank">
-                    <img style={{ width: "18px" }} src={facebook} />
-                  </a>
-                  <a href="https://instagram.com" target="_blank">
-                    <img style={{ width: "18px" }} src={instagram} />
-                  </a>
-                  <a href="https://youtube.com" target="_blank">
-                    <img style={{ width: "18px" }} src={youtube} />
-                  </a>
+              </ul>
+            </Col>
+            <Col>
+              <ul className={styles.ulGroup}>
+                <li>
+                  <li>
+                    <br />
+                  </li>
+                  <h4>Qo'shimcha</h4>
+                </li>
+                <li>
+                  <br />
+                </li>
+                <li>Bizning jamoa</li>
+                <li>Biz bilan hamkorlik</li>
+                <li>Bu qanday ishlaydi ?</li>
+              </ul>
+            </Col>
+            <Col>
+              <ul className={styles.ulGroup}>
+                <li>
+                  <li>
+                    <br />
+                  </li>
+                  <h4>Qo'llab quvvatlash</h4>
+                </li>
+                <li>
+                  <br />
+                </li>
+                <li>Eng ko'p beriladigan savollar</li>
+                <li>Kontakt</li>
+              </ul>
+            </Col>
+            <Col>
+              <ul className={styles.ulGroup}>
+                <li>
+                  <li>
+                    <br />
+                  </li>
+                  <h4>To'lov turlari</h4>
+                </li>
+                <li>
+                  <br />
+                </li>
+                <li>
+                  <div className={styles.payGroup}>
+                    <a href="https://payme.uz/home/main">
+                      <img src={payme} />
+                    </a>
+                    <a href="https://click.uz/uz">
+                      <img src={click} />
+                    </a>
+                    <a href="https://upay.uz/">
+                      <img src={upay} />
+                    </a>
+                  </div>
+                </li>
+                <div className={styles.manzil}>
+                  <p>
+                    100011, Toshkent sh. Shayxontohur tum.,
+                    <br /> Zarqaynar ko'ch., 3B-uy
+                  </p>
+                  <Button type="button">
+                    <a href="https://pdp.uz/">Biz bilan aloqa</a>
+                  </Button>
                 </div>
-              </div>
-              <div className={style.col - 3}>
-                <p>
-                  100011, Toshkent sh. Shayxontohur tum.,
-                  <br /> Zarqaynar ko'ch., 3B-uy
-                </p>
-                <button className={style.btn}>Biz bilan aloqa</button>
-              </div>
+              </ul>
+            </Col>
+
+            <div className={styles.footerText}>
+              <p>
+                © 2019 storm.uz | Personel Development Process LLC | Foydalanish
+                shartlari{" "}
+              </p>
             </div>
-            <p className={style.footer}>
-              © 2019 storm.uz<div className={style.line}></div>Personel
-              Development Process LLC<div className={style.line}></div>
-              Foydalanish shartlari
-            </p>
-          </div>
-        </div>
+          </Row>
+        </Container>
       </div>
-    );
-  }
+    </div>
+  );
 }

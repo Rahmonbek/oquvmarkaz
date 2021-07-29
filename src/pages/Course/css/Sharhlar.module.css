@@ -1,7 +1,6 @@
 .sharh{
     width: 600px;
     margin: auto;
-    transform: translate(0px, -1031px);
 }
 .sharh h1{
     font-size: 18px;
@@ -101,7 +100,6 @@
 }
 .karta h4{
     font-size: 16px;
-    transform: translate(53px, -43px);
 }
 .karta p{
     font-size: 14px;
@@ -115,7 +113,6 @@
 .karta i{
     font-size: 10px;
     color: #FFC02E;
-    transform: translate(138px, -40px);
     margin-left: 3px;
 }
 .picture{
@@ -129,7 +126,6 @@
 }
 .picture h4{
     font-size: 16px;
-    transform: translate(53px, -43px);
 }
 .picture p{
     font-size: 14px;
@@ -143,7 +139,6 @@
 .picture i{
     font-size: 10px;
     color: #FFC02E;
-    transform: translate(138px, -40px);
     margin-left: 3px;
 }
 .izohingiz{
@@ -159,26 +154,21 @@ border-radius: 4px;
     margin-left: 12px;
 }
 .izohingiz p{
-    transform: translate(45px, -20px);
     color: #9DA7BB;
     font-size: 16px;
 }
 .izohingiz i{
-    transform: translate(3px, -17px);
     font-size: 12px;
     color: #FFC02E;
     margin-left: 8px;
 }
 .izohingiz h6{
-    transform: translate(120px, -73px);
     font-size: 14px;
 }
 .chiziq11{
     background-color: #9DA7BB;
     width: 503px;
     height: 0px;
-    transform: translate(0px, -25px);
 }
 .otpravit{
-    transform: translate(380px, 16px);
 }
