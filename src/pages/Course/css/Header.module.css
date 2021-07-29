@@ -1,58 +1,149 @@
+
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-.header{
-    position: relative;
-    width: 100%;
-    height: 60px;
+.navbar{
     background-color: white;
 }
-.headerText{
+.courseList{
+    border: 1px solid #E2E5EB;
+    margin-left: 30px;
+    padding: 5px 17px;
+    cursor: pointer;
+    color: #536DFD;
+    border-radius: 5px;
+    user-select: none;
+}
+@media (max-width: 767px) {
+    body{
+        overflow-x: hidden;
+    }
+    
+    .courseList{
+        width: 200px;
+        margin: auto;
+        margin-top: 30px;
+
+    }
+    .selectLanguage{
+        display: flex;
+        margin-top: 50px;
+        margin: auto;
+        width: 400px;
+        justify-content: space-around;
+    }
+    .selectLanguage select{
+        margin: auto;
+        margin-left: 50px;
+        margin-top: 8px;
+        
+
+    }
+    .Regsitration{
+        line-height: 20px;
+        margin-top: 40px;
+        margin: auto;
+        margin-left: 250px;
+        height: 30px;
+        
+    }
+    .BigText{
+        position: absolute;
+        width: 300px;
+        margin: auto;
+        margin-left: 100px;
+        
+       
+    }
+    .BigText h1{
+        font-size: 20px;
+    Font:SF Pro Display;
+    line-height: 25px;
+    font-weight: 500;
+    margin: auto;
+    margin-top: -60px;
+    }
+    .BigSearch{
+        border: 1px solid black;
+        margin-top: 50px;
+    }
+
+    
+}
+@media(min-width:768px ) and (max-width:1023px){
+     body{
+        overflow-x: hidden;
+    }
+    .courseList{
+        width: 300px;
+        margin-top: 30px;
+        margin: auto;
+    }
+    .selectLanguage{
+        margin: auto;
+        margin-top: 30px;
+        align-items: center;
+    }
+    .Regsitration{
+        position: inherit;
+        margin-left: 120px;
+    }
+
+
+}
+.selectLanguage select{
+    
+
+}
+.language{
     position: absolute;
-    left: 165px;
-    top: 13px;
+    margin-top: 8px;
+    margin-left: -130px;
+    border: 1px solid black;
+    padding: 5px 15px;
+    color: #9DA7BB;
+    border: 1px solid #E2E5EB;
+    border-radius: 5px;
+    cursor: pointer;
 }
-.headerText i{
-    color:  #FDB917;
-    font-size: 28px;
-    transform: translate(30px, -75px);
+.Regsitration{
+    height: 35px;
+    cursor: pointer;
+    width: 100px;
+    padding: 5px 10px;
+    margin-top: 8px; 
+    border: transparent; 
+    background-color: #536DFD;
+    color: white;
+    border: thin;
+    border-radius: 5px;
 }
-.headerText h6{
-    transform: translate(0px, -25px);
-    font-size: 30px;
-    color: #536DFD;
+.Regsitration:hover{
+    background-color: #536DFD;
+    color: white;
 }
-.headerText p{
-    font-size: 12px;
-    color: #536DFD;
+.CourseHead{
+    height: 210px;
+    width: 100%;
+    border: 1px solid #F1F2F6;
+    background-color: #F1F2F6;
+}
+.textSearch{
+    display: flex;
+    margin-top: 100px;
+    cursor: unset;
+}
+.BigText h1{
+    font-size: 38px;
+    Font:SF Pro Display;
+    line-height: 45px;
     font-weight: 700;
 }
-.dropdown{
-    position: absolute;
-    left: 349px;
-    top: 15px;
+.BigSearch{
+    width: 350px;
+    border: none;
+    margin-left: 60px;
+    margin-top: 10px;
 }
-.dropdown button{
-    border: 1px solid #9DA7BB;
-    border-radius: 4px;
-    background-color: white;
-    width: 154px;
-    height: 30px;
-    font-size: 12px;
-    color: #536DFD;
-}
-.til{
-    position: absolute;
-    right: 309px;
-    top: 15px;
-}
-.til button{
-    border: 1px solid #9DA7BB;
-    border-radius: 4px;
-    background-color: white;
-    width: 88px;
-    height: 30px;
-    font-size: 12px;
-    color: #9DA7BB;
-}
-

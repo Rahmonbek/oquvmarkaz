@@ -1,159 +1,15 @@
+
 .Body{
     background-color: #F1F2F6;
-    width: 100%;
-    height: auto;
-    border: 1px solid green;
-    display: flex;
-    justify-content: space-between;
-}
-.FirsBulim{
-    display: flex;
-    justify-content: space-between;
-    
-}
-
-
-.CourseList{
-    width: 23.5%;
-    height: auto;
-    margin-top: 25px;
-    margin-bottom: 40px;
-
-}
-
-.search {
-    position: 'relative';
-    border-radius: 5px;
-    background-color: white;
-    
-}
-
-.CourseSearchIcon{
-    width: 100%;
-    height: 40px;
-    border-radius: 4px;
-}
-.SimiliarSearch{
-    width: 100%;
-    height: 120px;
-    background-color: white;
-    margin-top: 30px;
-}
-
-.BlaBlaBla{
-    border-radius: 10px;
-    margin-top: 20px;
-}
-.SimiliarSearchButtons{
-    background-color: #F1F2F6;
-    color: #9DA7BB;
-    border-radius: 4px;
-    margin: auto;
-    margin-left: 15px;
-    margin-top: 10px;
-    padding: 4px 7px;
-    font-size: 14px;
-    cursor: pointer;
-    border: unset;
-
-}
-.SimiliarSearchButtons:focus {     
-    background-color:#536DFD; 
-    color: white;   
-}
-.BigTextPragram{
-    width: 79px;
-height: 14px;
-left: 31px;
-top: 230px;
-font-weight: 600;
-
-font-family: SF Pro Display;
-font-size: 12px;
-line-height: 14px;
-
-/* black */
-
-color: #2E2E2E;
-}
-.SmallListGroup{
-    border-bottom: 1px solid #E2E5EB;
-    cursor: pointer;
-}
-.SmallListGroup:hover{
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-.BlaBlaBla{
-    border-radius: 4px ;
-}
-.SmallListImg{
-    width: 70px;
-    height: 70px;
-    align-items: center;
-    align-content: center;
-    margin-top: 5px;
-    border-radius: 4px;
-}
-#Rasm{
-    width: 100%;
-    height: 100%;
-}
-.SmallListGroup{
-    width: 100%;
-    height: 80px;
-    display: flex;
-}
-.SmallListTextBig{
-font-family: SF Pro Display;
-font-size: 13px;
-line-height: 17px;
-color: #2E2E2E;
-margin-left: 10px;
-margin-top: 5px;
-font-weight: 600;
-
-}
-.SmallListTextSmall{
-font-family: SF Pro Display;
-font-size: 12px;
-line-height: 14px;
-color: #606060;
-margin-left: 10px;
-margin-right: 10px;
-margin-top: -10px;
-
-}
-@media (max-width:767px){
-    .CourseList{
-        width: 330px;
-        margin: auto;
-        margin-top: 20px;
-
-    }
-
-}
-@media (min-width:768px) and (max-width:1024px){
-    .CourseList{
-        width: 330px;
-        margin: auto;
-        margin-top: 20px;
-    }
-}
-
-
-
-.SecondBulim{
-    width: 48%;
-    margin-top: 25px;
 }
 .HeadBody{
+    width: 47%;
     height: auto;
     border: 1px solid black;
     margin: auto;
 }
 
 .HeadBodyVideos{
-    
     width: 100%;
     height: 396px;
     border: 1px dashed green;
@@ -167,7 +23,6 @@ margin-top: -10px;
 .ItemsGroup{
     display: flex;
     margin-top: 10px;
-    justify-content: space-between;
 }
 .ItemsGroupText{
 font-family: SF Pro Display;
@@ -200,20 +55,15 @@ font-family: SF Pro Display;
 font-size: 14px;
 line-height: 17px;
 color: #9DA7BB;
+margin-top: 13px;
 justify-content: flex-start;
-margin-top: 10px;
-}
-.RootMe{
-    border: 1px solid black;
-    display: flex;
-}
-.RootShare{
-    border:1px solid green
+margin-left: -14px;
 }
 .ShareMe{
     margin-left: auto;
     justify-content: right;
     justify-content: flex-end;
+    margin-left: 70px;
     margin-top: 10px;
     display: flex;
     cursor: pointer;
@@ -393,32 +243,21 @@ color: #595858;
     margin-top: 2px;
 }
 .RouterMenu{
-    width: 100%;
+    width: 704px;
     height: 50px;
     border: 1px solid black;
 }
-
-@media(max-width:767px){
-    .RouterLi{
-        width: 100%;
-    }
-}
-@media(min-width:768px) and (max-width:1023px){
-    .RouterLi{
-        width: 50%;
-    }
-}
 #navId{
     width: 100%;
-    height: 50px;
+    height: 100%;
     border: 1px dashed red;
     justify-content: space-between;
     box-sizing: border-box;
     border-radius: 5px;
 }
+
 .RouterLi{
     width: 25%;
-    height: 100%;
     border: 1px solid red;
     text-decoration: none;
     list-style-type: none;
@@ -434,19 +273,7 @@ color: #595858;
 .stud{
     color: black;
 }
-.TextMe{
-    font-size: 16px;
-}
 .RouterLink{
     margin: auto;
     background-color: white;
-    height: 30px;
-    border: 1px solid black;
-}
-
-.ThirdBulim{
-    width: 23.5%;
-    height: auto;
-    border: 1px solid black;
-    margin-top: 25px;
 }

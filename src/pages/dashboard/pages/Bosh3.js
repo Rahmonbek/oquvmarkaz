@@ -1,4 +1,4 @@
-import React, { Component,Redirect } from "react";
+import React, { Component, Redirect } from "react";
 import { Col, Row } from "react-bootstrap";
 import stayle2 from "../css/Navbar2.module.css";
 import vektor from "../img/Vector.png";
@@ -6,8 +6,8 @@ import vektor1 from "../img/vector1.png";
 import vektor2 from "../img/Vector2.png";
 import vektor3 from "../img/Vector3.png";
 import vektor4 from "../img/Vector4.png";
-import { Nav, Navbar } from "react-bootstrap";
-import { NavLink, BrowserRouter } from "react-router-dom";
+import { Nav, Navbar, Button } from "react-bootstrap";
+import { NavLink, Link, BrowserRouter } from "react-router-dom";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 export default class Bosh3 extends Component {
@@ -18,7 +18,15 @@ export default class Bosh3 extends Component {
           <div className={stayle2.title} style={{ fontSize: "3vw" }}>
             Top kategoriyalar
           </div>
-          <div className={stayle2.barchasi}><NavLink to="allcourse">BARCHASI</NavLink></div>
+         
+          <BrowserRouter>
+            <Button className={stayle2.barchasi}>
+              <Link style={{ color: "white" }} to="/allcourse">
+                BARCHASI
+              </Link>
+            </Button>
+          </BrowserRouter>
+
           <Row
             style={{
               marginTop: "60px",

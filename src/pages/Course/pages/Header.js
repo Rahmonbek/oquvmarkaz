@@ -1,82 +1,66 @@
-import React, { Component } from "react";
+import React from "react";
+import Group from "../images/Group.png";
+import {
+  Navbar,
+  Container,
+  Nav,
+  Button,
+  ControlLabel,
+  Selection,
+  Modal,
+  FormGroup,
+  FormControl,
+  Form,
+} from "react-bootstrap";
+import styles from "../css/Header.module.css";
 
-import style from "../css/Header.module.css";
-export default class Header extends Component {
-  render() {
-    return (
-      <div>
-        <div className={style.header}>
-          <div className={style.headerText}>
-            <p>PDP</p>
-            <h6>Storm</h6>
-            <i class="fa fa-bolt"></i>
-          </div>
-          <div className={style.dropdown}>
-            <button
-              class="btn  dropdown-toggle"
-              type="button"
-              id="dropdownMenuButton1"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              BARCHA KURSLAR
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-              <li>
-                <a>Offine</a>
-              </li>
-              <li>
-                <a>Online</a>
-              </li>
-              <li>
-                <a>Kunduzgi</a>
-              </li>
-              <li>
-                <a>Kechgi</a>
-              </li>
-            </ul>
-          </div>
-          <div className={style.til}>
-            <button
-              class="btn  dropdown-toggle"
-              type="button"
-              id="dropdownMenuButton1"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              UZBEK
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-              <li>
-                <a>Uzbek</a>
-              </li>
-              <li>
-                <a>Russian</a>
-              </li>
-              <li>
-                <a>English</a>
-              </li>
-            </ul>
-          </div>
-          <button
-            type="button"
-            class="btn btn-primary btn-lg"
-            style={{
-              position: "absolute",
-              width: "97px",
-              height: "28px",
-              fontSize: "12px",
-              right: "165px",
-              top: "16px",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
-            KIRISH
-          </button>
-        </div>
-      </div>
-    );
-  }
+export default function Header() {
+  return (
+    <div>
+      <Navbar className={styles.navbar} collapseOnSelect expand="lg">
+        <Container>
+          <Navbar.Brand href="#home">
+            <img src={Group} />
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="me-auto">
+              <select
+                className={styles.courseList}
+                type="button"
+                title="BARCHA KURSLAR"
+                id="collasible-nav-dropdown"
+              >
+                <option>BARCHA KURSLAR</option>
+                <option href="#dasturlash">Dasturlash</option>
+
+                <option href="#marketing">Marketing</option>
+
+                <option href="#biznes">Biznes</option>
+
+                <option href="#buxgalteriya">Buxgalteriya</option>
+              </select>
+            </Nav>
+            <Nav className={styles.selectLanguage}>
+              <select className={styles.language} id="collasible-nav-dropdown">
+                <option href="#action/3.2">RUS</option>
+
+                <option href="#action/3.3">ENG</option>
+
+                <option href="#action/3.4">UZBEK</option>
+              </select>
+
+              <button
+                type="button"
+                className={styles.Regsitration}
+                href="#LogIn"
+              >
+                KIRISH
+              </button>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+    </div>
+  );
 }
