@@ -27,7 +27,6 @@ export default class App extends Component {
               <Route exact path="/cabinet/tutorial">
                 <Body />
               </Route>
-
               <Route exact path="/allcourse">
                 <Example />
               </Route>

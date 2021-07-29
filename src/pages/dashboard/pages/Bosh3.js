@@ -32,7 +32,7 @@ export default class Bosh3 extends Component {
               marginTop: "60px",
               marginBottom: "60px",
               marginRight: "60px",
-              marginLeft: "60px",
+              marginLeft: "60px", 
               textAlign: "center",
             }}
             lg={4}

@@ -11,6 +11,13 @@ header .header_top {
     box-shadow: 0px 2px 5px rgba(209, 209, 212, 0.05);
     padding: 8px;
     margin-bottom: 30px;
+    position: fixed;
+    z-index: 122;
+    background: #fff;
+    width: 100%;
+}
+.header_top .logo {
+    transform: translateY(7px);
 }
 header .container {
     width: 80%;
@@ -63,6 +70,9 @@ header .container {
     color: white;
 }
 
+.md {
+    padding-top: 130px;
+}
 header .men_info {
     display: flex;
     align-items: center;

@@ -1,0 +1,137 @@
+.cardall{
+width:23%;
+display:block;
+position:relative;
+}
+@media (max-width: 767px){
+    .cardall{
+        width:100%;
+        margin: auto;
+    }
+}
+@media (min-width: 768px) and (max-width:1023px){
+    .cardall{
+        width:23%;
+        margin: auto;
+    }
+}
+
+
+.dasturlash{
+    position:absolute;
+display: flex;
+justify-content:center;
+align-items: center;
+height: 22px;
+width: 94px;
+margin-left: 24px;
+top: 10px;
+border-radius: 2px;
+background-color: #10C8A0;
+}
+.title12{
+display: flex;
+width: 100%;
+}
+.title12 button:hover{color:blue;}
+.back1{position: relative;
+    margin-bottom: 20px;
+    height: 170px;
+    width: 150px;
+background-image: url("../images/fon1.png");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.back2{
+    position: relative;
+    height: 170px;
+    margin-bottom: 20px;
+    width: 150px;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+background-size: cover;
+    background-image: url("../images/fon2.png");
+    }
+.back3{
+    position: relative;
+    height: 170px;
+    width: 150px;
+     background-image: url("../images/fon3.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin-bottom: 20px;
+    }
+ .back4{
+    position: relative;
+    margin-bottom: 20px;
+     height: 170px;
+    width: 150px;
+    background-repeat: no-repeat;
+background-size: cover;
+     background-image: url("../images/fon4.png");
+    }
+
+
+    .back1 img{
+        margin-left:50px;
+        margin-top:20px;
+    }
+    .back2 img{
+        margin-left:50px;
+        margin-top:20px;
+    }
+    .back3 img{
+        margin-left:50px;
+        margin-top:20px;
+    }
+    .back4 img{
+        margin-left:50px;
+        margin-top:20px;
+    }
+    .title24{
+        font-family: SF Pro Display;
+font-size: 12px;
+color: white;
+      margin:auto;
+text-align:center;
+margin-top: 10px;
+border-radius: nullpx;
+
+    }
+
+    .title23{
+        font-family: SF Pro Display;
+font-size: 12px;
+color: white;
+      margin:auto;
+text-align:center;
+margin-top: 10px;
+border-radius: nullpx;
+    }
+    .title45{
+        font-family: SF Pro Display;
+font-size: 14px;
+color: #536DFD;
+      margin:auto;
+text-align:center;
+margin-top: 10px;
+border-radius: nullpx;
+margin-bottom: 24px;
+    }
+    .title45:hover{
+        scale: 1.1;
+        text-shadow: 0px 12px 45px rgba(83, 109, 253, 0.25);
+    }
+.back1:hover{
+    scale: 1.1;
+} 
+.back2:hover{
+    scale: 1.1;
+} 
+.back3:hover{
+    scale: 1.1;
+} 
+.back4:hover{
+    scale: 1.1;
+} 
