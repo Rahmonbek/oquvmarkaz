@@ -57,14 +57,22 @@ export default class Bosh extends Component {
 
                   <Dropdown.Menu>
                     <Dropdown.Item href="/course">
-                      Course List
                       <BrowserRouter>
                         <Link  to="/course">
                           Course List
                         </Link>
                       </BrowserRouter>
                     </Dropdown.Item>
-                    <Dropdown.Item href="#/action-2">Full Course</Dropdown.Item>
+                  
+                    <Dropdown.Item href="/cabinet/tutorial">
+                      <BrowserRouter>
+                        <Link  to="/cabinet/tutorial">
+                         Full Course 
+                        </Link>
+                      </BrowserRouter>
+                    </Dropdown.Item>
+
+                    
                     <Dropdown.Item href="#/action-3">
                       Another Course
                     </Dropdown.Item>

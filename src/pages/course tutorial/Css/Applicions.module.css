@@ -1,0 +1,36 @@
+
+
+.AppVazefalar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    margin-top: 20px;
+}
+.AppVazefalar:hover{
+    background-color: #DBEFFD;
+    cursor: pointer;
+}
+.AppVazefalarIcons{
+    margin-left: 35px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #536DFD;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+.AppVazefalarIcons i{
+    position: absolute;
+    margin-left: -9px;
+    margin-top: 6px;
+    color: white;
+    font-size: 20px;
+
+}
+.AppVazefalarText{
+    line-height: 10px;
+    margin-left: 20px;
+    margin-top: 18px;
+}

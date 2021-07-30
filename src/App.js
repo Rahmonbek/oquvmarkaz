@@ -8,6 +8,7 @@ import Menyu from "./pages/dashboard/Menyu";
 import { BrowserRouter, Route, Router, Link, Switch } from "react-router-dom";
 import Example from "./pages/AllCourse/Component/ExampleApp";
 import FreeApp  from '../src/pages/Course/FreeApp'
+import Navbar from '../src/pages/course tutorial/pages/Navbar/Navbar'
 
 export default class App extends Component {
   render() {
@@ -36,7 +37,6 @@ export default class App extends Component {
               </Route>
          </Switch>
         </BrowserRouter>
-        
       </div>
     );
   }

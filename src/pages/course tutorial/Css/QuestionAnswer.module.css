@@ -1,0 +1,108 @@
+
+
+.PersonCommentRead{
+    width: 70%;
+    justify-content: flex-start;
+    height: 130px;
+    display: flex;
+    margin-top: 20px;
+}
+.PersonCommentImg{
+    width: 55px;
+    height: 55px;
+}
+
+.PersonOverFlov{
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.PersonCommentName{
+    
+font-family: SF Pro Display;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+color: #2E2E2E;
+margin-left: 5px;
+}
+.PersonCommentOpinion{
+    margin-top: -10px;
+font-family: SF Pro Display;
+font-size: 14px;
+line-height: 17px;
+margin-left: 5px;
+
+/* black */
+
+color: #2E2E2E;
+
+}
+.PersonCommentReply{
+    display: flex;
+    margin-left: 5px;
+    margin-top: -10px;
+}
+.PersonCommentName{
+    cursor: pointer;
+
+}
+.PersonCommentIcons{
+    color: #536DFD;
+    cursor: pointer;
+
+}
+.PersonCommentIconsName{
+    color: #536DFD;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+.PersonCommentIconsTime{
+    color: #9DA7BB;
+    margin-left: 30px; 
+}
+.PersonCommentWriteMe{
+    height: 110px;
+    width: 65%;
+    margin-top: 20px;
+    display: flex;
+    border: 1px solid #9DA7BB;
+    border-radius: 5px;
+
+}
+.PersonCommentWriteMe p{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#BlaBlaBla{
+    margin-bottom: 80px;
+}
+
+.PersonCommentExit{
+    margin-left: 320px;
+    width: 130px;
+    height: 40px;
+    color: white;
+    background-color: #9DA7BB;
+    font-size: 17px;
+    border: none;
+
+}
+.PersonCommentExit:focus{
+    background-color: #536DFD;
+}
+.PersonCommentSend:focus{
+    background-color: #536DFD;
+}
+
+.PersonCommentSend{
+    border: none;
+
+    width: 130px;
+    height: 40px;
+    margin-left: 30px;
+    color: white;
+    background-color: #9DA7BB;font-size: 18px;
+}

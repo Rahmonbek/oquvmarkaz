@@ -1,0 +1,50 @@
+
+.DownloadButton{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #536DFD;
+    color: white;
+    text-align: center;
+    align-content: center;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.iconsgroup{
+    position: absolute;
+    margin-left: -12px;
+    margin-top: 16px;
+    font-size: 20px;
+}
+.DownloadButtonGroup{
+    display: flex;
+    line-height: 10px;
+}
+.SendMessagesMe{
+    margin-left: 80px;
+    margin-top: 20px;
+    font-family: SF Pro Display;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+/* black */
+
+color: #2E2E2E;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.SendMessageCheck{
+    justify-content: end;
+    margin-left: auto;
+    margin-top: 15px;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #F1F2F6;
+    border-radius: 50%;
+    color: #10C8A0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+
+}
