@@ -1,7 +1,10 @@
 .text8{
-    width: 600px;
+    padding-top: 24px;
+    margin-left: 24px;
+    width:80%;
     margin: auto;
-    transform: translate(0px, -1031px);
+    text-align: center;
+  
 }
 .text8 p{
     font-size: 14px;

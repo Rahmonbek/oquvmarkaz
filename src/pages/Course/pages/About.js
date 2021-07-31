@@ -9,7 +9,7 @@ export default class About extends Component {
   render() {
     return (
       <div>
-        {/* <BrowserRouter>
+         <BrowserRouter>
           <Head />
           <Switch>
             <Route exact path="/haqida">
@@ -25,7 +25,7 @@ export default class About extends Component {
               <Natijalar />
             </Route>
           </Switch>
-        </BrowserRouter> */}
+        </BrowserRouter>
       </div>
     );
   }

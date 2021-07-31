@@ -1,44 +1,23 @@
 import React, {Component} from 'react'
+import { Col, Container, Row } from 'react-bootstrap'
 import style from '../../css/Talablar.module.css'
 export default class Talablar extends Component{
     render(){
-        return(
-            <div className={style.trebovaniya}>
-                <h1 style={{fontSize:'18px'}}>Talablar</h1>
-                <div className="container-fluid">
-                    <div className="row">
-                        <div className="col-lg-4" style={{marginLeft:'-5px', paddingLeft:'5px', width:'200px'}}>
-                            <div className={style.card1}>
-                                <div className={style.circle} style={{marginLeft:'-2px'}}></div>
-                                <p style={{marginLeft:'13px'}}>Kompyuter saboqlarini bilish</p>
-                            </div>
-                        </div>
-                        <div className="col-lg-4">
-                            <div className={style.card1}>
-                                <div className={style.circle}></div>
-                                <p>Dasturlashga qiziqish</p>
-                            </div>
-                        </div>
-                        <div className="col-lg-4" style={{marginLeft:'5px'}}>
-                            <div className={style.card1}>
-                                <div className={style.circle}></div>
-                                <p>Boshlang’ich ingliz tili</p>
-                            </div>
-                        </div>
-                        <div className="col-lg-3" style={{paddingLeft:'0px'}}>
-                            <div className={style.card2}>
-                                <div className={style.circle}></div>
-                                <p>Shaxsiy noutbuk</p>
-                            </div>
-                        </div>
-                        <div className="col-lg-3" style={{marginLeft:'16px'}}>
-                            <div className={style.card2}>
-                                <div className={style.circle}></div>
-                                <p>Boshlang’ich java</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        return(<div>
+            <Container >
+                 <h1 style={{marginTop:'20px'}} >Talablar</h1>
+                <Row lg={3} xs={1} md={2} style={{marginTop:'40px'}} >
+                    <Col style={{display:'flex'}}>   <div className={style.circle} ></div> <p >Kompyuter saboqlarini bilish</p></Col>
+                    <Col style={{display:'flex'}}>  <div className={style.circle}></div>
+                                <p>Dasturlashga qiziqish</p></Col>
+                    <Col style={{display:'flex'}}> <div className={style.circle}></div>
+                                <p>Boshlang’ich ingliz tili</p></Col>
+                    <Col style={{display:'flex'}}>  <div className={style.circle}></div>
+                                <p>Shaxsiy noutbuk</p></Col>
+                    <Col style={{display:'flex'}}>  <div className={style.circle}></div>
+                                <p>Boshlang’ich java</p></Col>
+                </Row>
+            </Container>
             </div>
         )
     }
