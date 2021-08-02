@@ -1,7 +1,7 @@
 import React from 'react'
 import MenuBar from './Head/MenuBar'
 import Navbar from './Navbar/Navbar'
-import FooterMenuDi from './Footer/FooterMenuDi'
+import FooterMenuDi from '../../user_cabinet/pages/Footer'
 import { Col, Row } from 'react-bootstrap'
 import Accardion from  './Head/AccordionGroup'
 export default function Body() {
