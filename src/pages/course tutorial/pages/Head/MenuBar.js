@@ -3,34 +3,19 @@ import { Container } from "react-bootstrap";
 import styles from "../../Css/Menu.module.css";
 import { Player, BigPlayButton } from "video-react";
 import Videos from "../../Img/Videos.jpg";
-
 import "video-react/dist/video-react.css"; // import css
-import { withStyles } from "@material-ui/core/styles";
-import ListItemIcon from "@material-ui/core/ListItemIcon";
-import ListItemText from "@material-ui/core/ListItemText";
-import InboxIcon from "@material-ui/icons/MoveToInbox";
-import DraftsIcon from "@material-ui/icons/Drafts";
-import SendIcon from "@material-ui/icons/Send";
-import { FiCopy } from "react-icons/fi";
 import { makeStyles } from "@material-ui/core/styles";
 import Rating from "@material-ui/lab/Rating";
 import Box from "@material-ui/core/Box";
 import Button from "@material-ui/core/Button";
-import Menu from "@material-ui/core/Menu";
-import MenuItem from "@material-ui/core/MenuItem";
-import { IoShareSocialOutline } from "react-icons/io5";
-import { Form } from "react-bootstrap";
-import { FaTelegramPlane, FaFacebookF } from "react-icons/fa";
-import { GoMail } from "react-icons/go";
 import person from "../../Img/Person2.png";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
-import AccordionGroup from "./AccordionGroup";
+
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   NavLink,
-  Link,
 } from "react-router-dom";
 import Applicions from "./About/Applicions";
 import Download from "./About/Download";
@@ -306,19 +291,7 @@ export default function MenuBar() {
             </div>
           </div>
 
-          <div className={styles.CourseList}>
-            <div className={styles.CourseTitle}>
-              <p className={styles.CourseTitleName}>
-                Raspberry Pi dasturlash asoslari
-              </p>
-              <b />
-              <p className={styles.CourseTitleHajmi}>
-                <p>24 ta video</p>
-                <p>38 soat</p>
-              </p>
-            </div>
-            <AccordionGroup />
-          </div>
+         
         </div>
       </Container>
     </div>

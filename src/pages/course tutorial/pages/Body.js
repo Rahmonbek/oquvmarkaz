@@ -2,11 +2,16 @@ import React from 'react'
 import MenuBar from './Head/MenuBar'
 import Navbar from './Navbar/Navbar'
 import FooterMenuDi from './Footer/FooterMenuDi'
+import { Col, Row } from 'react-bootstrap'
+import Accardion from  './Head/AccordionGroup'
 export default function Body() {
     return (
         <div >
             <Navbar/>
-            <MenuBar/>
+            <Row>
+                <Col xl={8} lg={12} ><MenuBar style={{paddingBotton:'40px'}}/></Col >
+                <Col xl={4} lg={10}> <Accardion/> </Col>
+            </Row >
             <FooterMenuDi/>
         </div>
     )
