@@ -3,7 +3,7 @@ import Main2 from "./pages/Main2";
 import Navbar from '../dashboard/pages/Bosh'
 import Main1 from "./pages/Main1";
 import About from "./pages/About";
-import Footer from "./pages/Footer";
+import Footer from "../../pages/user_cabinet/pages/Footer";
 import Card from './pages/Card1'
 import { Col, Row } from "react-bootstrap";
 import Main3 from "./pages/Main3";
