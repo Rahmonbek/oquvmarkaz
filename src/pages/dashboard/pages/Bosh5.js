@@ -12,13 +12,13 @@ export default class Bosh5 extends Component {
         return (
             <div>
              <div style={{position:'relative'}} className={stayle4.tasvir}>
-  <img  style={{fontSize:'3vw',width:'7%',height:'7%' , paddingLeft:'4%'}} src={images2}/>             
- <Container><div style={{color:'white', fontSize:'3vw'}}>“O’z qalbing va ichki sezgingga ergashish uchun 
+  <img  style={{fontSize:'3vw',width:'7%',height:'7%' , paddingLeft:'6%'}} src={images2}/>             
+ <Container><div style={{color:'white', fontSize:'3vw',paddingLeft:'10%'}}>“O’z qalbing va ichki sezgingga ergashish uchun 
 yetarlicha jur’atli bo’l. Zotan shu ikki tuyg’u 
 sening aslida kim bo’lishni xoxlashingni aniq biladi.”</div></Container>
 
-<img style={{fontSize:'3vw',width:'7%',height:'7%', position:'absolute',right:'10px',bottom:'20px' }} src={images3}/>
-<div  style={{color:'white', fontSize:'3vw'}} >Stiv Jobs</div>
+<img style={{fontSize:'3vw',width:'5%' , height:'6%', position:'absolute',right:'80px',bottom:'80px' }} src={images3}/>
+<div  style={{color:'white', fontSize:'3vw',marginTop:'30px',paddingBottom:'50px',paddingLeft:'20%'}} >Stiv Jobs</div>
 
                  </div>   
             </div>
