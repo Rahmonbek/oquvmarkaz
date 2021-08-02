@@ -1,16 +1,11 @@
-import React from "react";
+import React from 'react'
 import styles from "../css/Main.module.css";
 // import styles from "../css/MainTwo.module.css";
-import { Container, Form } from "react-bootstrap";
+import { Form } from "react-bootstrap";
 import "video-react/dist/video-react.css"; // import css
 import videos from "../images/videos.png";
 import { Player, BigPlayButton } from "video-react";
-import { withStyles } from "@material-ui/core/styles";
-import ListItemIcon from "@material-ui/core/ListItemIcon";
-import ListItemText from "@material-ui/core/ListItemText";
-import InboxIcon from "@material-ui/icons/MoveToInbox";
-import DraftsIcon from "@material-ui/icons/Drafts";
-import SendIcon from "@material-ui/icons/Send";
+
 import { FiCopy } from "react-icons/fi";
 import { makeStyles } from "@material-ui/core/styles";
 import Rating from "@material-ui/lab/Rating";
@@ -22,19 +17,8 @@ import { IoShareSocialOutline } from "react-icons/io5";
 import { FaTelegramPlane, FaFacebookF } from "react-icons/fa";
 import { GoMail } from "react-icons/go";
 import person from "../images/person.png";
-import Asking from "./about/Asking";
-import Comment from "./about/Comment";
-import CourseAbout from "./about/CourseAbout";
-import WhatLearning from "./about/WhatLearning";
-import Card1 from './Function/Card1'
-import { Navbar, Nav } from "react-bootstrap";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  NavLink,
-  Link,
-} from "react-router-dom";
+
+
 const useStyles = makeStyles({
   root: {
     width: 200,
@@ -95,149 +79,31 @@ const labels = {
   4.9: "4.9",
   5: "5",
 };
-const CourseList = [
-  {
-    id: 1,
-    img: "https://lh3.googleusercontent.com/COZwDu2hn4yHFr04zMfJS2z6_VIkbgzyukJ-lV8f_jHAT00cmiwEt9yl2yuC4E2gcMUl3A=s70",
-    title: "RESTful API-larni yaratish bo’yicha amaliy topshiriqlar      ",
-    smallText: "Lorem ipsum dolor sit amet, consectetur dolor sit amet. . . .",
-  },
-  {
-    id: 2,
-    img: "https://lh3.googleusercontent.com/YSHYJi176-ynoIy3JSQ3f3SnflZycQ0h817zU6ztAQ3jCiNZO4XcsQ9YCUbvFDKLY_t7=s70",
-    title: `Ishlab chiquvchilar uchun AWS: ECS va ko'p mintaqali yuklarni. .
-    `,
-    smallText: "Lorem ipsum dolor sit amet, consectetur dolor sit amet. . . .",
-  },
-  {
-    id: 3,
-    img: "https://lh3.googleusercontent.com/0cJpX793suEWPclb9hC4mlRCzfkfdyVBh_Sv80BEdKl-2TibwiR44t4DYJBrSQ8a-KiNOQ=s70",
-    title: `iOS bo’yicha dastulash kurslari
-    `,
-    smallText: "Lorem ipsum dolor sit amet, consectetur dolor sit amet. . . .",
-  },
-  {
-    id: 4,
-    img: "https://lh3.googleusercontent.com/y2xjXOzUl9BlWRd2ooReOPL0UlLJJD_5VD_DcuWQ1SfhJ_XIglTkB8uz3aLP2O_U5xup6w=s70",
-    title: "RESTful API-larni yaratish bo’yicha amaliy topshiriqlar    ",
-    smallText: "Lorem ipsum dolor sit amet, consectetur dolor sit amet. . . .",
-  },
-  {
-    id: 5,
-    img: "https://lh3.googleusercontent.com/COZwDu2hn4yHFr04zMfJS2z6_VIkbgzyukJ-lV8f_jHAT00cmiwEt9yl2yuC4E2gcMUl3A=s70",
-    title: `RESTful API-larni yaratish bo’yicha amaliy topshiriqlar     `,
-    smallText: "Lorem ipsum dolor sit amet, consectetur dolor sit amet. . . .",
-  },
-  {
-    id: 6,
-    img: "https://lh3.googleusercontent.com/YSHYJi176-ynoIy3JSQ3f3SnflZycQ0h817zU6ztAQ3jCiNZO4XcsQ9YCUbvFDKLY_t7=s70",
-    title: `Ishlab chiquvchilar uchun AWS: ECS va ko'p mintaqali yuklarni. .`,
-    smallText: "Lorem ipsum dolor sit amet, consectetur dolor sit amet. . . .",
-  },
-  {
-    id: 7,
-    img: "https://lh3.googleusercontent.com/0cJpX793suEWPclb9hC4mlRCzfkfdyVBh_Sv80BEdKl-2TibwiR44t4DYJBrSQ8a-KiNOQ=s70",
-    title: "iOS bo’yicha dastulash kurslari ",
-    smallText: "Lorem ipsum dolor sit amet, consectetur dolor sit amet. . . .",
-  },
-  {
-    id: 8,
-    img: "https://lh3.googleusercontent.com/y2xjXOzUl9BlWRd2ooReOPL0UlLJJD_5VD_DcuWQ1SfhJ_XIglTkB8uz3aLP2O_U5xup6w=s70",
-    title: "RESTful API-larni yaratish bo’yicha amaliy topshiriqlar    ",
-    smallText: "Lorem ipsum dolor sit amet, consectetur dolor sit amet. . . .",
-  },
-  {
-    id: 9,
-    img: "https://lh3.googleusercontent.com/YSHYJi176-ynoIy3JSQ3f3SnflZycQ0h817zU6ztAQ3jCiNZO4XcsQ9YCUbvFDKLY_t7=s70",
-    title: `Ishlab chiquvchilar uchun AWS: ECS va ko'p mintaqali yuklarni. .
-    `,
-    smallText: "Lorem ipsum dolor sit amet, consectetur dolor sit amet. . . .",
-  },
-];
 
-export default function FirstBody() {
-  const [join, setJoin] = React.useState(true);
-  const [value, setValue] = React.useState(2);
-  const [hover, setHover] = React.useState(-1);
-  const classes = useStyles();
-  const [anchorEl, setAnchorEl] = React.useState(null);
 
-  const handleClick = (event) => {
-    setAnchorEl(event.currentTarget);
-  };
+export default function Main2() {
+    const [join, setJoin] = React.useState(true);
+    const [value, setValue] = React.useState(2);
+    const [hover, setHover] = React.useState(-1);
+    const classes = useStyles();
+    const [anchorEl, setAnchorEl] = React.useState(null);
+  
+    const handleClick = (event) => {
+      setAnchorEl(event.currentTarget);
+    };
+  
+    const handleClose = () => {
+      setAnchorEl(null);
+    };
+   
+    return (
+        
+            
 
-  const handleClose = () => {
-    setAnchorEl(null);
-  };
 
-  return (
-    <div className={styles.Body}>
-      <Container fluid className={styles.FirsBulim}>
-        <div className={styles.CourseList}>
-          <div className={styles.CourseSearch}>
-            <Form.Group className={styles.CourseSearchIcon}>
-              <Form.Control
-                type="search"
-                placeholder="Qanday kurs o'rganmoqchisiz ?"
-                class="fas fa-search"
-              />
-            </Form.Group>{" "}
-          </div>
-          <div
-            className={styles.BlaBlaBla}
-            style={{ backgroundColor: "#FFFFFF" }}
-          >
-            <div className={styles.SimiliarSearch}>
-              <button className={styles.SimiliarSearchButtons} type="button">
-                #Dizayn
-              </button>
-              <button className={styles.SimiliarSearchButtons} type="button">
-                #Marketing
-              </button>
-              <button className={styles.SimiliarSearchButtons} type="button">
-                #Biznes
-              </button>
-              <button className={styles.SimiliarSearchButtons} type="button">
-                #Web
-              </button>
-              <button className={styles.SimiliarSearchButtons} type="button">
-                #Buxgalteriya
-              </button>
-              <button className={styles.SimiliarSearchButtons} type="button">
-                #Salomatlik
-              </button>
-              <button className={styles.SimiliarSearchButtons} type="button">
-                #Dasturlash
-              </button>
-            </div>
-            <div>
-              <Container fluid>
-                <p className={styles.BigTextPragram}>DASTURLASH</p>
-                {CourseList.map((D) => (
-                  <div className={styles.SmallListGroup}>
-                    <div>
-                      <p className={styles.SmallListImg}>
-                        <img
-                          id={styles.Rasm}
-                          className="img-fluid"
-                          src={D.img}
-                        />
-                      </p>
-                    </div>
-                    <div>
-                      <p className={styles.SmallListTextBig}>{D.title}</p>
-                      <p className={styles.SmallListTextSmall}>{D.smallText}</p>
-                    </div>
-                  </div>
-                ))}
-              </Container>
-            </div>
-          </div>
-        </div>
 
-        {/* Bu ikkinchi qism yani Router lar ishlatilgan joy */}
 
-        <div className={styles.SecondBulim}>
+            <div className={styles.SecondBulim}>
           <div className={styles.HeadBody}>
             <div>
               <div className={styles.HeadBodyVideos}>
@@ -380,10 +246,9 @@ export default function FirstBody() {
                 </div>
               </div>
             </div>
-           
-          </div>
+
+
+</div>
         </div>
-      </Container>
-    </div>
-  );
+    )
 }
