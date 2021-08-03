@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import User from "./pages/user_cabinet/User";
 import "bootstrap/dist/css/bootstrap.min.css";
+import ReactStars from "react-rating-stars-component";
+
 import "./App.css";
 import Body from "./pages/course tutorial/pages/Body";
 import Login from "./pages/Login";
