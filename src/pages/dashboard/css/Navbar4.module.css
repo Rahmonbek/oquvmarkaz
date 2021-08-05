@@ -1,11 +1,12 @@
 .tasvir{
-    background-image: url("/src/pages/dashboard/img/tasvir.png");
+    background-image: url("/src/pages//dashboards//img/tasvir.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding-top:20px;  
 width: 100%;
+height: 497px;
 border-radius: 0px;
-}
+} 
 .text{
  
     
@@ -56,3 +57,79 @@ text-align: left;
     color: #FFFFFF;
 
 }
+.TextMeCenter{
+    display: flex;
+    width:88%;
+    color: white;
+    position: relative;
+    margin: auto;
+    text-align: start;
+    justify-content: center;
+    margin-top: 100px;
+}
+.standUpInText{
+    
+font-family: SF Pro Display;
+font-size: 43px;
+line-height: 48px;
+color: #FFFFFF;
+margin-top: 20px;
+margin-left: 35px;
+}
+.standUpOpen{
+    margin-top: -100px;
+    font-weight: 700;
+    font-size: 80px;
+}
+.standUpClose{
+    font-weight: 700;
+    font-size: 80px;
+    margin-top: 50px;
+}
+.StivName{
+    text-align: end;
+    
+    margin-top: 30px;
+    font-size: 25px;
+}
+.TextMeCenterUp{
+    width: 80%;
+    margin: auto;
+    border: 1px solid white;
+
+}
+@media (min-width:768px) and (max-width:1024px){
+    .TextMeCenter{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .standUpClose{
+        margin-top: 180px;
+    }
+    .CardTextFrond{
+        font-size: 15px;
+    }
+}
+@media (max-width:767px){
+    .TextMeCenter{
+        width: 100%;
+        margin-top: 10px;
+
+    }
+    .standUpInText{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .standUpClose{
+        font-size: 40px;
+        margin-top: 40%;
+
+    }
+    .standUpOpen{
+        font-size: 40px;
+        margin-top: -5%;
+    }
+
+}
+
+
