@@ -15,7 +15,7 @@ export default class Bosh3 extends Component {
     return (
       <div>
         <div className={stayle2.bosh}>
-          <div className={stayle2.title} style={{ fontSize: "3vw" }}>
+          <div className={stayle2.title} style={{ fontSize: "33px" }}>
             Top kategoriyalar
           </div>
          

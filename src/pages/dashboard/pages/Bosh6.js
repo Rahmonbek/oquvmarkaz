@@ -112,15 +112,15 @@ Proin tristique ultrices egestas ut vitae consectetur est.</p>
 
 </div>
 
-   <div className={stayle5.title2} style={{fontSize:'2.5vw'}}>Bizning hamkorlar</div>
+   <div className={stayle5.title2} style={{fontSize:'2.5vw', paddingBottom:'30px'}}>Bizning hamkorlar</div>
 
         
        
-            <div style={{width:'80%', display:'flex',paddingTop:'70px', marginBottom:'60px',margin:'auto',textAlign:'center', alignItems:'center'}}>
-        <img alt="BigCo Inc. logo" style={{fontSize:'5vw', width:'20%',paddingLeft:'1.8vw'}} className={stayle5.logo1} src={logo1}/> 
-       <img alt="BigCo Inc. logo"   style={{fontSize:'3.5vw', width:'20%',paddingLeft:'1.8vw'}} className={stayle5.logo1} src={logo2}/>
-       <img alt="BigCo Inc. logo"  style={{fontSize:'3.5vw', width:'20%',paddingLeft:'1.8vw'}}  className={stayle5.logo1} src={logo3}/>
-       <img alt="BigCo Inc. logo"   style={{fontSize:'6vw', width:'20%',paddingLeft:'1.8vw'}} className={stayle5.logo1} src={logo4}/> 
+            <div style={{width:'80%', display:'flex', paddingTop:'70px', paddingBottom:'30px',margin:'auto',textAlign:'center', alignItems:'center'}}>
+        <img alt="BigCo Inc. logo" style={{fontSize:'5vw', width:'20%',paddingLeft:'10%'}} className={stayle5.logo1} src={logo1}/> 
+       <img alt="BigCo Inc. logo"   style={{fontSize:'3.5vw', width:'15%',paddingLeft:'10%'}} className={stayle5.logo1} src={logo2}/>
+       <img alt="BigCo Inc. logo"  style={{fontSize:'3.5vw', width:'15%',paddingLeft:'10%'}}  className={stayle5.logo1} src={logo3}/>
+       <img alt="BigCo Inc. logo"   style={{fontSize:'6vw', width:'25%',paddingLeft:'10%'}} className={stayle5.logo1} src={logo4}/> 
           </div>
        
         
