@@ -45,6 +45,7 @@ else{
 }
     }
 }
+
         return (
             <div>
                 <header>
@@ -61,9 +62,9 @@ else{
                                     </Dropdown.Toggle>
 
                                     <Dropdown.Menu>
-                                        <Dropdown.Item><NavLink to="../../../App/">About</NavLink></Dropdown.Item>
-                                        <Dropdown.Item>Another action</Dropdown.Item>
-                                        <Dropdown.Item>Something else</Dropdown.Item>
+                                        <Dropdown.Item href="/">Dashboard</Dropdown.Item>
+                                        <Dropdown.Item href="/course">Cources</Dropdown.Item>
+                                        <Dropdown.Item href="/cabinet/tutorial">Cources List</Dropdown.Item>
                                     </Dropdown.Menu>
                                 </Dropdown>
                             </div>

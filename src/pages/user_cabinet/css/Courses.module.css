@@ -163,7 +163,12 @@ left: 24px;
 box-shadow: 0px 12px 45px rgba(83, 109, 253, 0.25);
 border-radius: 4px;
 position: relative;
+transition: 0.2s;
 }
+.container1 .card:hover {
+    transform: scale(1.02);
+}
+
 .container1 .img {
     width:100%;
 }

@@ -96,10 +96,8 @@ export default class Bosh extends Component {
                   </Dropdown.Menu>
                 </Dropdown>
                 <BrowserRouter>
-                  <Button className={style.but}>
-                    <Link style={{ color: "white" }} to="/login">
+                  <Button className={style.but} href  ="/login"> 
                       KIRISH
-                    </Link>
                   </Button>
                 </BrowserRouter>
               </div>

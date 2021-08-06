@@ -129,7 +129,7 @@ openFilter=()=>{
                                         <span>Kurs bo’limlari</span>
                                         <p>5 ta bo’lim</p>
                                     </div>
-                                   <Link to="/cabinet/tutorial"> <img src={button} /></Link>
+                                   <a href="/cabinet/tutorial"> <img src={button} /></a>
                                 </div>
                             </div>
                         </div>
@@ -152,7 +152,7 @@ openFilter=()=>{
                                         <span>Kurs bo’limlari</span>
                                         <p>3 ta bo’lim</p>
                                     </div>
-                                   <Link to="/cabinet/tutorial"> <img src={button} /></Link>
+                                   <a href="/course"> <img src={button} /></a>
                                 </div>
                             </div>
                         </div>
