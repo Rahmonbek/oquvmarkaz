@@ -5,12 +5,6 @@ import { Container, Form } from "react-bootstrap";
 import "video-react/dist/video-react.css"; // import css
 import videos from "../images/videos.png";
 import { Player, BigPlayButton } from "video-react";
-import { withStyles } from "@material-ui/core/styles";
-import ListItemIcon from "@material-ui/core/ListItemIcon";
-import ListItemText from "@material-ui/core/ListItemText";
-import InboxIcon from "@material-ui/icons/MoveToInbox";
-import DraftsIcon from "@material-ui/icons/Drafts";
-import SendIcon from "@material-ui/icons/Send";
 import { FiCopy } from "react-icons/fi";
 import { makeStyles } from "@material-ui/core/styles";
 import Rating from "@material-ui/lab/Rating";
@@ -22,19 +16,7 @@ import { IoShareSocialOutline } from "react-icons/io5";
 import { FaTelegramPlane, FaFacebookF } from "react-icons/fa";
 import { GoMail } from "react-icons/go";
 import person from "../images/person.png";
-import Asking from "./about/Asking";
-import Comment from "./about/Comment";
-import CourseAbout from "./about/CourseAbout";
-import WhatLearning from "./about/WhatLearning";
-import Card1 from './Function/Card1'
-import { Navbar, Nav } from "react-bootstrap";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  NavLink,
-  Link,
-} from "react-router-dom";
+
 const useStyles = makeStyles({
   root: {
     width: 200,
